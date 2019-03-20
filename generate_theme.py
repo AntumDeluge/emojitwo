@@ -2,6 +2,12 @@
 
 import os, shutil, subprocess, sys
 
+
+if sys.version_info[0] < 3:
+	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(sys.version_info[0]))
+	sys.exit(1)
+
+
 WIN32 = sys.platform == 'win32'
 
 def convertPath(path):
