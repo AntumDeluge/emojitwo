@@ -2,6 +2,10 @@
 
 import os, shutil, subprocess, sys
 
+from py				import fileio
+from py.list_util	import cleanList
+from py.theme		import createThemeFile
+
 
 if sys.version_info[0] < 3:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(sys.version_info[0]))
@@ -78,6 +82,7 @@ while idx >= 0:
 
 svg_count = len(svg_files)
 idx = 0
+
 for SVG in svg_files:
 	idx += 1
 	sys.stdout.write('Converting SVG to PNG image ({}/{}): {}                         \r'.format(idx, svg_count, SVG))
@@ -89,3 +94,32 @@ for SVG in svg_files:
 
 # newline after converting files
 print()
+
+theme_file = appendPath(dir_root, 'theme.txt')
+
+groups = {}
+if os.path.isfile(theme_file):
+	print('Reading existing theme file ...')
+
+	theme_text = fileio.read(theme_file)
+
+	BUFFER = theme_text
+	while '[' in BUFFER and ']' in BUFFER:
+		start = BUFFER.index('[') + 1
+		end = BUFFER.index(']')
+
+		g_name = BUFFER[start:end]
+		BUFFER = BUFFER[end+1:]
+		if '[' in BUFFER:
+			group = tuple(BUFFER[:BUFFER.index('[')].rstrip(' \t\r\n').split('\n'))
+		else:
+			group = tuple(BUFFER.rstrip(' \t\r\n').split('\n'))
+
+		groups[g_name] = cleanList(group)
+
+print('Creating new theme file ...')
+createThemeFile(theme_file, {'default': svg_files}, groups)
+# copy theme file to release directory
+shutil.copy(theme_file, appendPath(dir_export, 'theme'))
+
+print('\nDone!')
