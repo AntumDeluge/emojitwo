@@ -4,10 +4,10 @@ import os, shutil, subprocess, sys
 
 from py				import fileio
 from py				import pyIsCompat
-from py				import WIN32
 from py.paths		import appendPath
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
+from py.util		import getCommand
 
 
 py_compat, py_ver = pyIsCompat()
@@ -15,24 +15,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-def getCommand(cmd):
-	cmd_path = None
-
-	try:
-		if WIN32:
-			cmd_list = subprocess.check_output(['where', cmd]).decode('utf-8').strip().split('\r\n')
-
-			for CMD in cmd_list:
-				if CMD.endswith('.exe'):
-					cmd_path = CMD
-					break
-		else:
-			cmd_path = subprocess.check_output(['which', cmd]).decode('utf-8').strip()
-	except subprocess.CalledProcessError:
-		cmd_path = None
-
-	return cmd_path
 
 def convertToPNG(in_path, out_path):
 	subprocess.Popen([cmd_convert, '-z', in_path, '-e', out_path])
