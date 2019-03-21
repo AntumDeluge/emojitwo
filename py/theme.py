@@ -43,6 +43,7 @@ def parseTemplate(target):
 # @tparam str target Path to template file to be written/read.
 # @tparam dict new_groups
 def updateTemplate(target, new_groups):
+	# groups that will be written to template
 	groups = {}
 
 	if isfile(target):
@@ -51,34 +52,37 @@ def updateTemplate(target, new_groups):
 	else:
 		print('Creating new theme template ...')
 
-	# SVG images are converted to PNG
+	for G in groups:
+		# ensure we are working with mutable groups
+		if type(groups[G]) != list:
+			groups[G] = list(groups[G])
+
 	for G in new_groups:
 		if type(new_groups[G]) != list:
 			new_groups[G] = list(new_groups[G])
 
 		for idx in range(len(new_groups[G])):
+			# SVG images will be converted to PNG
 			new_groups[G][idx] = new_groups[G][idx].replace('.svg', '.png')
 
-	for G in groups:
-		if type(groups[G]) != list:
-			groups[G] = list(groups[G])
+	for G in new_groups:
+		if G not in groups:
+			print('Adding new group: {}'.format(G))
+			groups[G] = list(new_groups[G])
+			continue
 
-	for g_name in new_groups:
-		if g_name not in groups:
-			print('Adding new group: {}'.format(g_name))
-			groups[g_name] = list(new_groups[g_name])
-		else:
-			for g_item in new_groups[g_name]:
-				add_item = True
+		# iterate through potential new items
+		for I_N in new_groups[G]:
+			add_item = True
 
-				for g_existing in groups[g_name]:
-					add_item = g_item != getFirstWord(g_existing)
+			# check that the item does not already exist in the template
+			for I_E in groups[G]:
+				add_item = I_N != getFirstWord(I_E)
+				if not add_item:
+					break
 
-					if not add_item:
-						break
-
-				if add_item:
-					groups[g_name].append(g_item)
+			if add_item:
+				groups[G].append(I_N)
 
 	# Check that all listed files have ".png" suffix
 	warned = False
