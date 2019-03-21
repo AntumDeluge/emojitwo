@@ -11,11 +11,11 @@ from py.sb			import createStringBuilder
 
 ### Function to generate the new theme.
 #
-# @function createThemeFile
+# @function updateTemplate
 # @tparam str target Target ouput file.
 # @tparam dict new_groups
 # @tparam dict groups Groups found in existing theme file.
-def createThemeFile(target, new_groups, groups):
+def updateTemplate(target, new_groups, groups):
 	# SVG images are converted to PNG
 	for G in new_groups:
 		if type(new_groups[G]) != list:

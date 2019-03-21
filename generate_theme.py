@@ -4,7 +4,7 @@ import os, shutil, subprocess, sys
 
 from py				import fileio
 from py.list_util	import cleanList
-from py.theme		import createThemeFile
+from py.theme		import updateTemplate
 
 
 if sys.version_info[0] < 3:
@@ -118,7 +118,7 @@ if os.path.isfile(theme_file):
 		groups[g_name] = cleanList(group)
 
 print('Creating new theme file ...')
-createThemeFile(theme_file, {'default': svg_files}, groups)
+updateTemplate(theme_file, {'default': svg_files}, groups)
 # copy theme file to release directory
 shutil.copy(theme_file, appendPath(dir_export, 'theme'))
 
