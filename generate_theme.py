@@ -3,14 +3,16 @@
 import os, shutil, subprocess, sys
 
 from py				import fileio
+from py				import pyIsCompat
 from py				import WIN32
 from py.paths		import formatPath
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
 
 
-if sys.version_info[0] < 3:
-	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(sys.version_info[0]))
+py_compat, py_ver = pyIsCompat()
+if not py_compat:
+	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
 
