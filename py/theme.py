@@ -10,6 +10,7 @@ from py				import fileio
 from py.list_util	import cleanList
 from py.list_util	import getFirstWord
 from py.sb			import createStringBuilder
+from py.util		import getWordCount
 
 
 ### Function to parse existing template & extract groups.
@@ -92,7 +93,7 @@ def updateTemplate(target, new_groups):
 			if add_item:
 				groups[G].append(I_N)
 
-	# Check that all listed files have ".png" suffix
+	# check that all listed files have ".png" suffix
 	warned = False
 	for G in groups:
 		for idx in range(len(groups[G])):
@@ -112,6 +113,24 @@ def updateTemplate(target, new_groups):
 	# default group
 	sb.add('\n[default]')
 	for IMG in groups['default']:
+		# add symbols
+		if getWordCount(IMG) == 1 and IMG.endswith('.png'):
+			try:
+				tab_size = 4
+				tab_groups = int(len(IMG) / tab_size)
+
+				tabs = '\t\t\t\t\t'
+				if tab_groups > 2:
+					tabs = '\t'
+				elif tab_groups < 2:
+					tabs = '\t\t\t\t\t\t'
+
+				char_code = int(IMG[:-4], 16)
+				#IMG = '{}{}\\{}'.format(IMG, tabs, hex(char_code).lstrip('0'))
+				IMG = '{}{}{}'.format(IMG, tabs, chr(char_code))
+			except ValueError:
+				pass
+
 		sb.add(IMG)
 
 	for G in groups:
