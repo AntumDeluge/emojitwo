@@ -4,7 +4,7 @@
 # @package py.util
 
 
-import subprocess
+import subprocess, sys
 
 from py import WIN32
 
