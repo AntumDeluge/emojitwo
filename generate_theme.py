@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# This script is licensed on Creative Commons Zero (CC0).
+# See: https://creativecommons.org/publicdomain/zero/1.0/
+
+
 import os, shutil, sys
 
 from py				import fileio
