@@ -5,6 +5,9 @@ import os, shutil, sys
 from py				import fileio
 from py				import pyIsCompat
 from py.paths		import appendPath
+from py.paths		import dir_export
+from py.paths		import dir_release
+from py.paths		import dir_svg
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
 from py.util		import convertToPNG
@@ -16,10 +19,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-dir_release = appendPath(dir_root, 'release')
-dir_export = appendPath(dir_release, 'emojitwo')
-dir_svg = appendPath(dir_root, 'svg')
 
 # command to convert images
 cmd_name = 'inkscape'
