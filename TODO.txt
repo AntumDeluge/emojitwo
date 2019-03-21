@@ -1,0 +1,3 @@
+- zip release
+- exclude theme template lines that begin with "#!" from release
+- scale PNG images
