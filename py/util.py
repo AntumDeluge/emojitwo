@@ -31,3 +31,12 @@ def getCommand(cmd):
 		cmd_path = None
 
 	return cmd_path
+
+
+### Converts SVG image to PNG for release.
+#
+# @function convertToPNG
+# @tparam str in_path Location of source SVG.
+# @tparam str out_path Location for target PNG.
+def convertToPNG(in_path, out_path):
+	subprocess.Popen([cmd_convert, '-z', in_path, '-e', out_path])

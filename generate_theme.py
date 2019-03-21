@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
-import os, shutil, subprocess, sys
+import os, shutil, sys
 
 from py				import fileio
 from py				import pyIsCompat
 from py.paths		import appendPath
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
+from py.util		import convertToPNG
 from py.util		import getCommand
 
 
@@ -15,9 +16,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-def convertToPNG(in_path, out_path):
-	subprocess.Popen([cmd_convert, '-z', in_path, '-e', out_path])
 
 dir_release = appendPath(dir_root, 'release')
 dir_export = appendPath(dir_release, 'emojitwo')
