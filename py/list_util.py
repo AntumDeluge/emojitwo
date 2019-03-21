@@ -16,6 +16,10 @@ def cleanList(l):
 		# clean leading/trailing whitespace
 		list_copy[idx] = list_copy[idx].strip(' \t\r\n')
 
+		# special lines
+		if list_copy[idx].startswith('#!'):
+			list_copy[idx] = '#!{}'.format(list_copy[idx][2:].lstrip(' \t'))
+
 		if list_copy[idx] == '':
 			list_copy.pop(idx)
 
