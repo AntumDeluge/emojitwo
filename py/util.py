@@ -9,6 +9,20 @@ import subprocess
 from py import WIN32
 
 
+### Retrieves number of words in a string separated by whitespace.
+#
+# @function getWordCount
+# @tparam str string String to check.
+# @treturn int
+def getWordCount(string):
+	w_list = []
+	for W in string.replace('\t', ' ').split(' '):
+		if W.strip():
+			w_list.append(W)
+
+	return len(w_list)
+
+
 ### Checks existence of command on system.
 #
 # @function getCommand
