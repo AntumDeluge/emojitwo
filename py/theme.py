@@ -4,18 +4,53 @@
 # @package py.theme
 
 
+from os.path import isfile
+
 from py				import fileio
+from py.list_util	import cleanList
 from py.list_util	import getFirstWord
 from py.sb			import createStringBuilder
+
+
+### Function to parse existing template & extract groups.
+#
+# @local
+# @function parseTemplate
+def parseTemplate(target):
+	groups = {}
+	text = fileio.read(target)
+
+	BUFFER = text
+	while '[' in BUFFER and ']' in BUFFER:
+		start = BUFFER.index('[') + 1
+		end = BUFFER.index(']')
+
+		g_name = BUFFER[start:end]
+		BUFFER = BUFFER[end+1:]
+		if '[' in BUFFER:
+			group = tuple(BUFFER[:BUFFER.index('[')].rstrip(' \t\r\n').split('\n'))
+		else:
+			group = tuple(BUFFER.rstrip(' \t\r\n').split('\n'))
+
+		groups[g_name] = cleanList(group)
+
+	return groups
 
 
 ### Function to generate the new theme.
 #
 # @function updateTemplate
-# @tparam str target Target ouput file.
+# @tparam str target Path to template file to be written/read.
 # @tparam dict new_groups
-# @tparam dict groups Groups found in existing theme file.
-def updateTemplate(target, new_groups, groups):
+def updateTemplate(target, new_groups):
+	groups = {}
+
+	if isfile(target):
+		print('Updating theme template ...')
+		groups = parseTemplate(target)
+	else:
+		print('Creating new theme template ...')
+
 	# SVG images are converted to PNG
 	for G in new_groups:
 		if type(new_groups[G]) != list:

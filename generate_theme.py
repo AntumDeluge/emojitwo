@@ -4,7 +4,6 @@ import os, shutil, subprocess, sys
 
 from py				import fileio
 from py				import WIN32
-from py.list_util	import cleanList
 from py.paths		import formatPath
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
@@ -83,31 +82,10 @@ for SVG in svg_files:
 # newline after converting files
 print()
 
-theme_file = appendPath(dir_root, 'theme.txt')
-
-groups = {}
-if os.path.isfile(theme_file):
-	print('Reading existing theme file ...')
-
-	theme_text = fileio.read(theme_file)
-
-	BUFFER = theme_text
-	while '[' in BUFFER and ']' in BUFFER:
-		start = BUFFER.index('[') + 1
-		end = BUFFER.index(']')
-
-		g_name = BUFFER[start:end]
-		BUFFER = BUFFER[end+1:]
-		if '[' in BUFFER:
-			group = tuple(BUFFER[:BUFFER.index('[')].rstrip(' \t\r\n').split('\n'))
-		else:
-			group = tuple(BUFFER.rstrip(' \t\r\n').split('\n'))
-
-		groups[g_name] = cleanList(group)
-
-print('Creating new theme file ...')
-updateTemplate(theme_file, {'default': svg_files}, groups)
+updateTemplate(appendPath(dir_root, 'theme.txt'), {'default': svg_files})
+'''
 # copy theme file to release directory
 shutil.copy(theme_file, appendPath(dir_export, 'theme'))
 
 print('\nDone!')
+'''
