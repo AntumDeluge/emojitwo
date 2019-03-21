@@ -54,7 +54,9 @@ def removeDuplicates(l):
 	return type(l)(list_copy)
 
 
-### Function to clean whitespace list items.
+### Function to clean up list items.
+#
+# Cleans up leading/traling whitespace & removes duplicate strings.
 #
 # @function cleanList
 # @param l
