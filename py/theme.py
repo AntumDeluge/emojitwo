@@ -108,7 +108,7 @@ def updateTemplate(target, new_groups):
 	sb = createStringBuilder('Name=Emojitwo')
 	sb.add('Description=Emojitwo smiley theme originally released as Emojione 2.2')
 	sb.add('Icon=1f44d-1f3fd.png')
-	sb.add('Author=')
+	sb.add('Author=Ranks.com & Emojitwo community')
 
 	# default group
 	sb.add('\n[default]')
