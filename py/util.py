@@ -60,9 +60,18 @@ if not cmd_convert:
 # @function convertToPNG
 # @tparam str in_path Location of source SVG.
 # @tparam str out_path Location for target PNG.
-def convertToPNG(in_path, out_path):
-	cmd_list = [cmd_convert, '--without-gui', in_path, '--export-png={}'.format(out_path)]
+# @tparam int width Width of exported PNG.
+# @tparam int height Height of exported PNG.
+def convertToPNG(in_path, out_path, width=None, height=None):
+	cmd_list = [cmd_convert, '--without-gui', '--file={}'.format(in_path),
+		'--export-png={}'.format(out_path)]
+
 	if WIN32:
 		cmd_list.insert(1, '--shell')
+
+	if width:
+		cmd_list.append('--export-width={}'.format(width))
+	if height:
+		cmd_list.append('--export-height={}'.format(height))
 
 	subprocess.Popen(cmd_list)
