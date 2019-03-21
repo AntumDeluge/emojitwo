@@ -11,15 +11,15 @@
 def cleanList(l):
 	list_copy = list(l)
 
-	idx = len(list_copy)
+	idx = len(list_copy) - 1
 	while idx >= 0:
-		idx -= 1
-
 		# clean leading/trailing whitespace
 		list_copy[idx] = list_copy[idx].strip(' \t\r\n')
 
 		if list_copy[idx] == '':
 			list_copy.pop(idx)
+
+		idx -= 1
 
 	if type(l) == tuple:
 		return tuple(list_copy)
