@@ -34,6 +34,26 @@ def hasDuplicates(*strings):
 	return False
 
 
+### Checks for & removes duplicate strings from a list.
+#
+# @local
+# @function removeDuplicates
+# @param l List or tuple of items.
+def removeDuplicates(l):
+	list_copy = list(l)
+
+	for idx in reversed(range(len(list_copy))):
+		for I in list_copy:
+			if list_copy.index(I) == idx:
+				break
+
+			if hasDuplicates(I, list_copy[idx]):
+				list_copy.pop(idx)
+				break
+
+	return type(l)(list_copy)
+
+
 ### Function to clean whitespace list items.
 #
 # @function cleanList
