@@ -65,6 +65,9 @@ def updateTemplate(target, new_groups):
 			# SVG images will be converted to PNG
 			new_groups[G][idx] = new_groups[G][idx].replace('.svg', '.png')
 
+		# clean up new groups
+		new_groups[G] = cleanList(new_groups[G])
+
 	for G in new_groups:
 		if G not in groups:
 			print('Adding new group: {}'.format(G))
