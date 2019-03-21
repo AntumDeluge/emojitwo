@@ -6,6 +6,7 @@ from py				import fileio
 from py				import WIN32
 from py.list_util	import cleanList
 from py.paths		import formatPath
+from py.paths		import root as dir_root
 from py.theme		import updateTemplate
 
 
@@ -39,7 +40,6 @@ def getCommand(cmd):
 def convertToPNG(in_path, out_path):
 	subprocess.Popen([cmd_convert, '-z', in_path, '-e', out_path])
 
-dir_root = formatPath(os.path.dirname(sys.argv[0]))
 dir_release = appendPath(dir_root, 'release')
 dir_export = appendPath(dir_release, 'emojitwo')
 dir_svg = appendPath(dir_root, 'svg')

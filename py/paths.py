@@ -4,6 +4,9 @@
 # @package py.paths
 
 
+import sys
+from os.path import dirname
+
 from py import WIN32
 
 
@@ -22,3 +25,7 @@ def formatPath(path):
 			path = path.replace('//', '/')
 
 	return path
+
+
+# directory from where the script is launched
+root = dirname(formatPath(sys.argv[0]))
