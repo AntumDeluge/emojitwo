@@ -42,6 +42,6 @@ def appendPath(p1, p2):
 root = dirname(formatPath(sys.argv[0]))
 
 # source & target directories
-dir_release = appendPath(dir_root, 'release')
+dir_release = appendPath(root, 'release')
 dir_export = appendPath(dir_release, 'emojitwo')
-dir_svg = appendPath(dir_root, 'svg')
+dir_svg = appendPath(root, 'svg')
