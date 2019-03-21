@@ -75,6 +75,8 @@ def cleanList(l):
 
 		idx -= 1
 
+	list_copy = removeDuplicates(list_copy)
+
 	if type(l) == tuple:
 		return tuple(list_copy)
 
