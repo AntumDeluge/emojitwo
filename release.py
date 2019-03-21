@@ -24,7 +24,10 @@ if not py_compat:
 
 # remove old output files
 if os.path.exists(dir_release):
-	shutil.rmtree(dir_release)
+	try:
+		shutil.rmtree(dir_release)
+	except PermissionError:
+		print('\nWARNING: Could not remove release directory: {}'.format(dir_release))
 
 # create output directory
 os.makedirs(dir_export)
