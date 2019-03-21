@@ -80,6 +80,11 @@ def updateTemplate(target, new_groups):
 
 			# check that the item does not already exist in the template
 			for I_E in groups[G]:
+				# lines beginning with "#!" denote items already exist in template
+				# but will not be added release's theme file
+				if I_E.startswith('#!'):
+					I_E = I_E[2:]
+
 				add_item = I_N != getFirstWord(I_E)
 				if not add_item:
 					break
