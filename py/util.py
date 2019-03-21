@@ -61,4 +61,8 @@ if not cmd_convert:
 # @tparam str in_path Location of source SVG.
 # @tparam str out_path Location for target PNG.
 def convertToPNG(in_path, out_path):
-	subprocess.Popen([cmd_convert, '-z', in_path, '-e', out_path])
+	cmd_list = [cmd_convert, '--without-gui', in_path, '--export-png={}'.format(out_path)]
+	if WIN32:
+		cmd_list.insert(1, '--shell')
+
+	subprocess.Popen(cmd_list)
