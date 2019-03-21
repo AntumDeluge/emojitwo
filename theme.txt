@@ -4,2028 +4,2028 @@ Icon=1f44d-1f3fd.png
 Author=Ranks.com & Emojitwo community
 
 [default]
-0023-20e3.png
-0023.png
-002a-20e3.png
-002a.png
-0030-20e3.png
-0030.png
-0031-20e3.png
-0031.png
-0032-20e3.png
-0032.png
-0033-20e3.png
-0033.png
-0034-20e3.png
-0034.png
-0035-20e3.png
-0035.png
-0036-20e3.png
-0036.png
-0037-20e3.png
-0037.png
-0038-20e3.png
-0038.png
-0039-20e3.png
-0039.png
-00a9.png
-00ae.png
-1f004.png
-1f0cf.png
-1f170.png
-1f171.png
-1f17e.png
-1f17f.png
-1f18e.png
-1f191.png
-1f192.png
-1f193.png
-1f194.png
-1f195.png
-1f196.png
-1f197.png
-1f198.png
-1f199.png
-1f19a.png
-1f1e6-1f1e8.png
-1f1e6-1f1e9.png
-1f1e6-1f1ea.png
-1f1e6-1f1eb.png
-1f1e6-1f1ec.png
-1f1e6-1f1ee.png
-1f1e6-1f1f1.png
-1f1e6-1f1f2.png
-1f1e6-1f1f4.png
-1f1e6-1f1f6.png
-1f1e6-1f1f7.png
-1f1e6-1f1f8.png
-1f1e6-1f1f9.png
-1f1e6-1f1fa.png
-1f1e6-1f1fc.png
-1f1e6-1f1fd.png
-1f1e6-1f1ff.png
-1f1e6.png
-1f1e7-1f1e6.png
-1f1e7-1f1e7.png
-1f1e7-1f1e9.png
-1f1e7-1f1ea.png
-1f1e7-1f1eb.png
-1f1e7-1f1ec.png
-1f1e7-1f1ed.png
-1f1e7-1f1ee.png
-1f1e7-1f1ef.png
-1f1e7-1f1f1.png
-1f1e7-1f1f2.png
-1f1e7-1f1f3.png
-1f1e7-1f1f4.png
-1f1e7-1f1f6.png
-1f1e7-1f1f7.png
-1f1e7-1f1f8.png
-1f1e7-1f1f9.png
-1f1e7-1f1fb.png
-1f1e7-1f1fc.png
-1f1e7-1f1fe.png
-1f1e7-1f1ff.png
-1f1e7.png
-1f1e8-1f1e6.png
-1f1e8-1f1e8.png
-1f1e8-1f1e9.png
-1f1e8-1f1eb.png
-1f1e8-1f1ec.png
-1f1e8-1f1ed.png
-1f1e8-1f1ee.png
-1f1e8-1f1f0.png
-1f1e8-1f1f1.png
-1f1e8-1f1f2.png
-1f1e8-1f1f3.png
-1f1e8-1f1f4.png
-1f1e8-1f1f5.png
-1f1e8-1f1f7.png
-1f1e8-1f1fa.png
-1f1e8-1f1fb.png
-1f1e8-1f1fc.png
-1f1e8-1f1fd.png
-1f1e8-1f1fe.png
-1f1e8-1f1ff.png
-1f1e8.png
-1f1e9-1f1ea.png
-1f1e9-1f1ec.png
-1f1e9-1f1ef.png
-1f1e9-1f1f0.png
-1f1e9-1f1f2.png
-1f1e9-1f1f4.png
-1f1e9-1f1ff.png
-1f1e9.png
-1f1ea-1f1e6.png
-1f1ea-1f1e8.png
-1f1ea-1f1ea.png
-1f1ea-1f1ec.png
-1f1ea-1f1ed.png
-1f1ea-1f1f7.png
-1f1ea-1f1f8.png
-1f1ea-1f1f9.png
-1f1ea-1f1fa.png
-1f1ea.png
-1f1eb-1f1ee.png
-1f1eb-1f1ef.png
-1f1eb-1f1f0.png
-1f1eb-1f1f2.png
-1f1eb-1f1f4.png
-1f1eb-1f1f7.png
-1f1eb.png
-1f1ec-1f1e6.png
-1f1ec-1f1e7.png
-1f1ec-1f1e9.png
-1f1ec-1f1ea.png
-1f1ec-1f1eb.png
-1f1ec-1f1ec.png
-1f1ec-1f1ed.png
-1f1ec-1f1ee.png
-1f1ec-1f1f1.png
-1f1ec-1f1f2.png
-1f1ec-1f1f3.png
-1f1ec-1f1f5.png
-1f1ec-1f1f6.png
-1f1ec-1f1f7.png
-1f1ec-1f1f8.png
-1f1ec-1f1f9.png
-1f1ec-1f1fa.png
-1f1ec-1f1fc.png
-1f1ec-1f1fe.png
-1f1ec.png
-1f1ed-1f1f0.png
-1f1ed-1f1f2.png
-1f1ed-1f1f3.png
-1f1ed-1f1f7.png
-1f1ed-1f1f9.png
-1f1ed-1f1fa.png
-1f1ed.png
-1f1ee-1f1e8.png
-1f1ee-1f1e9.png
-1f1ee-1f1ea.png
-1f1ee-1f1f1.png
-1f1ee-1f1f2.png
-1f1ee-1f1f3.png
-1f1ee-1f1f4.png
-1f1ee-1f1f6.png
-1f1ee-1f1f7.png
-1f1ee-1f1f8.png
-1f1ee-1f1f9.png
-1f1ee.png
-1f1ef-1f1ea.png
-1f1ef-1f1f2.png
-1f1ef-1f1f4.png
-1f1ef-1f1f5.png
-1f1ef.png
-1f1f0-1f1ea.png
-1f1f0-1f1ec.png
-1f1f0-1f1ed.png
-1f1f0-1f1ee.png
-1f1f0-1f1f2.png
-1f1f0-1f1f3.png
-1f1f0-1f1f5.png
-1f1f0-1f1f7.png
-1f1f0-1f1fc.png
-1f1f0-1f1fe.png
-1f1f0-1f1ff.png
-1f1f0.png
-1f1f1-1f1e6.png
-1f1f1-1f1e7.png
-1f1f1-1f1e8.png
-1f1f1-1f1ee.png
-1f1f1-1f1f0.png
-1f1f1-1f1f7.png
-1f1f1-1f1f8.png
-1f1f1-1f1f9.png
-1f1f1-1f1fa.png
-1f1f1-1f1fb.png
-1f1f1-1f1fe.png
-1f1f1.png
-1f1f2-1f1e6.png
-1f1f2-1f1e8.png
-1f1f2-1f1e9.png
-1f1f2-1f1ea.png
-1f1f2-1f1eb.png
-1f1f2-1f1ec.png
-1f1f2-1f1ed.png
-1f1f2-1f1f0.png
-1f1f2-1f1f1.png
-1f1f2-1f1f2.png
-1f1f2-1f1f3.png
-1f1f2-1f1f4.png
-1f1f2-1f1f5.png
-1f1f2-1f1f6.png
-1f1f2-1f1f7.png
-1f1f2-1f1f8.png
-1f1f2-1f1f9.png
-1f1f2-1f1fa.png
-1f1f2-1f1fb.png
-1f1f2-1f1fc.png
-1f1f2-1f1fd.png
-1f1f2-1f1fe.png
-1f1f2-1f1ff.png
-1f1f2.png
-1f1f3-1f1e6.png
-1f1f3-1f1e8.png
-1f1f3-1f1ea.png
-1f1f3-1f1eb.png
-1f1f3-1f1ec.png
-1f1f3-1f1ee.png
-1f1f3-1f1f1.png
-1f1f3-1f1f4.png
-1f1f3-1f1f5.png
-1f1f3-1f1f7.png
-1f1f3-1f1fa.png
-1f1f3-1f1ff.png
-1f1f3.png
-1f1f4-1f1f2.png
-1f1f4.png
-1f1f5-1f1e6.png
-1f1f5-1f1ea.png
-1f1f5-1f1eb.png
-1f1f5-1f1ec.png
-1f1f5-1f1ed.png
-1f1f5-1f1f0.png
-1f1f5-1f1f1.png
-1f1f5-1f1f2.png
-1f1f5-1f1f3.png
-1f1f5-1f1f7.png
-1f1f5-1f1f8.png
-1f1f5-1f1f9.png
-1f1f5-1f1fc.png
-1f1f5-1f1fe.png
-1f1f5.png
-1f1f6-1f1e6.png
-1f1f6.png
-1f1f7-1f1ea.png
-1f1f7-1f1f4.png
-1f1f7-1f1f8.png
-1f1f7-1f1fa.png
-1f1f7-1f1fc.png
-1f1f7.png
-1f1f8-1f1e6.png
-1f1f8-1f1e7.png
-1f1f8-1f1e8.png
-1f1f8-1f1e9.png
-1f1f8-1f1ea.png
-1f1f8-1f1ec.png
-1f1f8-1f1ed.png
-1f1f8-1f1ee.png
-1f1f8-1f1ef.png
-1f1f8-1f1f0.png
-1f1f8-1f1f1.png
-1f1f8-1f1f2.png
-1f1f8-1f1f3.png
-1f1f8-1f1f4.png
-1f1f8-1f1f7.png
-1f1f8-1f1f8.png
-1f1f8-1f1f9.png
-1f1f8-1f1fa.png
-1f1f8-1f1fb.png
-1f1f8-1f1fd.png
-1f1f8-1f1fe.png
-1f1f8-1f1ff.png
-1f1f8.png
-1f1f9-1f1e6.png
-1f1f9-1f1e8.png
-1f1f9-1f1e9.png
-1f1f9-1f1eb.png
-1f1f9-1f1ec.png
-1f1f9-1f1ed.png
-1f1f9-1f1ef.png
-1f1f9-1f1f0.png
-1f1f9-1f1f1.png
-1f1f9-1f1f2.png
-1f1f9-1f1f3.png
-1f1f9-1f1f4.png
-1f1f9-1f1f7.png
-1f1f9-1f1f9.png
-1f1f9-1f1fb.png
-1f1f9-1f1fc.png
-1f1f9-1f1ff.png
-1f1f9.png
-1f1fa-1f1e6.png
-1f1fa-1f1ec.png
-1f1fa-1f1f2.png
-1f1fa-1f1f8.png
-1f1fa-1f1fe.png
-1f1fa-1f1ff.png
-1f1fa.png
-1f1fb-1f1e6.png
-1f1fb-1f1e8.png
-1f1fb-1f1ea.png
-1f1fb-1f1ec.png
-1f1fb-1f1ee.png
-1f1fb-1f1f3.png
-1f1fb-1f1fa.png
-1f1fb.png
-1f1fc-1f1eb.png
-1f1fc-1f1f8.png
-1f1fc.png
-1f1fd-1f1f0.png
-1f1fd.png
-1f1fe-1f1ea.png
-1f1fe-1f1f9.png
-1f1fe.png
-1f1ff-1f1e6.png
-1f1ff-1f1f2.png
-1f1ff-1f1fc.png
-1f1ff.png
-1f201.png
-1f202.png
-1f21a.png
-1f22f.png
-1f232.png
-1f233.png
-1f234.png
-1f235.png
-1f236.png
-1f237.png
-1f238.png
-1f239.png
-1f23a.png
-1f250.png
-1f251.png
-1f300.png
-1f301.png
-1f302.png
-1f303.png
-1f304.png
-1f305.png
-1f306.png
-1f307.png
-1f308.png
-1f309.png
-1f30a.png
-1f30b.png
-1f30c.png
-1f30d.png
-1f30e.png
-1f30f.png
-1f310.png
-1f311.png
-1f312.png
-1f313.png
-1f314.png
-1f315.png
-1f316.png
-1f317.png
-1f318.png
-1f319.png
-1f31a.png
-1f31b.png
-1f31c.png
-1f31d.png
-1f31e-1f576.png
-1f31e.png
-1f31f.png
-1f320.png
-1f321.png
-1f322.png
-1f323.png
-1f324.png
-1f325.png
-1f326.png
-1f327.png
-1f328.png
-1f329.png
-1f32a.png
-1f32b.png
-1f32c.png
-1f32d.png
-1f32e.png
-1f32f.png
-1f330.png
-1f331.png
-1f332.png
-1f333.png
-1f334.png
-1f335.png
-1f336.png
-1f337.png
-1f338.png
-1f339.png
-1f33a.png
-1f33b.png
-1f33c.png
-1f33d.png
-1f33e.png
-1f33f.png
-1f340.png
-1f341.png
-1f342.png
-1f343.png
-1f344.png
-1f345.png
-1f346.png
-1f347.png
-1f348.png
-1f349.png
-1f34a.png
-1f34b.png
-1f34c.png
-1f34d.png
-1f34e.png
-1f34f.png
-1f350.png
-1f351.png
-1f352.png
-1f353.png
-1f354.png
-1f355.png
-1f356.png
-1f357.png
-1f358.png
-1f359.png
-1f35a.png
-1f35b.png
-1f35c.png
-1f35d.png
-1f35e.png
-1f35f.png
-1f360.png
-1f361.png
-1f362.png
-1f363.png
-1f364.png
-1f365.png
-1f366.png
-1f367.png
-1f368.png
-1f369.png
-1f36a.png
-1f36b.png
-1f36c.png
-1f36d.png
-1f36e.png
-1f36f.png
-1f370.png
-1f371.png
-1f372.png
-1f373.png
-1f374.png
-1f375.png
-1f376.png
-1f377.png
-1f378.png
-1f379.png
-1f37a.png
-1f37b.png
-1f37c.png
-1f37d.png
-1f37e.png
-1f37f.png
-1f380.png
-1f381.png
-1f382.png
-1f383.png
-1f384.png
-1f385-1f3fb.png
-1f385-1f3fc.png
-1f385-1f3fd.png
-1f385-1f3fe.png
-1f385-1f3ff.png
-1f385.png
-1f386.png
-1f387.png
-1f388.png
-1f389.png
-1f38a.png
-1f38b.png
-1f38c.png
-1f38d.png
-1f38e.png
-1f38f.png
-1f390.png
-1f391.png
-1f392.png
-1f393.png
-1f395.png
-1f396.png
-1f397.png
-1f399.png
-1f39a.png
-1f39b.png
-1f39e.png
-1f39f.png
-1f3a0.png
-1f3a1.png
-1f3a2.png
-1f3a3.png
-1f3a4.png
-1f3a5.png
-1f3a6.png
-1f3a7.png
-1f3a8.png
-1f3a9.png
-1f3aa.png
-1f3ab.png
-1f3ac.png
-1f3ad.png
-1f3ae.png
-1f3af.png
-1f3b0.png
-1f3b1.png
-1f3b2.png
-1f3b3.png
-1f3b4.png
-1f3b5.png
-1f3b6.png
-1f3b7.png
-1f3b8.png
-1f3b9.png
-1f3ba.png
-1f3bb.png
-1f3bc.png
-1f3bd.png
-1f3be.png
-1f3bf.png
-1f3c0.png
-1f3c1.png
-1f3c2.png
-1f3c3-1f3fb.png
-1f3c3-1f3fc.png
-1f3c3-1f3fd.png
-1f3c3-1f3fe.png
-1f3c3-1f3ff.png
-1f3c3.png
-1f3c4-1f3fb.png
-1f3c4-1f3fc.png
-1f3c4-1f3fd.png
-1f3c4-1f3fe.png
-1f3c4-1f3ff.png
-1f3c4.png
-1f3c5.png
-1f3c6.png
-1f3c7-1f3fb.png
-1f3c7-1f3fc.png
-1f3c7-1f3fd.png
-1f3c7-1f3fe.png
-1f3c7-1f3ff.png
-1f3c7.png
-1f3c8.png
-1f3c9.png
-1f3ca-1f3fb.png
-1f3ca-1f3fc.png
-1f3ca-1f3fd.png
-1f3ca-1f3fe.png
-1f3ca-1f3ff.png
-1f3ca.png
-1f3cb-1f3fb.png
-1f3cb-1f3fc.png
-1f3cb-1f3fd.png
-1f3cb-1f3fe.png
-1f3cb-1f3ff.png
-1f3cb.png
-1f3cc.png
-1f3cd.png
-1f3ce.png
-1f3cf.png
-1f3d0.png
-1f3d1.png
-1f3d2.png
-1f3d3.png
-1f3d4.png
-1f3d5.png
-1f3d6.png
-1f3d7.png
-1f3d8.png
-1f3d9.png
-1f3da.png
-1f3db.png
-1f3dc.png
-1f3dd.png
-1f3de.png
-1f3df.png
-1f3e0.png
-1f3e1.png
-1f3e2.png
-1f3e3.png
-1f3e4.png
-1f3e5.png
-1f3e6.png
-1f3e7.png
-1f3e8.png
-1f3e9.png
-1f3ea.png
-1f3eb.png
-1f3ec.png
-1f3ed.png
-1f3ee.png
-1f3ef.png
-1f3f0.png
-1f3f1.png
-1f3f2.png
-1f3f3-1f308.png
-1f3f3.png
-1f3f4-2620.png
-1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png
-1f3f4-e0067-e0062-e006e-e0069-e0072-e007f.png
-1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.png
-1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.png
-1f3f4.png
-1f3f5.png
-1f3f7.png
-1f3f8.png
-1f3f9.png
-1f3fa.png
-1f3fb.png
-1f3fc.png
-1f3fd.png
-1f3fe.png
-1f3ff.png
-1f400.png
-1f401.png
-1f402.png
-1f403.png
-1f404.png
-1f405.png
-1f406.png
-1f407.png
-1f408.png
-1f409.png
-1f40a-1f464.png
-1f40a.png
-1f40b.png
-1f40c.png
-1f40d.png
-1f40e.png
-1f40f-1f464.png
-1f40f.png
-1f410.png
-1f411.png
-1f412.png
-1f413-1f464.png
-1f413.png
-1f414-1f464.png
-1f414.png
-1f415.png
-1f416.png
-1f417-1f464.png
-1f417.png
-1f418-1f464.png
-1f418.png
-1f419.png
-1f41a.png
-1f41b.png
-1f41c.png
-1f41d.png
-1f41e.png
-1f41f.png
-1f420.png
-1f421.png
-1f422.png
-1f423.png
-1f424.png
-1f425.png
-1f426.png
-1f427.png
-1f428-1f464.png
-1f428.png
-1f429-1f464.png
-1f429.png
-1f42a-1f464.png
-1f42a.png
-1f42b-1f464.png
-1f42b.png
-1f42c.png
-1f42d.png
-1f42e.png
-1f42f.png
-1f430.png
-1f431.png
-1f432.png
-1f433.png
-1f434.png
-1f435.png
-1f436.png
-1f437.png
-1f438.png
-1f439.png
-1f43a.png
-1f43b.png
-1f43c.png
-1f43d.png
-1f43e.png
-1f43f.png
-1f440.png
-1f441-1f5e8.png
-1f441.png
-1f442-1f3fb.png
-1f442-1f3fc.png
-1f442-1f3fd.png
-1f442-1f3fe.png
-1f442-1f3ff.png
-1f442.png
-1f443-1f3fb.png
-1f443-1f3fc.png
-1f443-1f3fd.png
-1f443-1f3fe.png
-1f443-1f3ff.png
-1f443.png
-1f444.png
-1f445.png
-1f446-1f3fb.png
-1f446-1f3fc.png
-1f446-1f3fd.png
-1f446-1f3fe.png
-1f446-1f3ff.png
-1f446.png
-1f447-1f3fb.png
-1f447-1f3fc.png
-1f447-1f3fd.png
-1f447-1f3fe.png
-1f447-1f3ff.png
-1f447.png
-1f448-1f3fb.png
-1f448-1f3fc.png
-1f448-1f3fd.png
-1f448-1f3fe.png
-1f448-1f3ff.png
-1f448.png
-1f449-1f3fb.png
-1f449-1f3fc.png
-1f449-1f3fd.png
-1f449-1f3fe.png
-1f449-1f3ff.png
-1f449.png
-1f44a-1f3fb.png
-1f44a-1f3fc.png
-1f44a-1f3fd.png
-1f44a-1f3fe.png
-1f44a-1f3ff.png
-1f44a.png
-1f44b-1f3fb.png
-1f44b-1f3fc.png
-1f44b-1f3fd.png
-1f44b-1f3fe.png
-1f44b-1f3ff.png
-1f44b.png
-1f44c-1f3fb.png
-1f44c-1f3fc.png
-1f44c-1f3fd.png
-1f44c-1f3fe.png
-1f44c-1f3ff.png
-1f44c.png
-1f44d-1f3fb.png
-1f44d-1f3fc.png
-1f44d-1f3fd.png
-1f44d-1f3fe.png
-1f44d-1f3ff.png
-1f44d.png
-1f44e-1f3fb.png
-1f44e-1f3fc.png
-1f44e-1f3fd.png
-1f44e-1f3fe.png
-1f44e-1f3ff.png
-1f44e.png
-1f44f-1f3fb.png
-1f44f-1f3fc.png
-1f44f-1f3fd.png
-1f44f-1f3fe.png
-1f44f-1f3ff.png
-1f44f.png
-1f450-1f3fb.png
-1f450-1f3fc.png
-1f450-1f3fd.png
-1f450-1f3fe.png
-1f450-1f3ff.png
-1f450.png
-1f451.png
-1f452.png
-1f453.png
-1f454.png
-1f455.png
-1f456.png
-1f457.png
-1f458.png
-1f459.png
-1f45a.png
-1f45b.png
-1f45c.png
-1f45d.png
-1f45e.png
-1f45f.png
-1f460.png
-1f461.png
-1f462.png
-1f463.png
-1f464.png
-1f465.png
-1f466-1f3fb.png
-1f466-1f3fc.png
-1f466-1f3fd.png
-1f466-1f3fe.png
-1f466-1f3ff.png
-1f466.png
-1f467-1f3fb.png
-1f467-1f3fc.png
-1f467-1f3fd.png
-1f467-1f3fe.png
-1f467-1f3ff.png
-1f467.png
-1f468-1f3fb.png
-1f468-1f3fc.png
-1f468-1f3fd.png
-1f468-1f3fe.png
-1f468-1f3ff.png
-1f468-1f468-1f466-1f466.png
-1f468-1f468-1f466.png
-1f468-1f468-1f467-1f466.png
-1f468-1f468-1f467-1f467.png
-1f468-1f468-1f467.png
-1f468-1f469-1f466-1f466.png
-1f468-1f469-1f466.png
-1f468-1f469-1f467-1f466.png
-1f468-1f469-1f467-1f467.png
-1f468-1f469-1f467.png
-1f468-2764-1f468.png
-1f468-2764-1f48b-1f468.png
-1f468.png
-1f469-1f3fb.png
-1f469-1f3fc.png
-1f469-1f3fd.png
-1f469-1f3fe.png
-1f469-1f3ff.png
-1f469-1f469-1f466-1f466.png
-1f469-1f469-1f466.png
-1f469-1f469-1f467-1f466.png
-1f469-1f469-1f467-1f467.png
-1f469-1f469-1f467.png
-1f469-2764-1f469.png
-1f469-2764-1f48b-1f469.png
-1f469.png
-1f46a.png
-1f46b.png
-1f46c.png
-1f46d.png
-1f46e-1f3fb.png
-1f46e-1f3fc.png
-1f46e-1f3fd.png
-1f46e-1f3fe.png
-1f46e-1f3ff.png
-1f46e.png
-1f46f.png
-1f470-1f3fb.png
-1f470-1f3fc.png
-1f470-1f3fd.png
-1f470-1f3fe.png
-1f470-1f3ff.png
-1f470.png
-1f471-1f3fb.png
-1f471-1f3fc.png
-1f471-1f3fd.png
-1f471-1f3fe.png
-1f471-1f3ff.png
-1f471.png
-1f472-1f3fb.png
-1f472-1f3fc.png
-1f472-1f3fd.png
-1f472-1f3fe.png
-1f472-1f3ff.png
-1f472.png
-1f473-1f3fb.png
-1f473-1f3fc.png
-1f473-1f3fd.png
-1f473-1f3fe.png
-1f473-1f3ff.png
-1f473.png
-1f474-1f3fb.png
-1f474-1f3fc.png
-1f474-1f3fd.png
-1f474-1f3fe.png
-1f474-1f3ff.png
-1f474.png
-1f475-1f3fb.png
-1f475-1f3fc.png
-1f475-1f3fd.png
-1f475-1f3fe.png
-1f475-1f3ff.png
-1f475.png
-1f476-1f3fb.png
-1f476-1f3fc.png
-1f476-1f3fd.png
-1f476-1f3fe.png
-1f476-1f3ff.png
-1f476.png
-1f477-1f3fb.png
-1f477-1f3fc.png
-1f477-1f3fd.png
-1f477-1f3fe.png
-1f477-1f3ff.png
-1f477.png
-1f478-1f3fb.png
-1f478-1f3fc.png
-1f478-1f3fd.png
-1f478-1f3fe.png
-1f478-1f3ff.png
-1f478.png
-1f479.png
-1f47a.png
-1f47b.png
-1f47c-1f3fb.png
-1f47c-1f3fc.png
-1f47c-1f3fd.png
-1f47c-1f3fe.png
-1f47c-1f3ff.png
-1f47c.png
-1f47d.png
-1f47e.png
-1f47f.png
-1f480.png
-1f481-1f3fb.png
-1f481-1f3fc.png
-1f481-1f3fd.png
-1f481-1f3fe.png
-1f481-1f3ff.png
-1f481.png
-1f482-1f3fb.png
-1f482-1f3fc.png
-1f482-1f3fd.png
-1f482-1f3fe.png
-1f482-1f3ff.png
-1f482.png
-1f483-1f3fb.png
-1f483-1f3fc.png
-1f483-1f3fd.png
-1f483-1f3fe.png
-1f483-1f3ff.png
-1f483.png
-1f484.png
-1f485-1f3fb.png
-1f485-1f3fc.png
-1f485-1f3fd.png
-1f485-1f3fe.png
-1f485-1f3ff.png
-1f485.png
-1f486-1f3fb.png
-1f486-1f3fc.png
-1f486-1f3fd.png
-1f486-1f3fe.png
-1f486-1f3ff.png
-1f486.png
-1f487-1f3fb.png
-1f487-1f3fc.png
-1f487-1f3fd.png
-1f487-1f3fe.png
-1f487-1f3ff.png
-1f487.png
-1f488.png
-1f489.png
-1f48a.png
-1f48b.png
-1f48c.png
-1f48d.png
-1f48e.png
-1f48f.png
-1f490.png
-1f491.png
-1f492.png
-1f493.png
-1f494.png
-1f495.png
-1f496.png
-1f497.png
-1f498.png
-1f499.png
-1f49a.png
-1f49b.png
-1f49c.png
-1f49d.png
-1f49e.png
-1f49f.png
-1f4a0.png
-1f4a1.png
-1f4a2.png
-1f4a3.png
-1f4a4.png
-1f4a5.png
-1f4a6.png
-1f4a7.png
-1f4a8.png
-1f4a9.png
-1f4aa-1f3fb.png
-1f4aa-1f3fc.png
-1f4aa-1f3fd.png
-1f4aa-1f3fe.png
-1f4aa-1f3ff.png
-1f4aa.png
-1f4ab.png
-1f4ac.png
-1f4ad.png
-1f4ae.png
-1f4af.png
-1f4b0.png
-1f4b1.png
-1f4b2.png
-1f4b3.png
-1f4b4.png
-1f4b5.png
-1f4b6.png
-1f4b7.png
-1f4b8.png
-1f4b9.png
-1f4ba.png
-1f4bb.png
-1f4bc.png
-1f4bd.png
-1f4be.png
-1f4bf.png
-1f4c0.png
-1f4c1.png
-1f4c2.png
-1f4c3.png
-1f4c4.png
-1f4c5.png
-1f4c6.png
-1f4c7.png
-1f4c8.png
-1f4c9.png
-1f4ca.png
-1f4cb.png
-1f4cc.png
-1f4cd.png
-1f4ce.png
-1f4cf.png
-1f4d0.png
-1f4d1.png
-1f4d2.png
-1f4d3.png
-1f4d4.png
-1f4d5.png
-1f4d6.png
-1f4d7.png
-1f4d8.png
-1f4d9.png
-1f4da.png
-1f4db.png
-1f4dc.png
-1f4dd.png
-1f4de.png
-1f4df.png
-1f4e0.png
-1f4e1.png
-1f4e2.png
-1f4e3.png
-1f4e4.png
-1f4e5.png
-1f4e6.png
-1f4e7.png
-1f4e8.png
-1f4e9.png
-1f4ea.png
-1f4eb.png
-1f4ec.png
-1f4ed.png
-1f4ee.png
-1f4ef.png
-1f4f0.png
-1f4f1.png
-1f4f2.png
-1f4f3.png
-1f4f4.png
-1f4f5.png
-1f4f6.png
-1f4f7.png
-1f4f8.png
-1f4f9.png
-1f4fa.png
-1f4fb.png
-1f4fc.png
-1f4fd.png
-1f4ff.png
-1f500.png
-1f501.png
-1f502.png
-1f503.png
-1f504.png
-1f505.png
-1f506.png
-1f507.png
-1f508.png
-1f509.png
-1f50a.png
-1f50b.png
-1f50c.png
-1f50d.png
-1f50e.png
-1f50f.png
-1f510.png
-1f511.png
-1f512.png
-1f513.png
-1f514.png
-1f515.png
-1f516.png
-1f517.png
-1f518.png
-1f519.png
-1f51a.png
-1f51b.png
-1f51c.png
-1f51d.png
-1f51e.png
-1f51f.png
-1f520.png
-1f521.png
-1f522.png
-1f523.png
-1f524.png
-1f525.png
-1f526.png
-1f527.png
-1f528.png
-1f529.png
-1f52a.png
-1f52b.png
-1f52c.png
-1f52d.png
-1f52e.png
-1f52f.png
-1f530.png
-1f531.png
-1f532.png
-1f533.png
-1f534.png
-1f535.png
-1f536.png
-1f537.png
-1f538.png
-1f539.png
-1f53a.png
-1f53b.png
-1f53c.png
-1f53d.png
-1f540.png
-1f541.png
-1f542.png
-1f546.png
-1f547.png
-1f548.png
-1f549.png
-1f54a.png
-1f54b.png
-1f54c.png
-1f54d.png
-1f54e.png
-1f550.png
-1f551.png
-1f552.png
-1f553.png
-1f554.png
-1f555.png
-1f556.png
-1f557.png
-1f558.png
-1f559.png
-1f55a.png
-1f55b.png
-1f55c.png
-1f55d.png
-1f55e.png
-1f55f.png
-1f560.png
-1f561.png
-1f562.png
-1f563.png
-1f564.png
-1f565.png
-1f566.png
-1f567.png
-1f568.png
-1f569.png
-1f56a.png
-1f56d.png
-1f56e.png
-1f56f.png
-1f570.png
-1f571.png
-1f572.png
-1f573.png
-1f574.png
-1f575-1f3fb.png
-1f575-1f3fc.png
-1f575-1f3fd.png
-1f575-1f3fe.png
-1f575-1f3ff.png
-1f575.png
-1f576-1f535-1f534.png
-1f576.png
-1f577.png
-1f578.png
-1f579.png
-1f57a-1f3fb.png
-1f57a-1f3fc.png
-1f57a-1f3fd.png
-1f57a-1f3fe.png
-1f57a-1f3ff.png
-1f57a.png
-1f57b.png
-1f57c.png
-1f57d.png
-1f582.png
-1f584.png
-1f585.png
-1f587.png
-1f588.png
-1f589.png
-1f58a.png
-1f58b.png
-1f58c.png
-1f58d.png
-1f58e-1f3fb.png
-1f58e-1f3fc.png
-1f58e-1f3fd.png
-1f58e-1f3fe.png
-1f58e-1f3ff.png
-1f58e.png
-1f590-1f3fb.png
-1f590-1f3fc.png
-1f590-1f3fd.png
-1f590-1f3fe.png
-1f590-1f3ff.png
-1f590.png
-1f595-1f3fb.png
-1f595-1f3fc.png
-1f595-1f3fd.png
-1f595-1f3fe.png
-1f595-1f3ff.png
-1f595.png
-1f596-1f3fb.png
-1f596-1f3fc.png
-1f596-1f3fd.png
-1f596-1f3fe.png
-1f596-1f3ff.png
-1f596.png
-1f597-1f3fb.png
-1f597-1f3fc.png
-1f597-1f3fd.png
-1f597-1f3fe.png
-1f597-1f3ff.png
-1f597.png
-1f598.png
-1f599.png
-1f59c.png
-1f59d.png
-1f59e.png
-1f59f.png
-1f5a2.png
-1f5a3.png
-1f5a4.png
-1f5a5.png
-1f5a6.png
-1f5a7.png
-1f5a8.png
-1f5ae.png
-1f5b1.png
-1f5b2.png
-1f5bc.png
-1f5bf.png
-1f5c0.png
-1f5c1.png
-1f5c2.png
-1f5c3.png
-1f5c4.png
-1f5c8.png
-1f5d1.png
-1f5d2.png
-1f5d3.png
-1f5d8.png
-1f5d9.png
-1f5dc.png
-1f5dd.png
-1f5de.png
-1f5e1.png
-1f5e2.png
-1f5e3.png
-1f5e8.png
-1f5e9.png
-1f5ec.png
-1f5ed.png
-1f5ee.png
-1f5ef.png
-1f5f3.png
-1f5fa.png
-1f5fb.png
-1f5fc.png
-1f5fd.png
-1f5fe.png
-1f5ff.png
-1f600.png
-1f601.png
-1f602.png
-1f603.png
-1f604.png
-1f605.png
-1f606.png
-1f607.png
-1f608.png
-1f609.png
-1f60a.png
-1f60b.png
-1f60c.png
-1f60d.png
-1f60e.png
-1f60f.png
-1f610.png
-1f611.png
-1f612.png
-1f613.png
-1f614.png
-1f615.png
-1f616.png
-1f617.png
-1f618.png
-1f619.png
-1f61a.png
-1f61b.png
-1f61c.png
-1f61d.png
-1f61e-1f494.png
-1f61e.png
-1f61f.png
-1f620.png
-1f621.png
-1f622.png
-1f623.png
-1f624.png
-1f625.png
-1f626.png
-1f627.png
-1f628.png
-1f629.png
-1f62a.png
-1f62b.png
-1f62c.png
-1f62d.png
-1f62e.png
-1f62f.png
-1f630.png
-1f631.png
-1f632.png
-1f633.png
-1f634.png
-1f635.png
-1f636.png
-1f637.png
-1f638.png
-1f639.png
-1f63a.png
-1f63b.png
-1f63c.png
-1f63d.png
-1f63e.png
-1f63f.png
-1f640.png
-1f641.png
-1f642.png
-1f643.png
-1f644.png
-1f645-1f3fb.png
-1f645-1f3fc.png
-1f645-1f3fd.png
-1f645-1f3fe.png
-1f645-1f3ff.png
-1f645.png
-1f646-1f3fb.png
-1f646-1f3fc.png
-1f646-1f3fd.png
-1f646-1f3fe.png
-1f646-1f3ff.png
-1f646.png
-1f647-1f3fb.png
-1f647-1f3fc.png
-1f647-1f3fd.png
-1f647-1f3fe.png
-1f647-1f3ff.png
-1f647.png
-1f648.png
-1f649.png
-1f64a.png
-1f64b-1f3fb.png
-1f64b-1f3fc.png
-1f64b-1f3fd.png
-1f64b-1f3fe.png
-1f64b-1f3ff.png
-1f64b.png
-1f64c-1f3fb.png
-1f64c-1f3fc.png
-1f64c-1f3fd.png
-1f64c-1f3fe.png
-1f64c-1f3ff.png
-1f64c.png
-1f64d-1f3fb.png
-1f64d-1f3fc.png
-1f64d-1f3fd.png
-1f64d-1f3fe.png
-1f64d-1f3ff.png
-1f64d.png
-1f64e-1f3fb.png
-1f64e-1f3fc.png
-1f64e-1f3fd.png
-1f64e-1f3fe.png
-1f64e-1f3ff.png
-1f64e.png
-1f64f-1f3fb.png
-1f64f-1f3fc.png
-1f64f-1f3fd.png
-1f64f-1f3fe.png
-1f64f-1f3ff.png
-1f64f.png
-1f680.png
-1f681.png
-1f682.png
-1f683.png
-1f684.png
-1f685.png
-1f686.png
-1f687.png
-1f688.png
-1f689.png
-1f68a.png
-1f68b.png
-1f68c.png
-1f68d.png
-1f68e.png
-1f68f.png
-1f690.png
-1f691.png
-1f692.png
-1f693.png
-1f694.png
-1f695.png
-1f696.png
-1f697.png
-1f698.png
-1f699.png
-1f69a.png
-1f69b.png
-1f69c.png
-1f69d.png
-1f69e.png
-1f69f.png
-1f6a0.png
-1f6a1.png
-1f6a2.png
-1f6a3-1f3fb.png
-1f6a3-1f3fc.png
-1f6a3-1f3fd.png
-1f6a3-1f3fe.png
-1f6a3-1f3ff.png
-1f6a3.png
-1f6a4.png
-1f6a5.png
-1f6a6.png
-1f6a7.png
-1f6a8.png
-1f6a9.png
-1f6aa.png
-1f6ab.png
-1f6ac.png
-1f6ad.png
-1f6ae.png
-1f6af.png
-1f6b0.png
-1f6b1.png
-1f6b2.png
-1f6b3.png
-1f6b4-1f3fb.png
-1f6b4-1f3fc.png
-1f6b4-1f3fd.png
-1f6b4-1f3fe.png
-1f6b4-1f3ff.png
-1f6b4.png
-1f6b5-1f3fb.png
-1f6b5-1f3fc.png
-1f6b5-1f3fd.png
-1f6b5-1f3fe.png
-1f6b5-1f3ff.png
-1f6b5.png
-1f6b6-1f3fb.png
-1f6b6-1f3fc.png
-1f6b6-1f3fd.png
-1f6b6-1f3fe.png
-1f6b6-1f3ff.png
-1f6b6.png
-1f6b7.png
-1f6b8.png
-1f6b9.png
-1f6ba.png
-1f6bb.png
-1f6bc.png
-1f6bd.png
-1f6be.png
-1f6bf.png
-1f6c0-1f3fb.png
-1f6c0-1f3fc.png
-1f6c0-1f3fd.png
-1f6c0-1f3fe.png
-1f6c0-1f3ff.png
-1f6c0.png
-1f6c1.png
-1f6c2.png
-1f6c3.png
-1f6c4.png
-1f6c5.png
-1f6c6.png
-1f6c7.png
-1f6c8.png
-1f6cb.png
-1f6cc.png
-1f6cd.png
-1f6ce.png
-1f6cf.png
-1f6d0.png
-1f6d1.png
-1f6d2.png
-1f6e0.png
-1f6e1.png
-1f6e2.png
-1f6e3.png
-1f6e4.png
-1f6e5.png
-1f6e9.png
-1f6ea.png
-1f6eb.png
-1f6ec.png
-1f6f0.png
-1f6f3.png
-1f6f4.png
-1f6f5.png
-1f6f6.png
-1f910.png
-1f911.png
-1f912.png
-1f913.png
-1f914.png
-1f915.png
-1f916.png
-1f917.png
-1f918-1f3fb.png
-1f918-1f3fc.png
-1f918-1f3fd.png
-1f918-1f3fe.png
-1f918-1f3ff.png
-1f918.png
-1f919-1f3fb.png
-1f919-1f3fc.png
-1f919-1f3fd.png
-1f919-1f3fe.png
-1f919-1f3ff.png
-1f919.png
-1f91a-1f3fb.png
-1f91a-1f3fc.png
-1f91a-1f3fd.png
-1f91a-1f3fe.png
-1f91a-1f3ff.png
-1f91a.png
-1f91b-1f3fb.png
-1f91b-1f3fc.png
-1f91b-1f3fd.png
-1f91b-1f3fe.png
-1f91b-1f3ff.png
-1f91b.png
-1f91c-1f3fb.png
-1f91c-1f3fc.png
-1f91c-1f3fd.png
-1f91c-1f3fe.png
-1f91c-1f3ff.png
-1f91c.png
-1f91d-1f3fb.png
-1f91d-1f3fc.png
-1f91d-1f3fd.png
-1f91d-1f3fe.png
-1f91d-1f3ff.png
-1f91d.png
-1f91e-1f3fb.png
-1f91e-1f3fc.png
-1f91e-1f3fd.png
-1f91e-1f3fe.png
-1f91e-1f3ff.png
-1f91e.png
-1f920.png
-1f921.png
-1f922.png
-1f923.png
-1f924.png
-1f925.png
-1f926-1f3fb.png
-1f926-1f3fc.png
-1f926-1f3fd.png
-1f926-1f3fe.png
-1f926-1f3ff.png
-1f926.png
-1f927.png
-1f930-1f3fb.png
-1f930-1f3fc.png
-1f930-1f3fd.png
-1f930-1f3fe.png
-1f930-1f3ff.png
-1f930.png
-1f933-1f3fb.png
-1f933-1f3fc.png
-1f933-1f3fd.png
-1f933-1f3fe.png
-1f933-1f3ff.png
-1f933.png
-1f934-1f3fb.png
-1f934-1f3fc.png
-1f934-1f3fd.png
-1f934-1f3fe.png
-1f934-1f3ff.png
-1f934.png
-1f935-1f3fb.png
-1f935-1f3fc.png
-1f935-1f3fd.png
-1f935-1f3fe.png
-1f935-1f3ff.png
-1f935.png
-1f936-1f3fb.png
-1f936-1f3fc.png
-1f936-1f3fd.png
-1f936-1f3fe.png
-1f936-1f3ff.png
-1f936.png
-1f937-1f3fb.png
-1f937-1f3fc.png
-1f937-1f3fd.png
-1f937-1f3fe.png
-1f937-1f3ff.png
-1f937.png
-1f938-1f3fb.png
-1f938-1f3fc.png
-1f938-1f3fd.png
-1f938-1f3fe.png
-1f938-1f3ff.png
-1f938.png
-1f939-1f3fb.png
-1f939-1f3fc.png
-1f939-1f3fd.png
-1f939-1f3fe.png
-1f939-1f3ff.png
-1f939.png
-1f93a.png
-1f93b-1f3fb.png
-1f93b-1f3fc.png
-1f93b-1f3fd.png
-1f93b-1f3fe.png
-1f93b-1f3ff.png
-1f93b.png
-1f93c-1f3fb.png
-1f93c-1f3fc.png
-1f93c-1f3fd.png
-1f93c-1f3fe.png
-1f93c-1f3ff.png
-1f93c.png
-1f93d-1f3fb.png
-1f93d-1f3fc.png
-1f93d-1f3fd.png
-1f93d-1f3fe.png
-1f93d-1f3ff.png
-1f93d.png
-1f93e-1f3fb.png
-1f93e-1f3fc.png
-1f93e-1f3fd.png
-1f93e-1f3fe.png
-1f93e-1f3ff.png
-1f93e.png
-1f940.png
-1f941.png
-1f942.png
-1f943.png
-1f944.png
-1f945.png
-1f946.png
-1f947.png
-1f948.png
-1f949.png
-1f94a.png
-1f94b.png
-1f950.png
-1f951.png
-1f952.png
-1f953.png
-1f954.png
-1f955.png
-1f956.png
-1f957.png
-1f958.png
-1f959.png
-1f95a.png
-1f95b.png
-1f95c.png
-1f95d.png
-1f95e.png
-1f980.png
-1f981.png
-1f982.png
-1f983.png
-1f984.png
-1f985.png
-1f986-2640.png
-1f986-2642.png
-1f986.png
-1f987.png
-1f988.png
-1f989.png
-1f98a.png
-1f98b.png
-1f98c-1f6a8.png
-1f98c-2640.png
-1f98c-2642.png
-1f98c.png
-1f98d.png
-1f98e.png
-1f98f.png
-1f990.png
-1f991.png
-1f9c0.png
-203c.png
-2049.png
-2122.png
-2139.png
-2194.png
-2195.png
-2196.png
-2197.png
-2198.png
-2199.png
-21a9.png
-21aa.png
-231a.png
-231b.png
-2328.png
-23cf.png
-23e9.png
-23ea.png
-23eb.png
-23ec.png
-23ed.png
-23ee.png
-23ef.png
-23f0.png
-23f1.png
-23f2.png
-23f3.png
-23f8.png
-23f9.png
-23fa.png
-24c2.png
-25a0.png
-25a1.png
-25a4.png
-25a5.png
-25a6.png
-25a7.png
-25a8.png
-25a9.png
-25aa.png
-25ab.png
-25b6.png
-25c0.png
-25fb.png
-25fc.png
-25fd.png
-25fe.png
-2600.png
-2601.png
-2602.png
-2603.png
-2604.png
-2605.png
-2607.png
-2608.png
-2609.png
-260e.png
-260f.png
-2610.png
-2611.png
-2612.png
-2614.png
-2615.png
-2616.png
-2617.png
-2618.png
-261c-1f3fb.png
-261c-1f3fc.png
-261c-1f3fd.png
-261c-1f3fe.png
-261c-1f3ff.png
-261c.png
-261d-1f3fb.png
-261d-1f3fc.png
-261d-1f3fd.png
-261d-1f3fe.png
-261d-1f3ff.png
-261d.png
-261e-1f3fb.png
-261e-1f3fc.png
-261e-1f3fd.png
-261e-1f3fe.png
-261e-1f3ff.png
-261e.png
-261f-1f3fb.png
-261f-1f3fc.png
-261f-1f3fd.png
-261f-1f3fe.png
-261f-1f3ff.png
-261f.png
-2620.png
-2621.png
-2622.png
-2623.png
-2624.png
-2626.png
-2627.png
-2628.png
-2629.png
-262a.png
-262d.png
-262e.png
-262f.png
-2630.png
-2631.png
-2632.png
-2633.png
-2634.png
-2635.png
-2636.png
-2637.png
-2638.png
-2639.png
-263a.png
-263b.png
-2648.png
-2649.png
-264a.png
-264b.png
-264c.png
-264d.png
-264e.png
-264f.png
-2650.png
-2651.png
-2652.png
-2653.png
-2660.png
-2661.png
-2662.png
-2663.png
-2664.png
-2665.png
-2666.png
-2667.png
-2668.png
-2670.png
-2671.png
-2672.png
-267b.png
-267c.png
-267d.png
-267f.png
-2680.png
-2681.png
-2682.png
-2683.png
-2684.png
-2685.png
-2686.png
-2687.png
-2688.png
-2689.png
-268a.png
-268b.png
-268c.png
-268d.png
-268e.png
-268f.png
-2690.png
-2691.png
-2692.png
-2693.png
-2694.png
-2695.png
-2696.png
-2697.png
-2698.png
-2699.png
-269a.png
-269b.png
-269c.png
-26a0.png
-26a1.png
-26aa.png
-26ab.png
-26b0.png
-26b1.png
-26bd.png
-26be.png
-26c4-1f464.png
-26c4.png
-26c5.png
-26c6.png
-26c7.png
-26c8.png
-26c9.png
-26ca.png
-26cb.png
-26ce.png
-26cf.png
-26d1.png
-26d3.png
-26d4.png
-26db.png
-26dd.png
-26de.png
-26e4.png
-26e7.png
-26e9.png
-26ea.png
-26f0.png
-26f1.png
-26f2.png
-26f3.png
-26f4.png
-26f5.png
-26f7.png
-26f8.png
-26f9-1f3fb.png
-26f9-1f3fc.png
-26f9-1f3fd.png
-26f9-1f3fe.png
-26f9-1f3ff.png
-26f9.png
-26fa.png
-26fd.png
-26fe.png
-2702.png
-2705.png
-2708.png
-2709.png
-270a-1f3fb.png
-270a-1f3fc.png
-270a-1f3fd.png
-270a-1f3fe.png
-270a-1f3ff.png
-270a.png
-270b-1f3fb.png
-270b-1f3fc.png
-270b-1f3fd.png
-270b-1f3fe.png
-270b-1f3ff.png
-270b.png
-270c-1f3fb.png
-270c-1f3fc.png
-270c-1f3fd.png
-270c-1f3fe.png
-270c-1f3ff.png
-270c.png
-270d-1f3fb.png
-270d-1f3fc.png
-270d-1f3fd.png
-270d-1f3fe.png
-270d-1f3ff.png
-270d.png
-270e.png
-270f.png
-2710.png
-2712.png
-2714.png
-2716.png
-271d.png
-2721.png
-2728.png
-2733.png
-2734.png
-2744.png
-2747.png
-274c.png
-274e.png
-2753.png
-2754.png
-2755.png
-2757.png
-2763.png
-2764.png
-2765.png
-2795.png
-2796.png
-2797.png
-27a1.png
-27b0.png
-27bf.png
-2934.png
-2935.png
-2b05.png
-2b06.png
-2b07.png
-2b1b.png
-2b1c.png
-2b50.png
-2b55.png
-2b95.png
-3000.png
-3030.png
-303d.png
-3297.png
-3299.png
+#!0023-20e3.png
+0023.png					#
+#!002a-20e3.png
+002a.png					*
+#!0030-20e3.png
+0030.png					0
+#!0031-20e3.png
+0031.png					1
+#!0032-20e3.png
+0032.png					2
+#!0033-20e3.png
+0033.png					3
+#!0034-20e3.png
+0034.png					4
+#!0035-20e3.png
+0035.png					5
+#!0036-20e3.png
+0036.png					6
+#!0037-20e3.png
+0037.png					7
+#!0038-20e3.png
+0038.png					8
+#!0039-20e3.png
+0039.png					9
+00a9.png					©
+00ae.png					®
+1f004.png					🀄
+1f0cf.png					🃏
+1f170.png					🅰
+1f171.png					🅱
+1f17e.png					🅾
+1f17f.png					🅿
+1f18e.png					🆎
+1f191.png					🆑
+1f192.png					🆒
+1f193.png					🆓
+1f194.png					🆔
+1f195.png					🆕
+1f196.png					🆖
+1f197.png					🆗
+1f198.png					🆘
+1f199.png					🆙
+1f19a.png					🆚
+#!1f1e6-1f1e8.png
+#!1f1e6-1f1e9.png
+#!1f1e6-1f1ea.png
+#!1f1e6-1f1eb.png
+#!1f1e6-1f1ec.png
+#!1f1e6-1f1ee.png
+#!1f1e6-1f1f1.png
+#!1f1e6-1f1f2.png
+#!1f1e6-1f1f4.png
+#!1f1e6-1f1f6.png
+#!1f1e6-1f1f7.png
+#!1f1e6-1f1f8.png
+#!1f1e6-1f1f9.png
+#!1f1e6-1f1fa.png
+#!1f1e6-1f1fc.png
+#!1f1e6-1f1fd.png
+#!1f1e6-1f1ff.png
+1f1e6.png					🇦
+#!1f1e7-1f1e6.png
+#!1f1e7-1f1e7.png
+#!1f1e7-1f1e9.png
+#!1f1e7-1f1ea.png
+#!1f1e7-1f1eb.png
+#!1f1e7-1f1ec.png
+#!1f1e7-1f1ed.png
+#!1f1e7-1f1ee.png
+#!1f1e7-1f1ef.png
+#!1f1e7-1f1f1.png
+#!1f1e7-1f1f2.png
+#!1f1e7-1f1f3.png
+#!1f1e7-1f1f4.png
+#!1f1e7-1f1f6.png
+#!1f1e7-1f1f7.png
+#!1f1e7-1f1f8.png
+#!1f1e7-1f1f9.png
+#!1f1e7-1f1fb.png
+#!1f1e7-1f1fc.png
+#!1f1e7-1f1fe.png
+#!1f1e7-1f1ff.png
+1f1e7.png					🇧
+#!1f1e8-1f1e6.png
+#!1f1e8-1f1e8.png
+#!1f1e8-1f1e9.png
+#!1f1e8-1f1eb.png
+#!1f1e8-1f1ec.png
+#!1f1e8-1f1ed.png
+#!1f1e8-1f1ee.png
+#!1f1e8-1f1f0.png
+#!1f1e8-1f1f1.png
+#!1f1e8-1f1f2.png
+#!1f1e8-1f1f3.png
+#!1f1e8-1f1f4.png
+#!1f1e8-1f1f5.png
+#!1f1e8-1f1f7.png
+#!1f1e8-1f1fa.png
+#!1f1e8-1f1fb.png
+#!1f1e8-1f1fc.png
+#!1f1e8-1f1fd.png
+#!1f1e8-1f1fe.png
+#!1f1e8-1f1ff.png
+1f1e8.png					🇨
+#!1f1e9-1f1ea.png
+#!1f1e9-1f1ec.png
+#!1f1e9-1f1ef.png
+#!1f1e9-1f1f0.png
+#!1f1e9-1f1f2.png
+#!1f1e9-1f1f4.png
+#!1f1e9-1f1ff.png
+1f1e9.png					🇩
+#!1f1ea-1f1e6.png
+#!1f1ea-1f1e8.png
+#!1f1ea-1f1ea.png
+#!1f1ea-1f1ec.png
+#!1f1ea-1f1ed.png
+#!1f1ea-1f1f7.png
+#!1f1ea-1f1f8.png
+#!1f1ea-1f1f9.png
+#!1f1ea-1f1fa.png
+1f1ea.png					🇪
+#!1f1eb-1f1ee.png
+#!1f1eb-1f1ef.png
+#!1f1eb-1f1f0.png
+#!1f1eb-1f1f2.png
+#!1f1eb-1f1f4.png
+#!1f1eb-1f1f7.png
+1f1eb.png					🇫
+#!1f1ec-1f1e6.png
+#!1f1ec-1f1e7.png
+#!1f1ec-1f1e9.png
+#!1f1ec-1f1ea.png
+#!1f1ec-1f1eb.png
+#!1f1ec-1f1ec.png
+#!1f1ec-1f1ed.png
+#!1f1ec-1f1ee.png
+#!1f1ec-1f1f1.png
+#!1f1ec-1f1f2.png
+#!1f1ec-1f1f3.png
+#!1f1ec-1f1f5.png
+#!1f1ec-1f1f6.png
+#!1f1ec-1f1f7.png
+#!1f1ec-1f1f8.png
+#!1f1ec-1f1f9.png
+#!1f1ec-1f1fa.png
+#!1f1ec-1f1fc.png
+#!1f1ec-1f1fe.png
+1f1ec.png					🇬
+#!1f1ed-1f1f0.png
+#!1f1ed-1f1f2.png
+#!1f1ed-1f1f3.png
+#!1f1ed-1f1f7.png
+#!1f1ed-1f1f9.png
+#!1f1ed-1f1fa.png
+1f1ed.png					🇭
+#!1f1ee-1f1e8.png
+#!1f1ee-1f1e9.png
+#!1f1ee-1f1ea.png
+#!1f1ee-1f1f1.png
+#!1f1ee-1f1f2.png
+#!1f1ee-1f1f3.png
+#!1f1ee-1f1f4.png
+#!1f1ee-1f1f6.png
+#!1f1ee-1f1f7.png
+#!1f1ee-1f1f8.png
+#!1f1ee-1f1f9.png
+1f1ee.png					🇮
+#!1f1ef-1f1ea.png
+#!1f1ef-1f1f2.png
+#!1f1ef-1f1f4.png
+#!1f1ef-1f1f5.png
+1f1ef.png					🇯
+#!1f1f0-1f1ea.png
+#!1f1f0-1f1ec.png
+#!1f1f0-1f1ed.png
+#!1f1f0-1f1ee.png
+#!1f1f0-1f1f2.png
+#!1f1f0-1f1f3.png
+#!1f1f0-1f1f5.png
+#!1f1f0-1f1f7.png
+#!1f1f0-1f1fc.png
+#!1f1f0-1f1fe.png
+#!1f1f0-1f1ff.png
+1f1f0.png					🇰
+#!1f1f1-1f1e6.png
+#!1f1f1-1f1e7.png
+#!1f1f1-1f1e8.png
+#!1f1f1-1f1ee.png
+#!1f1f1-1f1f0.png
+#!1f1f1-1f1f7.png
+#!1f1f1-1f1f8.png
+#!1f1f1-1f1f9.png
+#!1f1f1-1f1fa.png
+#!1f1f1-1f1fb.png
+#!1f1f1-1f1fe.png
+1f1f1.png					🇱
+#!1f1f2-1f1e6.png
+#!1f1f2-1f1e8.png
+#!1f1f2-1f1e9.png
+#!1f1f2-1f1ea.png
+#!1f1f2-1f1eb.png
+#!1f1f2-1f1ec.png
+#!1f1f2-1f1ed.png
+#!1f1f2-1f1f0.png
+#!1f1f2-1f1f1.png
+#!1f1f2-1f1f2.png
+#!1f1f2-1f1f3.png
+#!1f1f2-1f1f4.png
+#!1f1f2-1f1f5.png
+#!1f1f2-1f1f6.png
+#!1f1f2-1f1f7.png
+#!1f1f2-1f1f8.png
+#!1f1f2-1f1f9.png
+#!1f1f2-1f1fa.png
+#!1f1f2-1f1fb.png
+#!1f1f2-1f1fc.png
+#!1f1f2-1f1fd.png
+#!1f1f2-1f1fe.png
+#!1f1f2-1f1ff.png
+1f1f2.png					🇲
+#!1f1f3-1f1e6.png
+#!1f1f3-1f1e8.png
+#!1f1f3-1f1ea.png
+#!1f1f3-1f1eb.png
+#!1f1f3-1f1ec.png
+#!1f1f3-1f1ee.png
+#!1f1f3-1f1f1.png
+#!1f1f3-1f1f4.png
+#!1f1f3-1f1f5.png
+#!1f1f3-1f1f7.png
+#!1f1f3-1f1fa.png
+#!1f1f3-1f1ff.png
+1f1f3.png					🇳
+#!1f1f4-1f1f2.png
+1f1f4.png					🇴
+#!1f1f5-1f1e6.png
+#!1f1f5-1f1ea.png
+#!1f1f5-1f1eb.png
+#!1f1f5-1f1ec.png
+#!1f1f5-1f1ed.png
+#!1f1f5-1f1f0.png
+#!1f1f5-1f1f1.png
+#!1f1f5-1f1f2.png
+#!1f1f5-1f1f3.png
+#!1f1f5-1f1f7.png
+#!1f1f5-1f1f8.png
+#!1f1f5-1f1f9.png
+#!1f1f5-1f1fc.png
+#!1f1f5-1f1fe.png
+1f1f5.png					🇵
+#!1f1f6-1f1e6.png
+1f1f6.png					🇶
+#!1f1f7-1f1ea.png
+#!1f1f7-1f1f4.png
+#!1f1f7-1f1f8.png
+#!1f1f7-1f1fa.png
+#!1f1f7-1f1fc.png
+1f1f7.png					🇷
+#!1f1f8-1f1e6.png
+#!1f1f8-1f1e7.png
+#!1f1f8-1f1e8.png
+#!1f1f8-1f1e9.png
+#!1f1f8-1f1ea.png
+#!1f1f8-1f1ec.png
+#!1f1f8-1f1ed.png
+#!1f1f8-1f1ee.png
+#!1f1f8-1f1ef.png
+#!1f1f8-1f1f0.png
+#!1f1f8-1f1f1.png
+#!1f1f8-1f1f2.png
+#!1f1f8-1f1f3.png
+#!1f1f8-1f1f4.png
+#!1f1f8-1f1f7.png
+#!1f1f8-1f1f8.png
+#!1f1f8-1f1f9.png
+#!1f1f8-1f1fa.png
+#!1f1f8-1f1fb.png
+#!1f1f8-1f1fd.png
+#!1f1f8-1f1fe.png
+#!1f1f8-1f1ff.png
+1f1f8.png					🇸
+#!1f1f9-1f1e6.png
+#!1f1f9-1f1e8.png
+#!1f1f9-1f1e9.png
+#!1f1f9-1f1eb.png
+#!1f1f9-1f1ec.png
+#!1f1f9-1f1ed.png
+#!1f1f9-1f1ef.png
+#!1f1f9-1f1f0.png
+#!1f1f9-1f1f1.png
+#!1f1f9-1f1f2.png
+#!1f1f9-1f1f3.png
+#!1f1f9-1f1f4.png
+#!1f1f9-1f1f7.png
+#!1f1f9-1f1f9.png
+#!1f1f9-1f1fb.png
+#!1f1f9-1f1fc.png
+#!1f1f9-1f1ff.png
+1f1f9.png					🇹
+#!1f1fa-1f1e6.png
+#!1f1fa-1f1ec.png
+#!1f1fa-1f1f2.png
+#!1f1fa-1f1f8.png
+#!1f1fa-1f1fe.png
+#!1f1fa-1f1ff.png
+1f1fa.png					🇺
+#!1f1fb-1f1e6.png
+#!1f1fb-1f1e8.png
+#!1f1fb-1f1ea.png
+#!1f1fb-1f1ec.png
+#!1f1fb-1f1ee.png
+#!1f1fb-1f1f3.png
+#!1f1fb-1f1fa.png
+1f1fb.png					🇻
+#!1f1fc-1f1eb.png
+#!1f1fc-1f1f8.png
+1f1fc.png					🇼
+#!1f1fd-1f1f0.png
+1f1fd.png					🇽
+#!1f1fe-1f1ea.png
+#!1f1fe-1f1f9.png
+1f1fe.png					🇾
+#!1f1ff-1f1e6.png
+#!1f1ff-1f1f2.png
+#!1f1ff-1f1fc.png
+1f1ff.png					🇿
+1f201.png					🈁
+1f202.png					🈂
+1f21a.png					🈚
+1f22f.png					🈯
+1f232.png					🈲
+1f233.png					🈳
+1f234.png					🈴
+1f235.png					🈵
+1f236.png					🈶
+1f237.png					🈷
+1f238.png					🈸
+1f239.png					🈹
+1f23a.png					🈺
+1f250.png					🉐
+1f251.png					🉑
+1f300.png					🌀
+1f301.png					🌁
+1f302.png					🌂
+1f303.png					🌃
+1f304.png					🌄
+1f305.png					🌅
+1f306.png					🌆
+1f307.png					🌇
+1f308.png					🌈
+1f309.png					🌉
+1f30a.png					🌊
+1f30b.png					🌋
+1f30c.png					🌌
+1f30d.png					🌍
+1f30e.png					🌎
+1f30f.png					🌏
+1f310.png					🌐
+1f311.png					🌑
+1f312.png					🌒
+1f313.png					🌓
+1f314.png					🌔
+1f315.png					🌕
+1f316.png					🌖
+1f317.png					🌗
+1f318.png					🌘
+1f319.png					🌙
+1f31a.png					🌚
+1f31b.png					🌛
+1f31c.png					🌜
+1f31d.png					🌝
+#!1f31e-1f576.png
+1f31e.png					🌞
+1f31f.png					🌟
+1f320.png					🌠
+1f321.png					🌡
+1f322.png					🌢
+1f323.png					🌣
+1f324.png					🌤
+1f325.png					🌥
+1f326.png					🌦
+1f327.png					🌧
+1f328.png					🌨
+1f329.png					🌩
+1f32a.png					🌪
+1f32b.png					🌫
+1f32c.png					🌬
+1f32d.png					🌭
+1f32e.png					🌮
+1f32f.png					🌯
+1f330.png					🌰
+1f331.png					🌱
+1f332.png					🌲
+1f333.png					🌳
+1f334.png					🌴
+1f335.png					🌵
+1f336.png					🌶
+1f337.png					🌷
+1f338.png					🌸
+1f339.png					🌹
+1f33a.png					🌺
+1f33b.png					🌻
+1f33c.png					🌼
+1f33d.png					🌽
+1f33e.png					🌾
+1f33f.png					🌿
+1f340.png					🍀
+1f341.png					🍁
+1f342.png					🍂
+1f343.png					🍃
+1f344.png					🍄
+1f345.png					🍅
+1f346.png					🍆
+1f347.png					🍇
+1f348.png					🍈
+1f349.png					🍉
+1f34a.png					🍊
+1f34b.png					🍋
+1f34c.png					🍌
+1f34d.png					🍍
+1f34e.png					🍎
+1f34f.png					🍏
+1f350.png					🍐
+1f351.png					🍑
+1f352.png					🍒
+1f353.png					🍓
+1f354.png					🍔
+1f355.png					🍕
+1f356.png					🍖
+1f357.png					🍗
+1f358.png					🍘
+1f359.png					🍙
+1f35a.png					🍚
+1f35b.png					🍛
+1f35c.png					🍜
+1f35d.png					🍝
+1f35e.png					🍞
+1f35f.png					🍟
+1f360.png					🍠
+1f361.png					🍡
+1f362.png					🍢
+1f363.png					🍣
+1f364.png					🍤
+1f365.png					🍥
+1f366.png					🍦
+1f367.png					🍧
+1f368.png					🍨
+1f369.png					🍩
+1f36a.png					🍪
+1f36b.png					🍫
+1f36c.png					🍬
+1f36d.png					🍭
+1f36e.png					🍮
+1f36f.png					🍯
+1f370.png					🍰
+1f371.png					🍱
+1f372.png					🍲
+1f373.png					🍳
+1f374.png					🍴
+1f375.png					🍵
+1f376.png					🍶
+1f377.png					🍷
+1f378.png					🍸
+1f379.png					🍹
+1f37a.png					🍺
+1f37b.png					🍻
+1f37c.png					🍼
+1f37d.png					🍽
+1f37e.png					🍾
+1f37f.png					🍿
+1f380.png					🎀
+1f381.png					🎁
+1f382.png					🎂
+1f383.png					🎃
+1f384.png					🎄
+#!1f385-1f3fb.png
+#!1f385-1f3fc.png
+#!1f385-1f3fd.png
+#!1f385-1f3fe.png
+#!1f385-1f3ff.png
+1f385.png					🎅
+1f386.png					🎆
+1f387.png					🎇
+1f388.png					🎈
+1f389.png					🎉
+1f38a.png					🎊
+1f38b.png					🎋
+1f38c.png					🎌
+1f38d.png					🎍
+1f38e.png					🎎
+1f38f.png					🎏
+1f390.png					🎐
+1f391.png					🎑
+1f392.png					🎒
+1f393.png					🎓
+1f395.png					🎕
+1f396.png					🎖
+1f397.png					🎗
+1f399.png					🎙
+1f39a.png					🎚
+1f39b.png					🎛
+1f39e.png					🎞
+1f39f.png					🎟
+1f3a0.png					🎠
+1f3a1.png					🎡
+1f3a2.png					🎢
+1f3a3.png					🎣
+1f3a4.png					🎤
+1f3a5.png					🎥
+1f3a6.png					🎦
+1f3a7.png					🎧
+1f3a8.png					🎨
+1f3a9.png					🎩
+1f3aa.png					🎪
+1f3ab.png					🎫
+1f3ac.png					🎬
+1f3ad.png					🎭
+1f3ae.png					🎮
+1f3af.png					🎯
+1f3b0.png					🎰
+1f3b1.png					🎱
+1f3b2.png					🎲
+1f3b3.png					🎳
+1f3b4.png					🎴
+1f3b5.png					🎵
+1f3b6.png					🎶
+1f3b7.png					🎷
+1f3b8.png					🎸
+1f3b9.png					🎹
+1f3ba.png					🎺
+1f3bb.png					🎻
+1f3bc.png					🎼
+1f3bd.png					🎽
+1f3be.png					🎾
+1f3bf.png					🎿
+1f3c0.png					🏀
+1f3c1.png					🏁
+1f3c2.png					🏂
+#!1f3c3-1f3fb.png
+#!1f3c3-1f3fc.png
+#!1f3c3-1f3fd.png
+#!1f3c3-1f3fe.png
+#!1f3c3-1f3ff.png
+1f3c3.png					🏃
+#!1f3c4-1f3fb.png
+#!1f3c4-1f3fc.png
+#!1f3c4-1f3fd.png
+#!1f3c4-1f3fe.png
+#!1f3c4-1f3ff.png
+1f3c4.png					🏄
+1f3c5.png					🏅
+1f3c6.png					🏆
+#!1f3c7-1f3fb.png
+#!1f3c7-1f3fc.png
+#!1f3c7-1f3fd.png
+#!1f3c7-1f3fe.png
+#!1f3c7-1f3ff.png
+1f3c7.png					🏇
+1f3c8.png					🏈
+1f3c9.png					🏉
+#!1f3ca-1f3fb.png
+#!1f3ca-1f3fc.png
+#!1f3ca-1f3fd.png
+#!1f3ca-1f3fe.png
+#!1f3ca-1f3ff.png
+1f3ca.png					🏊
+#!1f3cb-1f3fb.png
+#!1f3cb-1f3fc.png
+#!1f3cb-1f3fd.png
+#!1f3cb-1f3fe.png
+#!1f3cb-1f3ff.png
+1f3cb.png					🏋
+1f3cc.png					🏌
+1f3cd.png					🏍
+1f3ce.png					🏎
+1f3cf.png					🏏
+1f3d0.png					🏐
+1f3d1.png					🏑
+1f3d2.png					🏒
+1f3d3.png					🏓
+1f3d4.png					🏔
+1f3d5.png					🏕
+1f3d6.png					🏖
+1f3d7.png					🏗
+1f3d8.png					🏘
+1f3d9.png					🏙
+1f3da.png					🏚
+1f3db.png					🏛
+1f3dc.png					🏜
+1f3dd.png					🏝
+1f3de.png					🏞
+1f3df.png					🏟
+1f3e0.png					🏠
+1f3e1.png					🏡
+1f3e2.png					🏢
+1f3e3.png					🏣
+1f3e4.png					🏤
+1f3e5.png					🏥
+1f3e6.png					🏦
+1f3e7.png					🏧
+1f3e8.png					🏨
+1f3e9.png					🏩
+1f3ea.png					🏪
+1f3eb.png					🏫
+1f3ec.png					🏬
+1f3ed.png					🏭
+1f3ee.png					🏮
+1f3ef.png					🏯
+1f3f0.png					🏰
+1f3f1.png					🏱
+1f3f2.png					🏲
+#!1f3f3-1f308.png
+1f3f3.png					🏳
+#!1f3f4-2620.png
+#!1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png
+#!1f3f4-e0067-e0062-e006e-e0069-e0072-e007f.png
+#!1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.png
+#!1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.png
+1f3f4.png					🏴
+1f3f5.png					🏵
+1f3f7.png					🏷
+1f3f8.png					🏸
+1f3f9.png					🏹
+1f3fa.png					🏺
+1f3fb.png					🏻
+1f3fc.png					🏼
+1f3fd.png					🏽
+1f3fe.png					🏾
+1f3ff.png					🏿
+1f400.png					🐀
+1f401.png					🐁
+1f402.png					🐂
+1f403.png					🐃
+1f404.png					🐄
+1f405.png					🐅
+1f406.png					🐆
+1f407.png					🐇
+1f408.png					🐈
+1f409.png					🐉
+#!1f40a-1f464.png
+1f40a.png					🐊
+1f40b.png					🐋
+1f40c.png					🐌
+1f40d.png					🐍
+1f40e.png					🐎
+#!1f40f-1f464.png
+1f40f.png					🐏
+1f410.png					🐐
+1f411.png					🐑
+1f412.png					🐒
+#!1f413-1f464.png
+1f413.png					🐓
+#!1f414-1f464.png
+1f414.png					🐔
+1f415.png					🐕
+1f416.png					🐖
+#!1f417-1f464.png
+1f417.png					🐗
+#!1f418-1f464.png
+1f418.png					🐘
+1f419.png					🐙
+1f41a.png					🐚
+1f41b.png					🐛
+1f41c.png					🐜
+1f41d.png					🐝
+1f41e.png					🐞
+1f41f.png					🐟
+1f420.png					🐠
+1f421.png					🐡
+1f422.png					🐢
+1f423.png					🐣
+1f424.png					🐤
+1f425.png					🐥
+1f426.png					🐦
+1f427.png					🐧
+#!1f428-1f464.png
+1f428.png					🐨
+#!1f429-1f464.png
+1f429.png					🐩
+#!1f42a-1f464.png
+1f42a.png					🐪
+#!1f42b-1f464.png
+1f42b.png					🐫
+1f42c.png					🐬
+1f42d.png					🐭
+1f42e.png					🐮
+1f42f.png					🐯
+1f430.png					🐰
+1f431.png					🐱
+1f432.png					🐲
+1f433.png					🐳
+1f434.png					🐴
+1f435.png					🐵
+1f436.png					🐶
+1f437.png					🐷
+1f438.png					🐸
+1f439.png					🐹
+1f43a.png					🐺
+1f43b.png					🐻
+1f43c.png					🐼
+1f43d.png					🐽
+1f43e.png					🐾
+1f43f.png					🐿
+1f440.png					👀
+#!1f441-1f5e8.png
+1f441.png					👁
+#!1f442-1f3fb.png
+#!1f442-1f3fc.png
+#!1f442-1f3fd.png
+#!1f442-1f3fe.png
+#!1f442-1f3ff.png
+1f442.png					👂
+#!1f443-1f3fb.png
+#!1f443-1f3fc.png
+#!1f443-1f3fd.png
+#!1f443-1f3fe.png
+#!1f443-1f3ff.png
+1f443.png					👃
+1f444.png					👄
+1f445.png					👅
+#!1f446-1f3fb.png
+#!1f446-1f3fc.png
+#!1f446-1f3fd.png
+#!1f446-1f3fe.png
+#!1f446-1f3ff.png
+1f446.png					👆
+#!1f447-1f3fb.png
+#!1f447-1f3fc.png
+#!1f447-1f3fd.png
+#!1f447-1f3fe.png
+#!1f447-1f3ff.png
+1f447.png					👇
+#!1f448-1f3fb.png
+#!1f448-1f3fc.png
+#!1f448-1f3fd.png
+#!1f448-1f3fe.png
+#!1f448-1f3ff.png
+1f448.png					👈
+#!1f449-1f3fb.png
+#!1f449-1f3fc.png
+#!1f449-1f3fd.png
+#!1f449-1f3fe.png
+#!1f449-1f3ff.png
+1f449.png					👉
+#!1f44a-1f3fb.png
+#!1f44a-1f3fc.png
+#!1f44a-1f3fd.png
+#!1f44a-1f3fe.png
+#!1f44a-1f3ff.png
+1f44a.png					👊
+#!1f44b-1f3fb.png
+#!1f44b-1f3fc.png
+#!1f44b-1f3fd.png
+#!1f44b-1f3fe.png
+#!1f44b-1f3ff.png
+1f44b.png					👋
+#!1f44c-1f3fb.png
+#!1f44c-1f3fc.png
+#!1f44c-1f3fd.png
+#!1f44c-1f3fe.png
+#!1f44c-1f3ff.png
+1f44c.png					👌
+#!1f44d-1f3fb.png
+#!1f44d-1f3fc.png
+#!1f44d-1f3fd.png
+#!1f44d-1f3fe.png
+#!1f44d-1f3ff.png
+1f44d.png					👍
+#!1f44e-1f3fb.png
+#!1f44e-1f3fc.png
+#!1f44e-1f3fd.png
+#!1f44e-1f3fe.png
+#!1f44e-1f3ff.png
+1f44e.png					👎
+#!1f44f-1f3fb.png
+#!1f44f-1f3fc.png
+#!1f44f-1f3fd.png
+#!1f44f-1f3fe.png
+#!1f44f-1f3ff.png
+1f44f.png					👏
+#!1f450-1f3fb.png
+#!1f450-1f3fc.png
+#!1f450-1f3fd.png
+#!1f450-1f3fe.png
+#!1f450-1f3ff.png
+1f450.png					👐
+1f451.png					👑
+1f452.png					👒
+1f453.png					👓
+1f454.png					👔
+1f455.png					👕
+1f456.png					👖
+1f457.png					👗
+1f458.png					👘
+1f459.png					👙
+1f45a.png					👚
+1f45b.png					👛
+1f45c.png					👜
+1f45d.png					👝
+1f45e.png					👞
+1f45f.png					👟
+1f460.png					👠
+1f461.png					👡
+1f462.png					👢
+1f463.png					👣
+1f464.png					👤
+1f465.png					👥
+#!1f466-1f3fb.png
+#!1f466-1f3fc.png
+#!1f466-1f3fd.png
+#!1f466-1f3fe.png
+#!1f466-1f3ff.png
+1f466.png					👦
+#!1f467-1f3fb.png
+#!1f467-1f3fc.png
+#!1f467-1f3fd.png
+#!1f467-1f3fe.png
+#!1f467-1f3ff.png
+1f467.png					👧
+#!1f468-1f3fb.png
+#!1f468-1f3fc.png
+#!1f468-1f3fd.png
+#!1f468-1f3fe.png
+#!1f468-1f3ff.png
+#!1f468-1f468-1f466-1f466.png
+#!1f468-1f468-1f466.png
+#!1f468-1f468-1f467-1f466.png
+#!1f468-1f468-1f467-1f467.png
+#!1f468-1f468-1f467.png
+#!1f468-1f469-1f466-1f466.png
+#!1f468-1f469-1f466.png
+#!1f468-1f469-1f467-1f466.png
+#!1f468-1f469-1f467-1f467.png
+#!1f468-1f469-1f467.png
+#!1f468-2764-1f468.png
+#!1f468-2764-1f48b-1f468.png
+1f468.png					👨
+#!1f469-1f3fb.png
+#!1f469-1f3fc.png
+#!1f469-1f3fd.png
+#!1f469-1f3fe.png
+#!1f469-1f3ff.png
+#!1f469-1f469-1f466-1f466.png
+#!1f469-1f469-1f466.png
+#!1f469-1f469-1f467-1f466.png
+#!1f469-1f469-1f467-1f467.png
+#!1f469-1f469-1f467.png
+#!1f469-2764-1f469.png
+#!1f469-2764-1f48b-1f469.png
+1f469.png					👩
+1f46a.png					👪
+1f46b.png					👫
+1f46c.png					👬
+1f46d.png					👭
+#!1f46e-1f3fb.png
+#!1f46e-1f3fc.png
+#!1f46e-1f3fd.png
+#!1f46e-1f3fe.png
+#!1f46e-1f3ff.png
+1f46e.png					👮
+1f46f.png					👯
+#!1f470-1f3fb.png
+#!1f470-1f3fc.png
+#!1f470-1f3fd.png
+#!1f470-1f3fe.png
+#!1f470-1f3ff.png
+1f470.png					👰
+#!1f471-1f3fb.png
+#!1f471-1f3fc.png
+#!1f471-1f3fd.png
+#!1f471-1f3fe.png
+#!1f471-1f3ff.png
+1f471.png					👱
+#!1f472-1f3fb.png
+#!1f472-1f3fc.png
+#!1f472-1f3fd.png
+#!1f472-1f3fe.png
+#!1f472-1f3ff.png
+1f472.png					👲
+#!1f473-1f3fb.png
+#!1f473-1f3fc.png
+#!1f473-1f3fd.png
+#!1f473-1f3fe.png
+#!1f473-1f3ff.png
+1f473.png					👳
+#!1f474-1f3fb.png
+#!1f474-1f3fc.png
+#!1f474-1f3fd.png
+#!1f474-1f3fe.png
+#!1f474-1f3ff.png
+1f474.png					👴
+#!1f475-1f3fb.png
+#!1f475-1f3fc.png
+#!1f475-1f3fd.png
+#!1f475-1f3fe.png
+#!1f475-1f3ff.png
+1f475.png					👵
+#!1f476-1f3fb.png
+#!1f476-1f3fc.png
+#!1f476-1f3fd.png
+#!1f476-1f3fe.png
+#!1f476-1f3ff.png
+1f476.png					👶
+#!1f477-1f3fb.png
+#!1f477-1f3fc.png
+#!1f477-1f3fd.png
+#!1f477-1f3fe.png
+#!1f477-1f3ff.png
+1f477.png					👷
+#!1f478-1f3fb.png
+#!1f478-1f3fc.png
+#!1f478-1f3fd.png
+#!1f478-1f3fe.png
+#!1f478-1f3ff.png
+1f478.png					👸
+1f479.png					👹
+1f47a.png					👺
+1f47b.png					👻
+#!1f47c-1f3fb.png
+#!1f47c-1f3fc.png
+#!1f47c-1f3fd.png
+#!1f47c-1f3fe.png
+#!1f47c-1f3ff.png
+1f47c.png					👼
+1f47d.png					👽
+1f47e.png					👾
+1f47f.png					👿
+1f480.png					💀
+#!1f481-1f3fb.png
+#!1f481-1f3fc.png
+#!1f481-1f3fd.png
+#!1f481-1f3fe.png
+#!1f481-1f3ff.png
+1f481.png					💁
+#!1f482-1f3fb.png
+#!1f482-1f3fc.png
+#!1f482-1f3fd.png
+#!1f482-1f3fe.png
+#!1f482-1f3ff.png
+1f482.png					💂
+#!1f483-1f3fb.png
+#!1f483-1f3fc.png
+#!1f483-1f3fd.png
+#!1f483-1f3fe.png
+#!1f483-1f3ff.png
+1f483.png					💃
+1f484.png					💄
+#!1f485-1f3fb.png
+#!1f485-1f3fc.png
+#!1f485-1f3fd.png
+#!1f485-1f3fe.png
+#!1f485-1f3ff.png
+1f485.png					💅
+#!1f486-1f3fb.png
+#!1f486-1f3fc.png
+#!1f486-1f3fd.png
+#!1f486-1f3fe.png
+#!1f486-1f3ff.png
+1f486.png					💆
+#!1f487-1f3fb.png
+#!1f487-1f3fc.png
+#!1f487-1f3fd.png
+#!1f487-1f3fe.png
+#!1f487-1f3ff.png
+1f487.png					💇
+1f488.png					💈
+1f489.png					💉
+1f48a.png					💊
+1f48b.png					💋
+1f48c.png					💌
+1f48d.png					💍
+1f48e.png					💎
+1f48f.png					💏
+1f490.png					💐
+1f491.png					💑
+1f492.png					💒
+1f493.png					💓
+1f494.png					💔
+1f495.png					💕
+1f496.png					💖
+1f497.png					💗
+1f498.png					💘
+1f499.png					💙
+1f49a.png					💚
+1f49b.png					💛
+1f49c.png					💜
+1f49d.png					💝
+1f49e.png					💞
+1f49f.png					💟
+1f4a0.png					💠
+1f4a1.png					💡
+1f4a2.png					💢
+1f4a3.png					💣
+1f4a4.png					💤
+1f4a5.png					💥
+1f4a6.png					💦
+1f4a7.png					💧
+1f4a8.png					💨
+1f4a9.png					💩
+#!1f4aa-1f3fb.png
+#!1f4aa-1f3fc.png
+#!1f4aa-1f3fd.png
+#!1f4aa-1f3fe.png
+#!1f4aa-1f3ff.png
+1f4aa.png					💪
+1f4ab.png					💫
+1f4ac.png					💬
+1f4ad.png					💭
+1f4ae.png					💮
+1f4af.png					💯
+1f4b0.png					💰
+1f4b1.png					💱
+1f4b2.png					💲
+1f4b3.png					💳
+1f4b4.png					💴
+1f4b5.png					💵
+1f4b6.png					💶
+1f4b7.png					💷
+1f4b8.png					💸
+1f4b9.png					💹
+1f4ba.png					💺
+1f4bb.png					💻
+1f4bc.png					💼
+1f4bd.png					💽
+1f4be.png					💾
+1f4bf.png					💿
+1f4c0.png					📀
+1f4c1.png					📁
+1f4c2.png					📂
+1f4c3.png					📃
+1f4c4.png					📄
+1f4c5.png					📅
+1f4c6.png					📆
+1f4c7.png					📇
+1f4c8.png					📈
+1f4c9.png					📉
+1f4ca.png					📊
+1f4cb.png					📋
+1f4cc.png					📌
+1f4cd.png					📍
+1f4ce.png					📎
+1f4cf.png					📏
+1f4d0.png					📐
+1f4d1.png					📑
+1f4d2.png					📒
+1f4d3.png					📓
+1f4d4.png					📔
+1f4d5.png					📕
+1f4d6.png					📖
+1f4d7.png					📗
+1f4d8.png					📘
+1f4d9.png					📙
+1f4da.png					📚
+1f4db.png					📛
+1f4dc.png					📜
+1f4dd.png					📝
+1f4de.png					📞
+1f4df.png					📟
+1f4e0.png					📠
+1f4e1.png					📡
+1f4e2.png					📢
+1f4e3.png					📣
+1f4e4.png					📤
+1f4e5.png					📥
+1f4e6.png					📦
+1f4e7.png					📧
+1f4e8.png					📨
+1f4e9.png					📩
+1f4ea.png					📪
+1f4eb.png					📫
+1f4ec.png					📬
+1f4ed.png					📭
+1f4ee.png					📮
+1f4ef.png					📯
+1f4f0.png					📰
+1f4f1.png					📱
+1f4f2.png					📲
+1f4f3.png					📳
+1f4f4.png					📴
+1f4f5.png					📵
+1f4f6.png					📶
+1f4f7.png					📷
+1f4f8.png					📸
+1f4f9.png					📹
+1f4fa.png					📺
+1f4fb.png					📻
+1f4fc.png					📼
+1f4fd.png					📽
+1f4ff.png					📿
+1f500.png					🔀
+1f501.png					🔁
+1f502.png					🔂
+1f503.png					🔃
+1f504.png					🔄
+1f505.png					🔅
+1f506.png					🔆
+1f507.png					🔇
+1f508.png					🔈
+1f509.png					🔉
+1f50a.png					🔊
+1f50b.png					🔋
+1f50c.png					🔌
+1f50d.png					🔍
+1f50e.png					🔎
+1f50f.png					🔏
+1f510.png					🔐
+1f511.png					🔑
+1f512.png					🔒
+1f513.png					🔓
+1f514.png					🔔
+1f515.png					🔕
+1f516.png					🔖
+1f517.png					🔗
+1f518.png					🔘
+1f519.png					🔙
+1f51a.png					🔚
+1f51b.png					🔛
+1f51c.png					🔜
+1f51d.png					🔝
+1f51e.png					🔞
+1f51f.png					🔟
+1f520.png					🔠
+1f521.png					🔡
+1f522.png					🔢
+1f523.png					🔣
+1f524.png					🔤
+1f525.png					🔥
+1f526.png					🔦
+1f527.png					🔧
+1f528.png					🔨
+1f529.png					🔩
+1f52a.png					🔪
+1f52b.png					🔫
+1f52c.png					🔬
+1f52d.png					🔭
+1f52e.png					🔮
+1f52f.png					🔯
+1f530.png					🔰
+1f531.png					🔱
+1f532.png					🔲
+1f533.png					🔳
+1f534.png					🔴
+1f535.png					🔵
+1f536.png					🔶
+1f537.png					🔷
+1f538.png					🔸
+1f539.png					🔹
+1f53a.png					🔺
+1f53b.png					🔻
+1f53c.png					🔼
+1f53d.png					🔽
+1f540.png					🕀
+1f541.png					🕁
+1f542.png					🕂
+1f546.png					🕆
+1f547.png					🕇
+1f548.png					🕈
+1f549.png					🕉
+1f54a.png					🕊
+1f54b.png					🕋
+1f54c.png					🕌
+1f54d.png					🕍
+1f54e.png					🕎
+1f550.png					🕐
+1f551.png					🕑
+1f552.png					🕒
+1f553.png					🕓
+1f554.png					🕔
+1f555.png					🕕
+1f556.png					🕖
+1f557.png					🕗
+1f558.png					🕘
+1f559.png					🕙
+1f55a.png					🕚
+1f55b.png					🕛
+1f55c.png					🕜
+1f55d.png					🕝
+1f55e.png					🕞
+1f55f.png					🕟
+1f560.png					🕠
+1f561.png					🕡
+1f562.png					🕢
+1f563.png					🕣
+1f564.png					🕤
+1f565.png					🕥
+1f566.png					🕦
+1f567.png					🕧
+1f568.png					🕨
+1f569.png					🕩
+1f56a.png					🕪
+1f56d.png					🕭
+1f56e.png					🕮
+1f56f.png					🕯
+1f570.png					🕰
+1f571.png					🕱
+1f572.png					🕲
+1f573.png					🕳
+1f574.png					🕴
+#!1f575-1f3fb.png
+#!1f575-1f3fc.png
+#!1f575-1f3fd.png
+#!1f575-1f3fe.png
+#!1f575-1f3ff.png
+1f575.png					🕵
+#!1f576-1f535-1f534.png
+1f576.png					🕶
+1f577.png					🕷
+1f578.png					🕸
+1f579.png					🕹
+#!1f57a-1f3fb.png
+#!1f57a-1f3fc.png
+#!1f57a-1f3fd.png
+#!1f57a-1f3fe.png
+#!1f57a-1f3ff.png
+1f57a.png					🕺
+1f57b.png					🕻
+1f57c.png					🕼
+1f57d.png					🕽
+1f582.png					🖂
+1f584.png					🖄
+1f585.png					🖅
+1f587.png					🖇
+1f588.png					🖈
+1f589.png					🖉
+1f58a.png					🖊
+1f58b.png					🖋
+1f58c.png					🖌
+1f58d.png					🖍
+#!1f58e-1f3fb.png
+#!1f58e-1f3fc.png
+#!1f58e-1f3fd.png
+#!1f58e-1f3fe.png
+#!1f58e-1f3ff.png
+1f58e.png					🖎
+#!1f590-1f3fb.png
+#!1f590-1f3fc.png
+#!1f590-1f3fd.png
+#!1f590-1f3fe.png
+#!1f590-1f3ff.png
+1f590.png					🖐
+#!1f595-1f3fb.png
+#!1f595-1f3fc.png
+#!1f595-1f3fd.png
+#!1f595-1f3fe.png
+#!1f595-1f3ff.png
+1f595.png					🖕
+#!1f596-1f3fb.png
+#!1f596-1f3fc.png
+#!1f596-1f3fd.png
+#!1f596-1f3fe.png
+#!1f596-1f3ff.png
+1f596.png					🖖
+#!1f597-1f3fb.png
+#!1f597-1f3fc.png
+#!1f597-1f3fd.png
+#!1f597-1f3fe.png
+#!1f597-1f3ff.png
+1f597.png					🖗
+1f598.png					🖘
+1f599.png					🖙
+1f59c.png					🖜
+1f59d.png					🖝
+1f59e.png					🖞
+1f59f.png					🖟
+1f5a2.png					🖢
+1f5a3.png					🖣
+1f5a4.png					🖤
+1f5a5.png					🖥
+1f5a6.png					🖦
+1f5a7.png					🖧
+1f5a8.png					🖨
+1f5ae.png					🖮
+1f5b1.png					🖱
+1f5b2.png					🖲
+1f5bc.png					🖼
+1f5bf.png					🖿
+1f5c0.png					🗀
+1f5c1.png					🗁
+1f5c2.png					🗂
+1f5c3.png					🗃
+1f5c4.png					🗄
+1f5c8.png					🗈
+1f5d1.png					🗑
+1f5d2.png					🗒
+1f5d3.png					🗓
+1f5d8.png					🗘
+1f5d9.png					🗙
+1f5dc.png					🗜
+1f5dd.png					🗝
+1f5de.png					🗞
+1f5e1.png					🗡
+1f5e2.png					🗢
+1f5e3.png					🗣
+1f5e8.png					🗨
+1f5e9.png					🗩
+1f5ec.png					🗬
+1f5ed.png					🗭
+1f5ee.png					🗮
+1f5ef.png					🗯
+1f5f3.png					🗳
+1f5fa.png					🗺
+1f5fb.png					🗻
+1f5fc.png					🗼
+1f5fd.png					🗽
+1f5fe.png					🗾
+1f5ff.png					🗿
+1f600.png					😀
+1f601.png					😁
+1f602.png					😂
+1f603.png					😃
+1f604.png					😄
+1f605.png					😅
+1f606.png					😆
+1f607.png					😇
+1f608.png					😈
+1f609.png					😉
+1f60a.png					😊
+1f60b.png					😋
+1f60c.png					😌
+1f60d.png					😍
+1f60e.png					😎
+1f60f.png					😏
+1f610.png					😐
+1f611.png					😑
+1f612.png					😒
+1f613.png					😓
+1f614.png					😔
+1f615.png					😕
+1f616.png					😖
+1f617.png					😗
+1f618.png					😘
+1f619.png					😙
+1f61a.png					😚
+1f61b.png					😛
+1f61c.png					😜
+1f61d.png					😝
+#!1f61e-1f494.png
+1f61e.png					😞
+1f61f.png					😟
+1f620.png					😠
+1f621.png					😡
+1f622.png					😢
+1f623.png					😣
+1f624.png					😤
+1f625.png					😥
+1f626.png					😦
+1f627.png					😧
+1f628.png					😨
+1f629.png					😩
+1f62a.png					😪
+1f62b.png					😫
+1f62c.png					😬
+1f62d.png					😭
+1f62e.png					😮
+1f62f.png					😯
+1f630.png					😰
+1f631.png					😱
+1f632.png					😲
+1f633.png					😳
+1f634.png					😴
+1f635.png					😵
+1f636.png					😶
+1f637.png					😷
+1f638.png					😸
+1f639.png					😹
+1f63a.png					😺
+1f63b.png					😻
+1f63c.png					😼
+1f63d.png					😽
+1f63e.png					😾
+1f63f.png					😿
+1f640.png					🙀
+1f641.png					🙁
+1f642.png					🙂
+1f643.png					🙃
+1f644.png					🙄
+#!1f645-1f3fb.png
+#!1f645-1f3fc.png
+#!1f645-1f3fd.png
+#!1f645-1f3fe.png
+#!1f645-1f3ff.png
+1f645.png					🙅
+#!1f646-1f3fb.png
+#!1f646-1f3fc.png
+#!1f646-1f3fd.png
+#!1f646-1f3fe.png
+#!1f646-1f3ff.png
+1f646.png					🙆
+#!1f647-1f3fb.png
+#!1f647-1f3fc.png
+#!1f647-1f3fd.png
+#!1f647-1f3fe.png
+#!1f647-1f3ff.png
+1f647.png					🙇
+1f648.png					🙈
+1f649.png					🙉
+1f64a.png					🙊
+#!1f64b-1f3fb.png
+#!1f64b-1f3fc.png
+#!1f64b-1f3fd.png
+#!1f64b-1f3fe.png
+#!1f64b-1f3ff.png
+1f64b.png					🙋
+#!1f64c-1f3fb.png
+#!1f64c-1f3fc.png
+#!1f64c-1f3fd.png
+#!1f64c-1f3fe.png
+#!1f64c-1f3ff.png
+1f64c.png					🙌
+#!1f64d-1f3fb.png
+#!1f64d-1f3fc.png
+#!1f64d-1f3fd.png
+#!1f64d-1f3fe.png
+#!1f64d-1f3ff.png
+1f64d.png					🙍
+#!1f64e-1f3fb.png
+#!1f64e-1f3fc.png
+#!1f64e-1f3fd.png
+#!1f64e-1f3fe.png
+#!1f64e-1f3ff.png
+1f64e.png					🙎
+#!1f64f-1f3fb.png
+#!1f64f-1f3fc.png
+#!1f64f-1f3fd.png
+#!1f64f-1f3fe.png
+#!1f64f-1f3ff.png
+1f64f.png					🙏
+1f680.png					🚀
+1f681.png					🚁
+1f682.png					🚂
+1f683.png					🚃
+1f684.png					🚄
+1f685.png					🚅
+1f686.png					🚆
+1f687.png					🚇
+1f688.png					🚈
+1f689.png					🚉
+1f68a.png					🚊
+1f68b.png					🚋
+1f68c.png					🚌
+1f68d.png					🚍
+1f68e.png					🚎
+1f68f.png					🚏
+1f690.png					🚐
+1f691.png					🚑
+1f692.png					🚒
+1f693.png					🚓
+1f694.png					🚔
+1f695.png					🚕
+1f696.png					🚖
+1f697.png					🚗
+1f698.png					🚘
+1f699.png					🚙
+1f69a.png					🚚
+1f69b.png					🚛
+1f69c.png					🚜
+1f69d.png					🚝
+1f69e.png					🚞
+1f69f.png					🚟
+1f6a0.png					🚠
+1f6a1.png					🚡
+1f6a2.png					🚢
+#!1f6a3-1f3fb.png
+#!1f6a3-1f3fc.png
+#!1f6a3-1f3fd.png
+#!1f6a3-1f3fe.png
+#!1f6a3-1f3ff.png
+1f6a3.png					🚣
+1f6a4.png					🚤
+1f6a5.png					🚥
+1f6a6.png					🚦
+1f6a7.png					🚧
+1f6a8.png					🚨
+1f6a9.png					🚩
+1f6aa.png					🚪
+1f6ab.png					🚫
+1f6ac.png					🚬
+1f6ad.png					🚭
+1f6ae.png					🚮
+1f6af.png					🚯
+1f6b0.png					🚰
+1f6b1.png					🚱
+1f6b2.png					🚲
+1f6b3.png					🚳
+#!1f6b4-1f3fb.png
+#!1f6b4-1f3fc.png
+#!1f6b4-1f3fd.png
+#!1f6b4-1f3fe.png
+#!1f6b4-1f3ff.png
+1f6b4.png					🚴
+#!1f6b5-1f3fb.png
+#!1f6b5-1f3fc.png
+#!1f6b5-1f3fd.png
+#!1f6b5-1f3fe.png
+#!1f6b5-1f3ff.png
+1f6b5.png					🚵
+#!1f6b6-1f3fb.png
+#!1f6b6-1f3fc.png
+#!1f6b6-1f3fd.png
+#!1f6b6-1f3fe.png
+#!1f6b6-1f3ff.png
+1f6b6.png					🚶
+1f6b7.png					🚷
+1f6b8.png					🚸
+1f6b9.png					🚹
+1f6ba.png					🚺
+1f6bb.png					🚻
+1f6bc.png					🚼
+1f6bd.png					🚽
+1f6be.png					🚾
+1f6bf.png					🚿
+#!1f6c0-1f3fb.png
+#!1f6c0-1f3fc.png
+#!1f6c0-1f3fd.png
+#!1f6c0-1f3fe.png
+#!1f6c0-1f3ff.png
+1f6c0.png					🛀
+1f6c1.png					🛁
+1f6c2.png					🛂
+1f6c3.png					🛃
+1f6c4.png					🛄
+1f6c5.png					🛅
+1f6c6.png					🛆
+1f6c7.png					🛇
+1f6c8.png					🛈
+1f6cb.png					🛋
+1f6cc.png					🛌
+1f6cd.png					🛍
+1f6ce.png					🛎
+1f6cf.png					🛏
+1f6d0.png					🛐
+1f6d1.png					🛑
+1f6d2.png					🛒
+1f6e0.png					🛠
+1f6e1.png					🛡
+1f6e2.png					🛢
+1f6e3.png					🛣
+1f6e4.png					🛤
+1f6e5.png					🛥
+1f6e9.png					🛩
+1f6ea.png					🛪
+1f6eb.png					🛫
+1f6ec.png					🛬
+1f6f0.png					🛰
+1f6f3.png					🛳
+1f6f4.png					🛴
+1f6f5.png					🛵
+1f6f6.png					🛶
+1f910.png					🤐
+1f911.png					🤑
+1f912.png					🤒
+1f913.png					🤓
+1f914.png					🤔
+1f915.png					🤕
+1f916.png					🤖
+1f917.png					🤗
+#!1f918-1f3fb.png
+#!1f918-1f3fc.png
+#!1f918-1f3fd.png
+#!1f918-1f3fe.png
+#!1f918-1f3ff.png
+1f918.png					🤘
+#!1f919-1f3fb.png
+#!1f919-1f3fc.png
+#!1f919-1f3fd.png
+#!1f919-1f3fe.png
+#!1f919-1f3ff.png
+1f919.png					🤙
+#!1f91a-1f3fb.png
+#!1f91a-1f3fc.png
+#!1f91a-1f3fd.png
+#!1f91a-1f3fe.png
+#!1f91a-1f3ff.png
+1f91a.png					🤚
+#!1f91b-1f3fb.png
+#!1f91b-1f3fc.png
+#!1f91b-1f3fd.png
+#!1f91b-1f3fe.png
+#!1f91b-1f3ff.png
+1f91b.png					🤛
+#!1f91c-1f3fb.png
+#!1f91c-1f3fc.png
+#!1f91c-1f3fd.png
+#!1f91c-1f3fe.png
+#!1f91c-1f3ff.png
+1f91c.png					🤜
+#!1f91d-1f3fb.png
+#!1f91d-1f3fc.png
+#!1f91d-1f3fd.png
+#!1f91d-1f3fe.png
+#!1f91d-1f3ff.png
+1f91d.png					🤝
+#!1f91e-1f3fb.png
+#!1f91e-1f3fc.png
+#!1f91e-1f3fd.png
+#!1f91e-1f3fe.png
+#!1f91e-1f3ff.png
+1f91e.png					🤞
+1f920.png					🤠
+1f921.png					🤡
+1f922.png					🤢
+1f923.png					🤣
+1f924.png					🤤
+1f925.png					🤥
+#!1f926-1f3fb.png
+#!1f926-1f3fc.png
+#!1f926-1f3fd.png
+#!1f926-1f3fe.png
+#!1f926-1f3ff.png
+1f926.png					🤦
+1f927.png					🤧
+#!1f930-1f3fb.png
+#!1f930-1f3fc.png
+#!1f930-1f3fd.png
+#!1f930-1f3fe.png
+#!1f930-1f3ff.png
+1f930.png					🤰
+#!1f933-1f3fb.png
+#!1f933-1f3fc.png
+#!1f933-1f3fd.png
+#!1f933-1f3fe.png
+#!1f933-1f3ff.png
+1f933.png					🤳
+#!1f934-1f3fb.png
+#!1f934-1f3fc.png
+#!1f934-1f3fd.png
+#!1f934-1f3fe.png
+#!1f934-1f3ff.png
+1f934.png					🤴
+#!1f935-1f3fb.png
+#!1f935-1f3fc.png
+#!1f935-1f3fd.png
+#!1f935-1f3fe.png
+#!1f935-1f3ff.png
+1f935.png					🤵
+#!1f936-1f3fb.png
+#!1f936-1f3fc.png
+#!1f936-1f3fd.png
+#!1f936-1f3fe.png
+#!1f936-1f3ff.png
+1f936.png					🤶
+#!1f937-1f3fb.png
+#!1f937-1f3fc.png
+#!1f937-1f3fd.png
+#!1f937-1f3fe.png
+#!1f937-1f3ff.png
+1f937.png					🤷
+#!1f938-1f3fb.png
+#!1f938-1f3fc.png
+#!1f938-1f3fd.png
+#!1f938-1f3fe.png
+#!1f938-1f3ff.png
+1f938.png					🤸
+#!1f939-1f3fb.png
+#!1f939-1f3fc.png
+#!1f939-1f3fd.png
+#!1f939-1f3fe.png
+#!1f939-1f3ff.png
+1f939.png					🤹
+1f93a.png					🤺
+#!1f93b-1f3fb.png
+#!1f93b-1f3fc.png
+#!1f93b-1f3fd.png
+#!1f93b-1f3fe.png
+#!1f93b-1f3ff.png
+1f93b.png					🤻
+#!1f93c-1f3fb.png
+#!1f93c-1f3fc.png
+#!1f93c-1f3fd.png
+#!1f93c-1f3fe.png
+#!1f93c-1f3ff.png
+1f93c.png					🤼
+#!1f93d-1f3fb.png
+#!1f93d-1f3fc.png
+#!1f93d-1f3fd.png
+#!1f93d-1f3fe.png
+#!1f93d-1f3ff.png
+1f93d.png					🤽
+#!1f93e-1f3fb.png
+#!1f93e-1f3fc.png
+#!1f93e-1f3fd.png
+#!1f93e-1f3fe.png
+#!1f93e-1f3ff.png
+1f93e.png					🤾
+1f940.png					🥀
+1f941.png					🥁
+1f942.png					🥂
+1f943.png					🥃
+1f944.png					🥄
+1f945.png					🥅
+1f946.png					🥆
+1f947.png					🥇
+1f948.png					🥈
+1f949.png					🥉
+1f94a.png					🥊
+1f94b.png					🥋
+1f950.png					🥐
+1f951.png					🥑
+1f952.png					🥒
+1f953.png					🥓
+1f954.png					🥔
+1f955.png					🥕
+1f956.png					🥖
+1f957.png					🥗
+1f958.png					🥘
+1f959.png					🥙
+1f95a.png					🥚
+1f95b.png					🥛
+1f95c.png					🥜
+1f95d.png					🥝
+1f95e.png					🥞
+1f980.png					🦀
+1f981.png					🦁
+1f982.png					🦂
+1f983.png					🦃
+1f984.png					🦄
+1f985.png					🦅
+#!1f986-2640.png
+#!1f986-2642.png
+1f986.png					🦆
+1f987.png					🦇
+1f988.png					🦈
+1f989.png					🦉
+1f98a.png					🦊
+1f98b.png					🦋
+#!1f98c-1f6a8.png
+#!1f98c-2640.png
+#!1f98c-2642.png
+1f98c.png					🦌
+1f98d.png					🦍
+1f98e.png					🦎
+1f98f.png					🦏
+1f990.png					🦐
+1f991.png					🦑
+1f9c0.png					🧀
+203c.png					‼
+2049.png					⁉
+2122.png					™
+2139.png					ℹ
+2194.png					↔
+2195.png					↕
+2196.png					↖
+2197.png					↗
+2198.png					↘
+2199.png					↙
+21a9.png					↩
+21aa.png					↪
+231a.png					⌚
+231b.png					⌛
+2328.png					⌨
+23cf.png					⏏
+23e9.png					⏩
+23ea.png					⏪
+23eb.png					⏫
+23ec.png					⏬
+23ed.png					⏭
+23ee.png					⏮
+23ef.png					⏯
+23f0.png					⏰
+23f1.png					⏱
+23f2.png					⏲
+23f3.png					⏳
+23f8.png					⏸
+23f9.png					⏹
+23fa.png					⏺
+24c2.png					Ⓜ
+25a0.png					■
+25a1.png					□
+25a4.png					▤
+25a5.png					▥
+25a6.png					▦
+25a7.png					▧
+25a8.png					▨
+25a9.png					▩
+25aa.png					▪
+25ab.png					▫
+25b6.png					▶
+25c0.png					◀
+25fb.png					◻
+25fc.png					◼
+25fd.png					◽
+25fe.png					◾
+2600.png					☀
+2601.png					☁
+2602.png					☂
+2603.png					☃
+2604.png					☄
+2605.png					★
+2607.png					☇
+2608.png					☈
+2609.png					☉
+260e.png					☎
+260f.png					☏
+2610.png					☐
+2611.png					☑
+2612.png					☒
+2614.png					☔
+2615.png					☕
+2616.png					☖
+2617.png					☗
+2618.png					☘
+#!261c-1f3fb.png
+#!261c-1f3fc.png
+#!261c-1f3fd.png
+#!261c-1f3fe.png
+#!261c-1f3ff.png
+261c.png					☜
+#!261d-1f3fb.png
+#!261d-1f3fc.png
+#!261d-1f3fd.png
+#!261d-1f3fe.png
+#!261d-1f3ff.png
+261d.png					☝
+#!261e-1f3fb.png
+#!261e-1f3fc.png
+#!261e-1f3fd.png
+#!261e-1f3fe.png
+#!261e-1f3ff.png
+261e.png					☞
+#!261f-1f3fb.png
+#!261f-1f3fc.png
+#!261f-1f3fd.png
+#!261f-1f3fe.png
+#!261f-1f3ff.png
+261f.png					☟
+2620.png					☠
+2621.png					☡
+2622.png					☢
+2623.png					☣
+2624.png					☤
+2626.png					☦
+2627.png					☧
+2628.png					☨
+2629.png					☩
+262a.png					☪
+262d.png					☭
+262e.png					☮
+262f.png					☯
+2630.png					☰
+2631.png					☱
+2632.png					☲
+2633.png					☳
+2634.png					☴
+2635.png					☵
+2636.png					☶
+2637.png					☷
+2638.png					☸
+2639.png					☹
+263a.png					☺
+263b.png					☻
+2648.png					♈
+2649.png					♉
+264a.png					♊
+264b.png					♋
+264c.png					♌
+264d.png					♍
+264e.png					♎
+264f.png					♏
+2650.png					♐
+2651.png					♑
+2652.png					♒
+2653.png					♓
+2660.png					♠
+2661.png					♡
+2662.png					♢
+2663.png					♣
+2664.png					♤
+2665.png					♥
+2666.png					♦
+2667.png					♧
+2668.png					♨
+2670.png					♰
+2671.png					♱
+2672.png					♲
+267b.png					♻
+267c.png					♼
+267d.png					♽
+267f.png					♿
+2680.png					⚀
+2681.png					⚁
+2682.png					⚂
+2683.png					⚃
+2684.png					⚄
+2685.png					⚅
+2686.png					⚆
+2687.png					⚇
+2688.png					⚈
+2689.png					⚉
+268a.png					⚊
+268b.png					⚋
+268c.png					⚌
+268d.png					⚍
+268e.png					⚎
+268f.png					⚏
+2690.png					⚐
+2691.png					⚑
+2692.png					⚒
+2693.png					⚓
+2694.png					⚔
+2695.png					⚕
+2696.png					⚖
+2697.png					⚗
+2698.png					⚘
+2699.png					⚙
+269a.png					⚚
+269b.png					⚛
+269c.png					⚜
+26a0.png					⚠
+26a1.png					⚡
+26aa.png					⚪
+26ab.png					⚫
+26b0.png					⚰
+26b1.png					⚱
+26bd.png					⚽
+26be.png					⚾
+#!26c4-1f464.png
+26c4.png					⛄
+26c5.png					⛅
+26c6.png					⛆
+26c7.png					⛇
+26c8.png					⛈
+26c9.png					⛉
+26ca.png					⛊
+26cb.png					⛋
+26ce.png					⛎
+26cf.png					⛏
+26d1.png					⛑
+26d3.png					⛓
+26d4.png					⛔
+26db.png					⛛
+26dd.png					⛝
+26de.png					⛞
+26e4.png					⛤
+26e7.png					⛧
+26e9.png					⛩
+26ea.png					⛪
+26f0.png					⛰
+26f1.png					⛱
+26f2.png					⛲
+26f3.png					⛳
+26f4.png					⛴
+26f5.png					⛵
+26f7.png					⛷
+26f8.png					⛸
+#!26f9-1f3fb.png
+#!26f9-1f3fc.png
+#!26f9-1f3fd.png
+#!26f9-1f3fe.png
+#!26f9-1f3ff.png
+26f9.png					⛹
+26fa.png					⛺
+26fd.png					⛽
+26fe.png					⛾
+2702.png					✂
+2705.png					✅
+2708.png					✈
+2709.png					✉
+#!270a-1f3fb.png
+#!270a-1f3fc.png
+#!270a-1f3fd.png
+#!270a-1f3fe.png
+#!270a-1f3ff.png
+270a.png					✊
+#!270b-1f3fb.png
+#!270b-1f3fc.png
+#!270b-1f3fd.png
+#!270b-1f3fe.png
+#!270b-1f3ff.png
+270b.png					✋
+#!270c-1f3fb.png
+#!270c-1f3fc.png
+#!270c-1f3fd.png
+#!270c-1f3fe.png
+#!270c-1f3ff.png
+270c.png					✌
+#!270d-1f3fb.png
+#!270d-1f3fc.png
+#!270d-1f3fd.png
+#!270d-1f3fe.png
+#!270d-1f3ff.png
+270d.png					✍
+270e.png					✎
+270f.png					✏
+2710.png					✐
+2712.png					✒
+2714.png					✔
+2716.png					✖
+271d.png					✝
+2721.png					✡
+2728.png					✨
+2733.png					✳
+2734.png					✴
+2744.png					❄
+2747.png					❇
+274c.png					❌
+274e.png					❎
+2753.png					❓
+2754.png					❔
+2755.png					❕
+2757.png					❗
+2763.png					❣
+2764.png					❤
+2765.png					❥
+2795.png					➕
+2796.png					➖
+2797.png					➗
+27a1.png					➡
+27b0.png					➰
+27bf.png					➿
+2934.png					⤴
+2935.png					⤵
+2b05.png					⬅
+2b06.png					⬆
+2b07.png					⬇
+2b1b.png					⬛
+2b1c.png					⬜
+2b50.png					⭐
+2b55.png					⭕
+2b95.png					⮕
+#!3000.png					　
+3030.png					〰
+303d.png					〽
+3297.png					㊗
+3299.png					㊙
