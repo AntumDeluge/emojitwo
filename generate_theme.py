@@ -5,7 +5,7 @@ import os, shutil, subprocess, sys
 from py				import fileio
 from py				import pyIsCompat
 from py				import WIN32
-from py.paths		import formatPath
+from py.paths		import appendPath
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
 
@@ -15,10 +15,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-def appendPath(p1, p2):
-	appended = '{}/{}'.format(p1, p2).replace('//', '/')
-	return formatPath(appended)
 
 def getCommand(cmd):
 	cmd_path = None

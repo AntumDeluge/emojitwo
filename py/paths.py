@@ -27,5 +27,16 @@ def formatPath(path):
 	return path
 
 
+### Concatenates two path strings together.
+#
+# @function appendPath
+# @tparam str p1
+# @tparam str p2
+# @treturn str
+def appendPath(p1, p2):
+	appended = '{}/{}'.format(p1, p2).replace('//', '/')
+	return formatPath(appended)
+
+
 # directory from where the script is launched
 root = dirname(formatPath(sys.argv[0]))
