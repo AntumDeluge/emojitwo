@@ -4,6 +4,36 @@
 # @package py.list_util
 
 
+### Function to compare multiple strings.
+#
+# @local
+# @function compareStrings
+# @param strings
+def hasDuplicates(*strings):
+	# arguments may be str, list, or tuple
+	strings_copy = []
+	for I in strings:
+		if type(I) in (list, tuple):
+			for II in I:
+				strings_copy.append(II)
+		# anything else should be a string
+		else:
+			strings_copy.append(I)
+
+	# FIXME: Check that all argument(s) values are strings
+
+	# special strings
+	for idx in range(len(strings_copy)):
+		if strings_copy[idx].startswith('#!'):
+			strings_copy[idx] = strings_copy[idx][2:]
+
+	for current in strings_copy:
+		if strings_copy.count(current) > 1:
+			return True
+
+	return False
+
+
 ### Function to clean whitespace list items.
 #
 # @function cleanList
