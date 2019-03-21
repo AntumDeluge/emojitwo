@@ -33,6 +33,14 @@ def getCommand(cmd):
 	return cmd_path
 
 
+# command to convert images
+cmd_name = 'inkscape'
+cmd_convert = getCommand(cmd_name)
+if not cmd_convert:
+	print('ERROR: "{}" command not found'.format(cmd_name))
+	sys.exit(1)
+
+
 ### Converts SVG image to PNG for release.
 #
 # @function convertToPNG

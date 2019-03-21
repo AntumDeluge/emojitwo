@@ -11,7 +11,6 @@ from py.paths		import dir_svg
 from py.paths		import root as dir_root
 from py.theme		import updateTemplate
 from py.util		import convertToPNG
-from py.util		import getCommand
 
 
 py_compat, py_ver = pyIsCompat()
@@ -19,13 +18,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-# command to convert images
-cmd_name = 'inkscape'
-cmd_convert = getCommand(cmd_name)
-if not cmd_convert:
-	print('ERROR: "{}" command not found'.format(cmd_name))
-	sys.exit(1)
 
 # remove old output files
 if os.path.exists(dir_release):
