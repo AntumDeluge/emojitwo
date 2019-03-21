@@ -6,7 +6,6 @@
 
 import os, shutil, sys
 
-from generate_theme	import init as generateTemplate
 from py			import pyIsCompat
 from py.paths	import appendPath
 from py.paths	import dir_export
@@ -14,6 +13,7 @@ from py.paths	import dir_release
 from py.paths	import dir_svg
 from py.paths	import root as dir_root
 from py.util	import convertToPNG
+from template	import init as generateTemplate
 
 
 py_compat, py_ver = pyIsCompat()
