@@ -131,6 +131,10 @@ def updateTemplate(target, new_groups):
 			except ValueError:
 				pass
 
+		# mark images without character to not be included in release
+		if getWordCount(IMG) == 1 and not IMG.startswith('#!'):
+			IMG = '#!{}'.format(IMG)
+
 		sb.add(IMG)
 
 	for G in groups:
