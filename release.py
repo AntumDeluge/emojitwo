@@ -6,8 +6,10 @@
 
 import os, shutil, sys
 
+from py			import fileio
 from py			import pyIsCompat
 from py.cl		import args
+from py.md		import markdownToText
 from py.paths	import appendPath
 from py.paths	import dir_release
 from py.paths	import dir_svg
@@ -69,6 +71,9 @@ img_count = len(release_images)
 
 print('{} images will be included in release.'.format(img_count))
 
+# prepare README for inclusion in release
+readme_text = markdownToText(fileio.read(file_readme))
+
 grp_count = len(sizes)
 grp_idx = 0
 for S in sizes:
@@ -107,7 +112,11 @@ for S in sizes:
 	if live_run:
 		copyTemplate(size_dir)
 		shutil.copy(file_license, size_dir)
-		shutil.copy(file_readme, size_dir)
+		fileio.write(appendPath(size_dir, 'README.txt'), readme_text)
+
+if live_run:
+	shutil.copy(file_license, dir_release)
+	fileio.write(appendPath(dir_release, 'README.txt'), readme_text)
 
 # create zip distribution archive
 compress(not live_run)

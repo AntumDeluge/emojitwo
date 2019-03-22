@@ -17,3 +17,5 @@ def markdownToText(md_in):
 	idx_r = txt_out.index(']')
 	while '[' in txt_out and ('][' in txt_out or '](' in txt_out) and idx_l < idx_r:
 		break
+
+	return txt_out

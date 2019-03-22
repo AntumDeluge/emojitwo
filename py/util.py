@@ -117,9 +117,6 @@ def compress(dry_run=False):
 		Z = ZipFile(t_zip, 'w')
 		for F in file_list:
 			Z.write(F)
-		os.chdir(ret_dir)
-		Z.write('LICENSE.txt')
-		Z.write('README.md')
 		Z.close()
 
 	os.chdir(ret_dir)
