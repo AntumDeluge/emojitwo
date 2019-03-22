@@ -103,6 +103,18 @@ class ArgsObject:
 	def hasDefaultValue(self, key):
 		return 'default' in self.Registered[key]
 
+	### Checks if key has registered values that can be used with it.
+	#
+	# @method hasRegisteredValues
+	# @tparam str key Key name to parse.
+	# @treturn bool `True` if list of values is registered with `key`.
+	def hasRegisteredValues(self, key):
+		if not self.takesValue(key) or 'values' not in self.Registered[key]:
+			return False
+
+		values = self.Registered[key]['values']
+		return values != None and len(values) > 0
+
 	### Retrieves default value of key.
 	#
 	# @method getDefaultValue
@@ -113,6 +125,17 @@ class ArgsObject:
 			return None
 
 		return self.Registered[key]['default']
+
+	### For retrieving valid values for key=value argument.
+	#
+	# @method getRegisteredValues
+	# @tparam str key Key name to parse.
+	# @treturn list Usable values with `key`.
+	def getRegisteredValues(self, key):
+		if not self.hasRegisteredValues(key):
+			return None
+
+		return self.Registered[key]['values']
 
 
 	# *** methods for public use ***
@@ -129,8 +152,10 @@ class ArgsObject:
 	# @tparam bool takes_value Whether or not this should be a key=value argument.
 	# @param default Default value if not supplied from command input (`None` forces
 	#	value to be explicitly declared).
+	# @tparam list value_list List of possible values (restricts to only values from list).
 	# @tparam str descr Optional description for usage information.
-	def registerKey(self, key, k_short=None, k_long=None, takes_value=False, default=None, descr=None):
+	def registerKey(self, key, k_short=None, k_long=None, takes_value=False, default=None,
+				value_list=None, descr=None):
 
 		def showMessage(msg, err=True):
 			out = sys.stderr
@@ -176,6 +201,11 @@ class ArgsObject:
 				self.Registered[key]['default'] = default
 			else:
 				showMessage('Ignoring default value supplied with non-value key.', False)
+		if value_list:
+			if takes_value:
+				self.Registered[key]['values'] = tuple(value_list)
+			else:
+				showMessage('Ignoring value list supplied with non-value key.', False)
 		if descr:
 			self.Registered[key]['description'] = descr
 
