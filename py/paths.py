@@ -43,7 +43,6 @@ root = dirname(formatPath(sys.argv[0]))
 
 # source & target directories
 dir_release = appendPath(root, 'release')
-dir_export = appendPath(dir_release, 'emojitwo')
 dir_svg = appendPath(root, 'svg')
 
 # theme template

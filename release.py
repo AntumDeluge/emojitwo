@@ -9,7 +9,7 @@ import os, sys
 from py			import pyIsCompat
 from py.cl		import args
 from py.paths	import appendPath
-from py.paths	import dir_export
+from py.paths	import dir_release
 from py.paths	import dir_svg
 from py.paths	import template_file
 from py.theme	import copyTemplate
@@ -30,7 +30,7 @@ if args.contains('clean'):
 	sys.exit(clean.init(args.getValue('clean', True)))
 
 # create output directory
-os.makedirs(dir_export, exist_ok=True)
+os.makedirs(dir_release, exist_ok=True)
 
 # SVG input files
 svg_files = os.listdir(dir_svg)
@@ -46,34 +46,55 @@ svg_count = len(svg_files)
 idx = 0
 
 live_run = not args.contains('dry_run')
+if not live_run:
+	print('\nDry run: Not making any changes ...\n')
 
 if live_run and (not args.contains('no-update-template') or not os.path.isfile(template_file)):
 	generateTemplate()
 
-for SVG in svg_files:
-	idx += 1
-	sys.stdout.write('Converting SVG to PNG image ({}/{}): {}                         \r'.format(idx, svg_count, SVG))
+# default size is 32x32
+sizes = ['32']
+if args.contains('size'):
+	sizes = args.getValue('size', True)
 
-	source = appendPath(dir_svg, SVG)
-	target = appendPath(dir_export, '{}.png'.format(os.path.basename(SVG).split('.')[0]))
+for S in sizes:
+	# check that all sizes are numerical values
+	try:
+		int(S)
+	except ValueError:
+		print('\nERROR: "{}" is not a valid numerical value for argument "size".'.format(S))
+		sys.exit(1)
 
-	if os.path.isfile(target) and not args.contains('update_png'):
-		print('Not updating PNG: {}'.format(target))
-		continue
+for S in sizes:
+	size_dir = appendPath(dir_release, '{}/emojitwo'.format(S))
 
-	if live_run:
-		try:
-			convertToPNG(source, target)
-			if not os.path.isfile(target):
-				print('\nERROR: SVG->PNG conversion failed.')
-				sys.exit(1)
-		except KeyboardInterrupt:
-			print('\nProcess cancelled by user')
-			sys.exit(0)
+	for SVG in svg_files:
+		idx += 1
+
+		img_name = os.path.basename(SVG).split('.')[0]
+		source = appendPath(dir_svg, SVG)
+		target = appendPath(size_dir, '{}.png'.format(img_name))
+
+		os.makedirs(size_dir, exist_ok=True)
+
+		if os.path.isfile(target) and not args.contains('update_png'):
+			sys.stdout.write('Not updating {}x{} PNG: {}                          \r'.format(S, S, img_name))
+			continue
+
+		if live_run:
+			try:
+				sys.stdout.write('Converting SVG to {}x{} PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(S, S, idx, svg_count))
+				convertToPNG(source, target, S, S)
+				if not os.path.isfile(target):
+					print('\nERROR: SVG->PNG conversion failed.')
+					sys.exit(1)
+			except KeyboardInterrupt:
+				print('\nProcess cancelled by user')
+				sys.exit(0)
+
+	copyTemplate(size_dir)
 
 # newline after converting files
 print()
-
-copyTemplate(dir_export)
 
 print('\nDone!')

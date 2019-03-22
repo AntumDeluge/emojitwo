@@ -1,5 +1,4 @@
 - zip release
-- scale PNG images
 - format spacing in usage output
 - convert markdown README to plain text for release
 - add "conflicts" options for command line arguments
