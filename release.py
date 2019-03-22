@@ -11,6 +11,7 @@ from py.cl		import args
 from py.paths	import appendPath
 from py.paths	import dir_export
 from py.paths	import dir_svg
+from py.paths	import template_file
 from py.theme	import copyTemplate
 from py.util	import convertToPNG
 from template	import init as generateTemplate
@@ -46,7 +47,7 @@ idx = 0
 
 live_run = not args.contains('dry_run')
 
-if live_run:
+if live_run and (not args.contains('no-update-template') or not os.path.isfile(template_file)):
 	generateTemplate()
 
 for SVG in svg_files:
