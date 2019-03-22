@@ -14,6 +14,7 @@ from py.paths	import dir_svg
 from py.paths	import file_license
 from py.paths	import template_file
 from py.theme	import copyTemplate
+from py.util	import compress
 from py.util	import convertToPNG
 from template	import init as generateTemplate
 
@@ -98,5 +99,8 @@ for S in sizes:
 
 # newline after converting files
 print()
+
+# create zip distribution archive
+compress(not live_run)
 
 print('\nDone!')
