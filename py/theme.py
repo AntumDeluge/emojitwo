@@ -7,6 +7,7 @@
 from os.path import isfile
 
 from py				import fileio
+from py				import info
 from py.list_util	import cleanList
 from py.list_util	import getFirstWord
 from py.paths		import appendPath
@@ -107,10 +108,21 @@ def updateTemplate(target, new_groups):
 
 				print('WARNING: Listed image from group "{}" does not have .png suffix: {}'.format(G, item_basename))
 
-	sb = createStringBuilder('Name=Emojitwo')
-	sb.add('Description=Emojitwo smiley theme originally released as Emojione 2.2')
-	sb.add('Icon=1f44d-1f3fd.png')
-	sb.add('Author=Ranks.com & Emojitwo community')
+	sb = createStringBuilder()
+
+	t_name = info.getAttribute('name')
+	t_descr = info.getAttribute('description')
+	t_icon = info.getAttribute('icon')
+	t_author = info.getAttribute('author')
+
+	if t_name:
+		sb.add('Name={}'.format(t_name))
+	if t_descr:
+		sb.add('Description={}'.format(t_descr))
+	if t_icon:
+		sb.add('Icon={}'.format(t_icon))
+	if t_author:
+		sb.add('Author={}'.format(t_author))
 
 	# default group
 	sb.add('\n[default]')
