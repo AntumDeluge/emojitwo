@@ -46,6 +46,9 @@ idx = 0
 
 live_run = not args.contains('dry_run')
 
+if live_run:
+	generateTemplate()
+
 for SVG in svg_files:
 	idx += 1
 	sys.stdout.write('Converting SVG to PNG image ({}/{}): {}                         \r'.format(idx, svg_count, SVG))
@@ -69,9 +72,6 @@ for SVG in svg_files:
 
 # newline after converting files
 print()
-
-if live_run:
-	generateTemplate()
 
 copyTemplate(dir_export)
 
