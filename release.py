@@ -30,7 +30,7 @@ if os.path.exists(dir_release):
 		print('\nWARNING: Could not remove release directory: {}'.format(dir_release))
 
 # create output directory
-os.makedirs(dir_export)
+os.makedirs(dir_export, exist_ok=True)
 
 # SVG input files
 svg_files = os.listdir(dir_svg)
