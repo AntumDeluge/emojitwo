@@ -32,15 +32,16 @@ if args.contains('clean'):
 
 	sys.exit(clean.init(args.getValue('clean', True)))
 
-# create output directory
-os.makedirs(dir_release, exist_ok=True)
-
 live_run = not args.contains('dry_run')
 if not live_run:
 	print('\nDry run: Not making any changes ...\n')
 
-if live_run and (not args.contains('no-update-template') or not os.path.isfile(template_file)):
-	generateTemplate()
+if live_run:
+	# create output directory
+	os.makedirs(dir_release, exist_ok=True)
+
+	if not args.contains('no-update-template') or not os.path.isfile(template_file):
+		generateTemplate()
 
 # default sizes (overridden with --sizes option)
 sizes = ['24', '32', '64']
@@ -89,8 +90,9 @@ for S in sizes:
 				print('\nProcess cancelled by user')
 				sys.exit(0)
 
-	copyTemplate(size_dir)
-	shutil.copy(file_license, size_dir)
+	if live_run:
+		copyTemplate(size_dir)
+		shutil.copy(file_license, size_dir)
 
 # newline after converting files
 print()
