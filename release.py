@@ -11,7 +11,7 @@ from py.paths	import appendPath
 from py.paths	import dir_export
 from py.paths	import dir_release
 from py.paths	import dir_svg
-from py.paths	import root as dir_root
+from py.theme	import copyTemplate
 from py.util	import convertToPNG
 from template	import init as generateTemplate
 
@@ -58,9 +58,6 @@ for SVG in svg_files:
 print()
 
 generateTemplate()
-
-# copy theme file to release directory
-theme_file = appendPath(dir_root, 'theme.txt')
-shutil.copy(theme_file, appendPath(dir_export, 'theme'))
+copyTemplate(dir_export)
 
 print('\nDone!')

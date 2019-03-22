@@ -9,6 +9,8 @@ from os.path import isfile
 from py				import fileio
 from py.list_util	import cleanList
 from py.list_util	import getFirstWord
+from py.paths		import appendPath
+from py.paths		import template_file
 from py.sb			import createStringBuilder
 from py.util		import getWordCount
 
@@ -148,3 +150,21 @@ def updateTemplate(target, new_groups):
 
 	# output to target file
 	fileio.write(target, sb.toString('\n'))
+
+
+### Creates theme file from template for release.
+#
+# @function copyTemplate
+# @tparam str target_dir Directory where release theme file should be created.
+def copyTemplate(target_dir):
+	template = fileio.read(template_file)
+	target = appendPath(target_dir, 'theme')
+
+	# ignore lines beginning with "#!"
+	lines = template.split('\n')
+	for idx in reversed(range(len(lines))):
+		if lines[idx].startswith('#!'):
+			lines.pop(idx)
+
+	template = '\n'.join(lines)
+	fileio.write(target, template)
