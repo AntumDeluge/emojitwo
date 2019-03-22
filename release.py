@@ -52,7 +52,11 @@ for SVG in svg_files:
 	source = appendPath(dir_svg, SVG)
 	target = appendPath(dir_export, '{}.png'.format(os.path.basename(SVG).split('.')[0]))
 
-	convertToPNG(source, target)
+	try:
+		convertToPNG(source, target)
+	except KeyboardInterrupt:
+		print('\nProcess cancelled by user')
+		sys.exit(0)
 
 # newline after converting files
 print()
