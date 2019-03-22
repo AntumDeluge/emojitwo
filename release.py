@@ -54,8 +54,8 @@ if not live_run:
 if live_run and (not args.contains('no-update-template') or not os.path.isfile(template_file)):
 	generateTemplate()
 
-# default size is 32x32
-sizes = ['32']
+# default sizes (overridden with --sizes option)
+sizes = ['24', '32', '64']
 if args.contains('size'):
 	sizes = args.getValue('size', True)
 
