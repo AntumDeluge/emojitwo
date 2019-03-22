@@ -45,8 +45,8 @@ class ArgsObject:
 		### List of valid arguments input from command line.
 		self.Input = {}
 
-		# initialize argument list
-		#self.parseArgs()
+		# for use with registering keys to use arg name as long key.
+		self.USE_NAME = True
 
 
 	# *** methods for internal use ***
@@ -168,6 +168,10 @@ class ArgsObject:
 
 			if err:
 				sys.exit(1)
+
+		# use base key name for long key
+		if k_long == self.USE_NAME:
+			k_long = key
 
 		if not k_short and not k_long:
 			showMessage('Cannot register key without either short or long value.')
