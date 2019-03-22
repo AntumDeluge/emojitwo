@@ -4,12 +4,11 @@
 # See: https://creativecommons.org/publicdomain/zero/1.0/
 
 
-import os, shutil, sys
+import os, sys
 
 from py			import pyIsCompat
 from py.paths	import appendPath
 from py.paths	import dir_export
-from py.paths	import dir_release
 from py.paths	import dir_svg
 from py.theme	import copyTemplate
 from py.util	import convertToPNG
@@ -21,13 +20,6 @@ if not py_compat:
 	print('\nERROR:\tUsing Python version {}. Version 3 or greater required.'.format(py_ver))
 	sys.exit(1)
 
-
-# remove old output files
-if os.path.exists(dir_release):
-	try:
-		shutil.rmtree(dir_release)
-	except PermissionError:
-		print('\nWARNING: Could not remove release directory: {}'.format(dir_release))
 
 # create output directory
 os.makedirs(dir_export, exist_ok=True)
