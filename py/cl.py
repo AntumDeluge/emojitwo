@@ -166,34 +166,30 @@ class ArgsObject:
 
 			out.write('{} ({}): {}\n'.format(err_line, key, msg))
 
+			if err:
+				sys.exit(1)
+
 		if not k_short and not k_long:
 			showMessage('Cannot register key without either short or long value.')
-			sys.exit(1)
 
 		if k_short and len(k_short) > 1:
 			showMessage('Short value must be a single character.')
-			sys.exit(1)
 
 		if k_long and len(k_long) < 2:
 			showMessage('Long value should be more than one character')
-			sys.exit(1)
 
 		for K in (k_short, k_long):
 			if K and K.startswith('-'):
 				showMessage('Cannot register long or short key beginning with dashes ("-").')
-				sys.exit(1)
 
 		# check for duplicates
 		if key in self.Registered:
 			showMessage('Cannot register duplicate key.')
-			sys.exit(1)
 		for R in self.Registered:
 			if k_short and k_short == self.Registered[R]['keys'][0]:
 				showMessage('Cannot register duplicate short key: {}'.format(k_short))
-				sys.exit(1)
 			if k_long and k_long == self.Registered[R]['keys'][1]:
 				showMessage('Cannot register duplicate long key: {}'.format(k_long))
-				sys.exit(1)
 
 		self.Registered[key] = {'keys': (k_short, k_long), 'takes_value': takes_value,}
 		if default:
