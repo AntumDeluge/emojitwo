@@ -45,5 +45,6 @@ root = dirname(formatPath(sys.argv[0]))
 dir_release = appendPath(root, 'release')
 dir_svg = appendPath(root, 'svg')
 
-# theme template
+# files
 template_file = appendPath(root, 'theme.txt')
+file_license = appendPath(root, 'LICENSE.txt')

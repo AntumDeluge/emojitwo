@@ -4,13 +4,14 @@
 # See: https://creativecommons.org/publicdomain/zero/1.0/
 
 
-import os, sys
+import os, shutil, sys
 
 from py			import pyIsCompat
 from py.cl		import args
 from py.paths	import appendPath
 from py.paths	import dir_release
 from py.paths	import dir_svg
+from py.paths	import file_license
 from py.paths	import template_file
 from py.theme	import copyTemplate
 from py.util	import convertToPNG
@@ -93,6 +94,7 @@ for S in sizes:
 				sys.exit(0)
 
 	copyTemplate(size_dir)
+	shutil.copy(file_license, size_dir)
 
 # newline after converting files
 print()

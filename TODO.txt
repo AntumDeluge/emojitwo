@@ -1,7 +1,6 @@
 - zip release
 - format spacing in usage output
 - convert markdown README to plain text for release
-- copy license file into release
 - add "conflicts" options for command line arguments
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even not explicitly declared in command
