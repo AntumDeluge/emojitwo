@@ -17,17 +17,17 @@ class StringBuilder:
 			elif type(strings) in (list, tuple):
 				self.Strings = list(strings)
 
-	def insert(self, idx, str):
-		self.Strings.insert(idx, str)
+	def insert(self, idx, string):
+		self.Strings.insert(idx, string)
 
-	def prepend(self, str):
-		self.Strings.insert(0, str)
+	def prepend(self, string):
+		self.Strings.insert(0, string)
 
-	def append(self, str):
-		self.Strings.append(str)
+	def append(self, string):
+		self.Strings.append(string)
 
-	def add(self, str):
-		return self.append(str)
+	def add(self, string):
+		return self.append(string)
 
 	def toString(self, delim=None):
 		if delim:
