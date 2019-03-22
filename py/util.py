@@ -63,15 +63,16 @@ if not cmd_convert:
 # @tparam int width Width of exported PNG.
 # @tparam int height Height of exported PNG.
 def convertToPNG(in_path, out_path, width=None, height=None):
-	cmd_list = [cmd_convert, '--without-gui', '--file={}'.format(in_path),
+	args = ['--without-gui', '--file={}'.format(in_path),
 		'--export-png={}'.format(out_path)]
 
 	if WIN32:
-		cmd_list.insert(1, '--shell')
+		args.insert(1, '--shell')
 
 	if width:
-		cmd_list.append('--export-width={}'.format(width))
+		args.append('--export-width={}'.format(width))
 	if height:
-		cmd_list.append('--export-height={}'.format(height))
+		args.append('--export-height={}'.format(height))
 
-	subprocess.Popen(cmd_list)
+	proc = subprocess.Popen(args, executable=cmd_convert)
+	outs, errs = proc.communicate() # @UnusedVariable
