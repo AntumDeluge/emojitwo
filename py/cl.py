@@ -15,8 +15,8 @@ from py.sb import createStringBuilder
 script_name = basename(sys.argv[0])
 if script_name.lower().endswith('.py'):
 	script_name = script_name[:-3]
-usage = createStringBuilder('Description\n\tHelper script for creating release.')
-usage.append('\nUsage:\n\t{} [options]'.format(script_name))
+usage = createStringBuilder('Usage:\n\t{} [options]'.format(script_name))
+usage.append('\nDescription\n\tHelper script for creating release.')
 
 
 ### Prints usage text to stdout.
