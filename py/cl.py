@@ -325,6 +325,8 @@ args = ArgsObject()
 args.registerKey('help', 'h', 'help', descr='Show this usage information.')
 args.registerKey('update_png', 'f', 'force-update-png', descr='Existing PNG images will be overitten with new ones.')
 args.registerKey('dry_run', 'd', 'dry-run', descr='No action is taken.')
+# default value ignored & only used so value is not required
+args.registerKey('clean', 'c', 'clean', takes_value=True, default='default', value_list=('release',), descr='Cleans the directory tree.')
 
 # usage info can be updated after keys are registered
 usage.append('\nOptions:')
