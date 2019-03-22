@@ -4,4 +4,4 @@
 - add "conflicts" options for command line arguments
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even not explicitly declared in command
-- only generate PNGs that are active in template
+- add option to convert ALL PNG images for release

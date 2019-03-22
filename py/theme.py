@@ -174,6 +174,26 @@ def updateTemplate(target, new_groups):
 	fileio.write(target, sb.toString('\n'))
 
 
+### Gets a list of images that should be included in release.
+#
+# @function getReleaseDefaultImages
+# @treturn list
+def getReleaseDefaultImages():
+	default_group = list(parseTemplate()['default'])
+
+	for idx in reversed(range(len(default_group))):
+		IMG = default_group[idx].strip(' \t').replace('\t', ' ').split(' ')[0]
+
+		if IMG.startswith('#!') or not IMG.lower().endswith('.png'):
+			default_group.pop(idx)
+			continue
+
+		IMG = IMG[:-4]
+		default_group[idx] = IMG
+
+	return tuple(default_group)
+
+
 ### Creates theme file from template for release.
 #
 # @function copyTemplate

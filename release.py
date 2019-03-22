@@ -14,6 +14,7 @@ from py.paths	import dir_svg
 from py.paths	import file_license
 from py.paths	import template_file
 from py.theme	import copyTemplate
+from py.theme	import getReleaseDefaultImages
 from py.util	import compress
 from py.util	import convertToPNG
 from template	import init as generateTemplate
@@ -33,19 +34,6 @@ if args.contains('clean'):
 
 # create output directory
 os.makedirs(dir_release, exist_ok=True)
-
-# SVG input files
-svg_files = os.listdir(dir_svg)
-
-idx = len(svg_files) - 1
-while idx >= 0:
-	if not svg_files[idx].lower().endswith('.svg'):
-		svg_files.pop(idx)
-
-	idx -= 1
-
-svg_count = len(svg_files)
-idx = 0
 
 live_run = not args.contains('dry_run')
 if not live_run:
@@ -67,14 +55,21 @@ for S in sizes:
 		print('\nERROR: "{}" is not a valid numerical value for argument "size".'.format(S))
 		sys.exit(1)
 
+print('\nCaching images to be converted for release ...')
+
+release_images = getReleaseDefaultImages()
+img_count = len(release_images)
+idx = 0
+
+print('{} images will be included in release.'.format(img_count))
+
 for S in sizes:
 	size_dir = appendPath(dir_release, '{}/emojitwo'.format(S))
 
-	for SVG in svg_files:
+	for img_name in release_images:
 		idx += 1
 
-		img_name = os.path.basename(SVG).split('.')[0]
-		source = appendPath(dir_svg, SVG)
+		source = appendPath(dir_svg, '{}.svg'.format(img_name))
 		target = appendPath(size_dir, '{}.png'.format(img_name))
 
 		os.makedirs(size_dir, exist_ok=True)
@@ -85,7 +80,7 @@ for S in sizes:
 
 		if live_run:
 			try:
-				sys.stdout.write('Converting SVG to {}x{} PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(S, S, idx, svg_count))
+				sys.stdout.write('Converting SVG to {}x{} PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(S, S, idx, img_count))
 				convertToPNG(source, target, S, S)
 				if not os.path.isfile(target):
 					print('\nERROR: SVG->PNG conversion failed.')
