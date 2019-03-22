@@ -66,9 +66,6 @@ def convertToPNG(in_path, out_path, width=None, height=None):
 	args = ['--without-gui', '--file={}'.format(in_path),
 		'--export-png={}'.format(out_path)]
 
-	if WIN32:
-		args.insert(1, '--shell')
-
 	if width:
 		args.append('--export-width={}'.format(width))
 	if height:
