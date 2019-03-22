@@ -349,6 +349,7 @@ args.registerKey('update_png', 'f', 'force-update-png', descr='Existing PNG imag
 args.registerKey('dry_run', 'd', 'dry-run', descr='No action is taken.')
 # default value ignored & only used so value is not required
 args.registerKey('clean', 'c', 'clean', takes_value=True, default='default', value_list=('release',), descr='Cleans the directory tree.')
+args.registerKey('size', 's', 'size', takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --sizes 24,32,64).')
 
 # usage info can be updated after keys are registered
 usage.append('\nOptions:')
