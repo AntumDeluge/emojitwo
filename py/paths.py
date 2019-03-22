@@ -48,3 +48,4 @@ dir_svg = appendPath(root, 'svg')
 # files
 template_file = appendPath(root, 'theme.txt')
 file_license = appendPath(root, 'LICENSE.txt')
+file_readme = appendPath(root, 'README.md')

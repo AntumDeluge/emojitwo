@@ -12,6 +12,7 @@ from py.paths	import appendPath
 from py.paths	import dir_release
 from py.paths	import dir_svg
 from py.paths	import file_license
+from py.paths	import file_readme
 from py.paths	import template_file
 from py.theme	import copyTemplate
 from py.theme	import getReleaseDefaultImages
@@ -93,6 +94,7 @@ for S in sizes:
 	if live_run:
 		copyTemplate(size_dir)
 		shutil.copy(file_license, size_dir)
+		shutil.copy(file_readme, size_dir)
 
 # newline after converting files
 print()
