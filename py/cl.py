@@ -237,6 +237,11 @@ class ArgsObject:
 						value = None
 						if user_input:
 							value = user_input[0]
+
+							# multiple values
+							if ',' in value:
+								value = tuple(value.split(','))
+
 							# skip over value arguments
 							idx += 1
 
@@ -246,10 +251,18 @@ class ArgsObject:
 
 						if self.hasRegisteredValues(key):
 							reg_values = self.getRegisteredValues(key)
-							if value and value not in reg_values:
-								print('\nERROR: Value of {} must be one of [{}]'.format(arg, '|'.join(reg_values)))
-								sys.exit(1)
+							if value:
+								if type(value) == str:
+									value = (value,)
 
+								for V in value:
+									if V not in reg_values:
+										print('\nERROR: Value of {} can only include [{}]'.format(arg, ','.join(reg_values)))
+										sys.exit(1)
+
+					# make sure value is stored as a string
+					if value and type(value) != str:
+						value = ','.join(value)
 					self.Input[key] = value
 
 			if not valid_key:
@@ -296,9 +309,14 @@ class ArgsObject:
 	#
 	# @method getValue
 	# @tparam str key Key name to parse.
+	# @tparam bool force_list Forces return value to be a tuple.
 	# @return Value for key or None.
-	def getValue(self, key):
-		return self.Input[key]
+	def getValue(self, key, force_list=False):
+		value = self.Input[key]
+		if force_list and type(value) == str:
+			value = tuple(value.split(','))
+
+		return value
 
 	### Retrieves argument description.
 	#

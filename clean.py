@@ -11,8 +11,9 @@ import os, shutil, sys
 
 root = os.path.dirname(sys.argv[0])
 
-def init(args):
-	if '--release' in args or 'release' in args:
+def init(args=None):
+	release = args and ('--release' in args or 'release' in args)
+	if release:
 		print('\nCleaning release files ...')
 
 		dir_release = '{}/release'.format(root)

@@ -26,14 +26,7 @@ if args.contains('clean'):
 	# use condition to prevent IDE from organizing import
 	if True: import clean
 
-	clean_args = []
-	clean_value = args.getValue('clean')
-	if clean_value:
-		for V in clean_value.split(','):
-			clean_args.append(V)
-
-	ret = clean.init(clean_args)
-	sys.exit(ret)
+	sys.exit(clean.init(args.getValue('clean', True)))
 
 # create output directory
 os.makedirs(dir_export, exist_ok=True)
