@@ -66,11 +66,16 @@ print('\nCaching images to be converted for release ...')
 
 release_images = getReleaseDefaultImages()
 img_count = len(release_images)
-idx = 0
 
 print('{} images will be included in release.'.format(img_count))
 
+grp_count = len(sizes)
+grp_idx = 0
 for S in sizes:
+	grp_idx += 1
+	print('\nProcessing {}x{} images (group {}/{}) ...'.format(S, S, grp_idx, grp_count))
+
+	idx = 0
 	size_dir = appendPath(dir_release, '{}/emojitwo'.format(S))
 
 	for img_name in release_images:
@@ -96,13 +101,13 @@ for S in sizes:
 				print('\nProcess cancelled by user')
 				sys.exit(0)
 
+	# newline after converting files
+	print()
+
 	if live_run:
 		copyTemplate(size_dir)
 		shutil.copy(file_license, size_dir)
 		shutil.copy(file_readme, size_dir)
-
-# newline after converting files
-print()
 
 # create zip distribution archive
 compress(not live_run)
