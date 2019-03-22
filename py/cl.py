@@ -211,7 +211,9 @@ class ArgsObject:
 	def parseArgs(self):
 		arg_list = sys.argv[1:]
 
-		for idx in range(len(arg_list)):
+		# cannot use "for" loop here because idx becomes immutable
+		idx = 0
+		while idx < len(arg_list):
 			arg = arg_list[idx]
 
 			key_long = False
@@ -228,18 +230,35 @@ class ArgsObject:
 				if not key:
 					valid_key = False
 				else:
+					value = None
+
 					if self.takesValue(key):
-						# FIXME:
-						print('Key takes value: {} (default: {})'.format(key, self.getDefaultValue(key)))
-						if self.requiresValue(key):
-							print('Key requires value: {}'.format(key))
-					else:
-						self.Input[key] = None
+						user_input = tuple(arg_list[idx+1:])
+						value = None
+						if user_input:
+							value = user_input[0]
+							# skip over value arguments
+							idx += 1
+
+						if self.requiresValue(key) and not value:
+							print('\nERROR: {} requires value.'.format(arg))
+							sys.exit(1)
+
+						if self.hasRegisteredValues(key):
+							reg_values = self.getRegisteredValues(key)
+							if value and value not in reg_values:
+								print('\nERROR: Value of {} must be one of [{}]'.format(arg, '|'.join(reg_values)))
+								sys.exit(1)
+
+					self.Input[key] = value
 
 			if not valid_key:
 				print('\nERROR: Invalid argument: {}'.format(arg))
 				showUsage()
 				sys.exit(1)
+
+			# next argument
+			idx += 1
 
 	### Retrieves string representation of arguments.
 	#
