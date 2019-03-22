@@ -29,6 +29,13 @@ class StringBuilder:
 	def add(self, string):
 		return self.append(string)
 
+	### Joins internal strings into one.
+	#
+	# @method joinStrings
+	# @tparam str delim Character(s) by which to join strings.
+	def joinStrings(self, delim=None):
+		self.Strings = [self.toString(delim)]
+
 	def toString(self, delim=None):
 		if delim:
 			return delim.join(self.Strings)
