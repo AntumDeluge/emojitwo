@@ -16,31 +16,39 @@ from py.sb			import createStringBuilder
 from py.util		import getWordCount
 
 
+parsed_groups = False
+t_groups = {}
+
 ### Function to parse existing template & extract groups.
 #
 # @local
 # @function parseTemplate
 # @tparam str template_file
+# @tparam bool force
 # @treturn dict
-def parseTemplate(target=template_file):
-	groups = {}
-	text = fileio.read(target)
+def parseTemplate(target=template_file, force=False):
+	global parsed_groups
 
-	BUFFER = text
-	while '[' in BUFFER and ']' in BUFFER:
-		start = BUFFER.index('[') + 1
-		end = BUFFER.index(']')
+	if not parsed_groups or force:
+		text = fileio.read(target)
 
-		g_name = BUFFER[start:end]
-		BUFFER = BUFFER[end+1:]
-		if '[' in BUFFER:
-			group = tuple(BUFFER[:BUFFER.index('[')].rstrip(' \t\r\n').split('\n'))
-		else:
-			group = tuple(BUFFER.rstrip(' \t\r\n').split('\n'))
+		BUFFER = text
+		while '[' in BUFFER and ']' in BUFFER:
+			start = BUFFER.index('[') + 1
+			end = BUFFER.index(']')
 
-		groups[g_name] = cleanList(group)
+			g_name = BUFFER[start:end]
+			BUFFER = BUFFER[end+1:]
+			if '[' in BUFFER:
+				group = tuple(BUFFER[:BUFFER.index('[')].rstrip(' \t\r\n').split('\n'))
+			else:
+				group = tuple(BUFFER.rstrip(' \t\r\n').split('\n'))
 
-	return groups
+			t_groups[g_name] = cleanList(group)
+
+		parsed_groups = True
+
+	return t_groups
 
 
 ### Function to generate the new theme.
