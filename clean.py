@@ -8,13 +8,33 @@
 
 import os, shutil, sys
 
+
 root = os.path.dirname(sys.argv[0])
+
+if '--release' in sys.argv:
+	print('\nCleaning release files ...')
+
+	dir_release = '{}/release'.format(root)
+	if os.path.isdir(dir_release):
+		try:
+			shutil.rmtree(dir_release)
+		except PermissionError:
+			print('\nERROR:\tCould not delete release directory: {}'.format(dir_release))
+			print('\tCheck if you have write permission or if the\n\tfolder is locked by another process.')
+			sys.exit(1)
+
+	if os.path.exists(dir_release):
+		print('\nERROR:\tCould not delete release directory: {}'.format(dir_release))
+		sys.exit(1)
+
+	sys.exit(0)
 
 clean_dirs = (
 	root,
 	'{}/py'.format(root),
 )
 
+print('\nCleaning compiled Python bytecode (.pyc) ...')
 for D in clean_dirs:
 	# remove __pycache__ dir
 	pycache = '{}/__pycache__'.format(D)
