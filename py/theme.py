@@ -20,7 +20,9 @@ from py.util		import getWordCount
 #
 # @local
 # @function parseTemplate
-def parseTemplate(target):
+# @tparam str template_file
+# @treturn dict
+def parseTemplate(target=template_file):
 	groups = {}
 	text = fileio.read(target)
 
