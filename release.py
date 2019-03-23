@@ -67,7 +67,9 @@ for S in sizes:
 		print('\nERROR: "{}" is not a valid numerical value for argument "size".'.format(S))
 		sys.exit(1)
 
-release_images = getReleaseImages()
+# images to be included with release
+include_all = args.contains('all-images')
+release_images = getReleaseImages(all_images=include_all)
 img_count = len(release_images)
 
 print('{} images will be included in release.'.format(img_count))
@@ -78,7 +80,10 @@ readme_text = markdownToText(fileio.read(file_readme))
 grp_count = len(sizes)
 grp_idx = 0
 for S in sizes:
+	converted_count = 0
+	replaced_count = 0
 	grp_idx += 1
+
 	print('\nProcessing {}x{} images (group {}/{}) ...'.format(S, S, grp_idx, grp_count))
 
 	idx = 0
@@ -107,9 +112,14 @@ for S in sizes:
 				print('\nProcess cancelled by user')
 				sys.exit(0)
 
+		converted_count += 1
+		if replace:
+			replaced_count += 1
+
 	# newline after converting files
 	print()
 
+	print('\n{} new images added to release ({} updated).'.format(converted_count, replaced_count))
 	if live_run:
 		copyTemplate(size_dir)
 		shutil.copy(file_license, size_dir)
