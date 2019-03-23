@@ -222,6 +222,42 @@ def getReleaseImages(include='default', all_images=False):
 	return tuple(image_list)
 
 
+### Gets all files marked for exclusion from template.
+#
+# This list is compared with any existing images in release
+# directory that should not be included with release.
+#
+# FIXME: doesn't seem to retrieve accurate list
+#
+# @function getImagesToRemove
+# @param exclude Group names that should be used for parsing exclude list.
+# @treturn tuple List of images found that should be removed.
+def getImagesToRemove(exclude='default'):
+	exclude_list = []
+	image_groups = parseTemplate()
+
+	def addExcludesFromGroup(grp):
+		for IMG in image_groups[grp]:
+			if IMG.startswith('#!'):
+				IMG = IMG[2:]
+				if IMG not in exclude_list:
+					exclude_list.append(IMG)
+
+	if type(exclude) == str:
+		# asterix means include all groups of images
+		if exclude == '*':
+			for G in image_groups:
+				addExcludesFromGroup(G)
+		else:
+			if exclude not in image_groups:
+				sys.stderr.write('\nERROR: "{}" image group not found in template.\n'.format(exclude))
+				sys.exit(1)
+
+			addExcludesFromGroup(exclude)
+
+	return tuple(exclude_list)
+
+
 ### Creates theme file from template for release.
 #
 # @function copyTemplate

@@ -17,6 +17,7 @@ from py.paths	import file_license
 from py.paths	import file_readme
 from py.paths	import template_file
 from py.theme	import copyTemplate
+from py.theme	import getImagesToRemove
 from py.theme	import getReleaseImages
 from py.util	import compress
 from py.util	import convertToPNG
@@ -37,7 +38,7 @@ if args.contains('clean'):
 
 live_run = not args.contains('dry-run')
 if not live_run:
-	print('\nDry run: Not making any changes ...\n')
+	print('\nDry run: Not making any changes!\n')
 
 if live_run:
 	# create output directory
@@ -72,6 +73,11 @@ include_all = args.contains('all-images')
 release_images = getReleaseImages(all_images=include_all)
 img_count = len(release_images)
 
+# images that should be removed from release if found
+remove_images = ()
+if not include_all:
+	remove_images = getImagesToRemove()
+
 print('{} images will be included in release.'.format(img_count))
 
 # prepare README for inclusion in release
@@ -82,12 +88,35 @@ grp_idx = 0
 for S in sizes:
 	converted_count = 0
 	replaced_count = 0
+	removed_count = 0
 	grp_idx += 1
 
 	print('\nProcessing {}x{} images (group {}/{}) ...'.format(S, S, grp_idx, grp_count))
 
 	idx = 0
 	size_dir = appendPath(dir_release, '{}/emojitwo'.format(S))
+
+	# check for previously generated release
+	if remove_images and os.path.isdir(size_dir):
+		print('\nChecking images from previous release ...')
+		png_existing = os.listdir(size_dir)
+
+		# exclude non-PNG files
+		for p_idx in reversed(range(len(png_existing))):
+			if not png_existing[p_idx].lower().endswith('.png'):
+				png_existing.pop(p_idx)
+
+		if not png_existing:
+			print('... none found.')
+
+		# check if files should not be included in release
+		for PNG in png_existing:
+			if PNG in remove_images:
+				sys.stdout.write('Removing existing image from release: {}            \r'.format(PNG))
+				if live_run:
+					PNG = appendPath(size_dir, PNG)
+					os.remove(PNG)
+				removed_count += 1
 
 	for img_name in release_images:
 		idx += 1
@@ -97,8 +126,11 @@ for S in sizes:
 
 		os.makedirs(size_dir, exist_ok=True)
 
-		if os.path.isfile(target) and not args.contains('update-png'):
-			sys.stdout.write('Not updating {}x{} PNG: {}                          \r'.format(S, S, img_name))
+		replace = os.path.isfile(target)
+
+		# --force-update-png argument re-generates all PNG images
+		if replace and not args.contains('update-png'):
+			sys.stdout.write('Not updating {}x{} PNG image ({}/{})          \r'.format(S, S, idx, img_count))
 			continue
 
 		if live_run:
@@ -120,6 +152,9 @@ for S in sizes:
 	print()
 
 	print('\n{} new images added to release ({} updated).'.format(converted_count, replaced_count))
+	if removed_count > 0:
+		print('{} old images removed from release.'.format(removed_count))
+
 	if live_run:
 		copyTemplate(size_dir)
 		shutil.copy(file_license, size_dir)
