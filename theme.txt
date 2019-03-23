@@ -1,7 +1,7 @@
 Name=Emojitwo
 Description=Emojitwo smiley theme originally released as Emojione 2.2
 Icon=1f600.png
-Author=Ranks.com & Emojitwo community
+Author=Ranks.com &amp; Emojitwo community
 
 [default]
 #!0023-20e3.png
