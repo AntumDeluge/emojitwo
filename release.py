@@ -47,7 +47,7 @@ if live_run:
 		generateTemplate()
 
 # default sizes (overridden with --sizes option)
-sizes = ['24', '32', '64']
+sizes = ['16', '24']
 if args.contains('size'):
 	sizes = args.getValue('size', True)
 else:
