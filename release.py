@@ -64,8 +64,6 @@ for S in sizes:
 		print('\nERROR: "{}" is not a valid numerical value for argument "size".'.format(S))
 		sys.exit(1)
 
-print('\nCaching images to be converted for release ...')
-
 release_images = getReleaseDefaultImages()
 img_count = len(release_images)
 
