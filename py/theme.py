@@ -178,21 +178,28 @@ def updateTemplate(target, new_groups):
 ### Gets a list of images that should be included in release.
 #
 # @function getReleaseImages
-# @treturn list
-def getReleaseImages():
-	default_group = list(parseTemplate()['default'])
+# @tparam bool all_images If `True`, will not ignore lines beginning with "#!".
+# @treturn list Images that should be converted & added to release.
+def getReleaseImages(all_images=False):
+	image_list = list(parseTemplate()['default'])
 
-	for idx in reversed(range(len(default_group))):
-		IMG = default_group[idx].strip(' \t').replace('\t', ' ').split(' ')[0]
+	for idx in reversed(range(len(image_list))):
+		IMG = image_list[idx].strip(' \t').replace('\t', ' ').split(' ')[0]
 
-		if IMG.startswith('#!') or not IMG.lower().endswith('.png'):
-			default_group.pop(idx)
+		# only working with PNG image type
+		if not IMG.lower().endswith('.png'):
+			image_list.pop(idx)
+			continue
+
+		# lines beginning with "#!" are ignored unless `all_images` is set to `True`
+		if not all_images and IMG.startswith('#!'):
+			image_list.pop(idx)
 			continue
 
 		IMG = IMG[:-4]
-		default_group[idx] = IMG
+		image_list[idx] = IMG
 
-	return tuple(default_group)
+	return tuple(image_list)
 
 
 ### Creates theme file from template for release.
