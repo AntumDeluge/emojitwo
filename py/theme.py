@@ -177,9 +177,9 @@ def updateTemplate(target, new_groups):
 
 ### Gets a list of images that should be included in release.
 #
-# @function getReleaseDefaultImages
+# @function getReleaseImages
 # @treturn list
-def getReleaseDefaultImages():
+def getReleaseImages():
 	default_group = list(parseTemplate()['default'])
 
 	for idx in reversed(range(len(default_group))):

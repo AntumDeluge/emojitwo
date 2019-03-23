@@ -17,7 +17,7 @@ from py.paths	import file_license
 from py.paths	import file_readme
 from py.paths	import template_file
 from py.theme	import copyTemplate
-from py.theme	import getReleaseDefaultImages
+from py.theme	import getReleaseImages
 from py.util	import compress
 from py.util	import convertToPNG
 from template	import init as generateTemplate
@@ -67,7 +67,7 @@ for S in sizes:
 		print('\nERROR: "{}" is not a valid numerical value for argument "size".'.format(S))
 		sys.exit(1)
 
-release_images = getReleaseDefaultImages()
+release_images = getReleaseImages()
 img_count = len(release_images)
 
 print('{} images will be included in release.'.format(img_count))
