@@ -35,7 +35,7 @@ if args.contains('clean'):
 
 	sys.exit(clean.init(args.getValue('clean', True)))
 
-live_run = not args.contains('dry_run')
+live_run = not args.contains('dry-run')
 if not live_run:
 	print('\nDry run: Not making any changes ...\n')
 
@@ -92,7 +92,7 @@ for S in sizes:
 
 		os.makedirs(size_dir, exist_ok=True)
 
-		if os.path.isfile(target) and not args.contains('update_png'):
+		if os.path.isfile(target) and not args.contains('update-png'):
 			sys.stdout.write('Not updating {}x{} PNG: {}                          \r'.format(S, S, img_name))
 			continue
 
