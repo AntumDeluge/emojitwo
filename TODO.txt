@@ -4,3 +4,4 @@
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even not explicitly declared in command
 - add option to convert ALL PNG images for release
+- remove images from previous release that have now been marked for exclusion in template
