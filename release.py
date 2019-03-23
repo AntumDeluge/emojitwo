@@ -52,8 +52,11 @@ if args.contains('size'):
 	sizes = args.getValue('size', True)
 else:
 	sizes_copy = list(sizes[:-1])
-	sizes_copy.append('and {}'.format(sizes[2]))
-	print('\nCreating releases for image sizes {} pixels.'.format(', '.join(sizes_copy)))
+	sizes_copy.append('and {}'.format(sizes[-1]))
+	sizes_delim = ' '
+	if len(sizes) > 2:
+		sizes_delim = ', '
+	print('\nCreating releases for image sizes {} pixels.'.format(sizes_delim.join(sizes_copy)))
 	print('This can be changed by using the "--size" option.')
 
 for S in sizes:
