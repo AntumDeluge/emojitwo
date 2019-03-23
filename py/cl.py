@@ -341,6 +341,12 @@ class ArgsObject:
 	def contains(self, key):
 		return key in self.Input
 
+	### Alias for ArgsObject.contains
+	#
+	# @method contain
+	def contain(self, key):
+		return self.contains(key)
+
 
 # arguments supplied from the command line
 args = ArgsObject()
