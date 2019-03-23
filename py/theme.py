@@ -4,6 +4,7 @@
 # @package py.theme
 
 
+import sys
 from os.path import isfile
 
 from py				import fileio
@@ -178,10 +179,26 @@ def updateTemplate(target, new_groups):
 ### Gets a list of images that should be included in release.
 #
 # @function getReleaseImages
+# @param include Image groups to be included in release
 # @tparam bool all_images If `True`, will not ignore lines beginning with "#!".
 # @treturn list Images that should be converted & added to release.
-def getReleaseImages(all_images=False):
-	image_list = list(parseTemplate()['default'])
+def getReleaseImages(include='default', all_images=False):
+	image_list = []
+	image_groups = parseTemplate()
+
+	if type(include) == str:
+		# asterix means include all groups of images
+		if include == '*':
+			for G in image_groups:
+				for IMG in image_groups[G]:
+					if IMG not in image_list:
+						image_list.append(IMG)
+		else:
+			if include not in image_groups:
+				sys.stderr.write('\nERROR: "{}" image group not found in template.\n'.format(include))
+				sys.exit(1)
+
+			image_list = list(image_groups[include])
 
 	for idx in reversed(range(len(image_list))):
 		IMG = image_list[idx].strip(' \t').replace('\t', ' ').split(' ')[0]
