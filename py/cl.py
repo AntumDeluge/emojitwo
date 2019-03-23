@@ -339,6 +339,9 @@ class ArgsObject:
 	# @tparam str key Key argument to check for.
 	# @treturn `True` if `key` was added to the argument list.
 	def contains(self, key):
+		if key not in self.Registered:
+			print('\nWARNING: Checking for unregistered argument key: {}'.format(key))
+
 		return key in self.Input
 
 	### Alias for ArgsObject.contains
