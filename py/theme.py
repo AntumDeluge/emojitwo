@@ -208,10 +208,13 @@ def getReleaseImages(include='default', all_images=False):
 			image_list.pop(idx)
 			continue
 
-		# lines beginning with "#!" are ignored unless `all_images` is set to `True`
-		if not all_images and IMG.startswith('#!'):
-			image_list.pop(idx)
-			continue
+		if IMG.startswith('#!'):
+			# lines beginning with "#!" are ignored unless `all_images` is set to `True`
+			if not all_images:
+				image_list.pop(idx)
+				continue
+
+			IMG = IMG[2:]
 
 		IMG = IMG[:-4]
 		image_list[idx] = IMG
