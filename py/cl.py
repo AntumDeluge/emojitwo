@@ -344,12 +344,12 @@ class ArgsObject:
 
 # arguments supplied from the command line
 args = ArgsObject()
-args.registerKey('help', 'h', 'help', descr='Show this usage information.')
+args.registerKey('help', 'h', args.USE_NAME, descr='Show this usage information.')
 args.registerKey('update_png', 'f', 'force-update-png', descr='Existing PNG images will be overitten with new ones.')
 args.registerKey('dry_run', 'd', 'dry-run', descr='No action is taken.')
 # default value ignored & only used so value is not required
-args.registerKey('clean', 'c', 'clean', takes_value=True, default='default', value_list=('release',), descr='Cleans the directory tree.')
-args.registerKey('size', 's', 'size', takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --sizes 24,32,64).')
+args.registerKey('clean', 'c', args.USE_NAME, takes_value=True, default='default', value_list=('release',), descr='Cleans the directory tree.')
+args.registerKey('size', 's', args.USE_NAME, takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --sizes 24,32,64).')
 args.registerKey('no-update-template', k_long=args.USE_NAME, descr='Theme template will not be regenerated (only works if template exists).')
 
 # usage info can be updated after keys are registered
