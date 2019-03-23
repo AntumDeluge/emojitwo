@@ -23,9 +23,9 @@ t_groups = {}
 #
 # @local
 # @function parseTemplate
-# @tparam str template_file
-# @tparam bool force
-# @treturn dict
+# @tparam str template_file File to parse.
+# @tparam bool force Forces re-parsing of template even if previously cached.
+# @treturn dict Image groups found in template.
 def parseTemplate(target=template_file, force=False):
 	global parsed_groups
 
