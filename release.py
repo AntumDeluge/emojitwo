@@ -99,6 +99,7 @@ for S in sizes:
 	# check for previously generated release
 	if remove_images and os.path.isdir(size_dir):
 		print('\nChecking images from previous release ...')
+		# images found in target release directory
 		png_existing = os.listdir(size_dir)
 
 		# exclude non-PNG files
