@@ -350,6 +350,13 @@ class ArgsObject:
 	def contain(self, key):
 		return self.contains(key)
 
+	### Retrieves number of argument keys passed to command line.
+	#
+	# @method count
+	# @treturn int Number of arguments.
+	def count(self):
+		return len(self.Input)
+
 
 # arguments supplied from the command line
 args = ArgsObject()
