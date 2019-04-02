@@ -239,7 +239,14 @@ def getImagesToRemove(exclude='default'):
 	def addExcludesFromGroup(grp):
 		for IMG in image_groups[grp]:
 			if IMG.startswith('#!'):
+				# remove "#!" characters
 				IMG = IMG[2:]
+				# remove trailing characters after ".png"
+				IMG = IMG[:IMG.lower().index('.png') + 4]
+
+				if IMG.endswith(' ') or IMG.endswith('\t'):
+					print('WARNING: Attempting to remove image with trailing whitespace in filename: "{}"'.format(IMG))
+
 				if IMG not in exclude_list:
 					exclude_list.append(IMG)
 
