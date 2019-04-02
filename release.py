@@ -131,12 +131,12 @@ for S in sizes:
 
 		# --force-update-png argument re-generates all PNG images
 		if replace and not args.contains('update-png'):
-			sys.stdout.write('Not updating {}x{} PNG image ({}/{})          \r'.format(S, S, idx, img_count))
+			sys.stdout.write('Not updating PNG image ({}/{})          \r'.format(idx, img_count))
 			continue
 
 		if live_run:
 			try:
-				sys.stdout.write('Converting SVG to {}x{} PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(S, S, idx, img_count))
+				sys.stdout.write('Converting SVG to PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(idx, img_count))
 				convertToPNG(source, target, S, S)
 				if not os.path.isfile(target):
 					print('\nERROR: SVG->PNG conversion failed.')
