@@ -1,6 +1,5 @@
 [priority]
 - fix error when OPTIONAL value argument followed with argument insead of value
-- FIX removing images from previous release that have now been marked for exclusion in template
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
@@ -10,4 +9,3 @@
 - convert markdown README to plain text for release
 - add "conflicts" options for command line arguments
 - only include explicitely declared sizes in release zip archive
-- catch Ctrl+C at wider scope
