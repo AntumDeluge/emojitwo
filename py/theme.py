@@ -31,7 +31,7 @@ def parseTemplate(target=template_file, force=False):
 	global parsed_groups
 
 	if not parsed_groups or force:
-		print('\nCaching image list from template ...')
+		print('\nCaching image list from template (Ctrl+C to cancel) ...')
 		text = fileio.read(target)
 
 		BUFFER = text
