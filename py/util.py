@@ -52,6 +52,25 @@ def getCommand(cmd):
 	return cmd_path
 
 
+### Executes a system command.
+#
+# @function execute
+# @param arg_list Command to be executed including arguments.
+def execute(arg_list):
+	if type(arg_list) == str:
+		arg_list = arg_list.replace('\t', ' ').strip().split(' ')
+
+	if type(arg_list) == tuple:
+		arg_list = list(arg_list)
+
+	if not arg_list:
+		print('ERROR: Cannot execute empty command')
+		sys.exit(1)
+
+	proc = subprocess.Popen(arg_list)
+	outs, errs = proc.communicate() # @UnusedVariable
+
+
 # command to convert images
 cmd_name = 'inkscape'
 cmd_convert = getCommand(cmd_name)
@@ -76,8 +95,8 @@ def convertToPNG(in_path, out_path, width=None, height=None):
 	if height:
 		args.append('--export-height={}'.format(height))
 
-	proc = subprocess.Popen(args, executable=cmd_convert)
-	outs, errs = proc.communicate() # @UnusedVariable
+	args.insert(0, cmd_convert)
+	return execute(args)
 
 
 ### Compresses release into zip archive.
