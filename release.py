@@ -7,6 +7,7 @@
 import os, shutil, sys
 
 from py			import fileio
+from py			import info
 from py			import pyIsCompat
 from py.cl		import args
 from py.md		import markdownToText
@@ -21,6 +22,8 @@ from py.theme	import getImagesToRemove
 from py.theme	import getReleaseImages
 from py.util	import compress
 from py.util	import convertToPNG
+from py.util	import execute
+from py.util	import getCommand
 from template	import init as generateTemplate
 
 
@@ -36,6 +39,22 @@ try:
 		if True: import clean
 
 		sys.exit(clean.init(args.getValue('clean', True)))
+
+	if args.contains('tag'):
+		cmd_git = getCommand('git')
+		if not cmd_git:
+			print('ERROR: git command not found')
+			sys.exit(1)
+
+		ver_main = info.getAttribute('version')
+		ver_script = info.getAttribute('script_version')
+
+		new_tag = 'v{}-{}'.format(ver_main, ver_script)
+
+		print('\nCreating tag {} from INFO file ...'.format(new_tag))
+		execute('{} tag {}'.format(cmd_git, new_tag))
+
+		sys.exit(0)
 
 	live_run = not args.contains('dry-run')
 	if not live_run:

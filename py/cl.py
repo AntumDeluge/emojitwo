@@ -368,6 +368,7 @@ args.registerKey('clean', 'c', args.USE_NAME, takes_value=True, default='default
 args.registerKey('size', 's', args.USE_NAME, takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --sizes 24,32,64).')
 args.registerKey('no-update-template', k_long=args.USE_NAME, descr='Theme template will not be regenerated (only works if template exists).')
 args.registerKey('all-images', k_long=args.USE_NAME, descr='Don\'t ignore images are marked for exclusion in template file.\n\t\tAlso removes images found in release that have been marked for\n\t\texclusion.')
+args.registerKey('tag', 't', args.USE_NAME, descr='Create Git tag from INFO file (requires "git" command).')
 
 # usage info can be updated after keys are registered
 usage.append('\nOptions:')
