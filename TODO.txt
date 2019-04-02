@@ -9,3 +9,4 @@
 - convert markdown README to plain text for release
 - add "conflicts" options for command line arguments
 - only include explicitely declared sizes in release zip archive
+- update usage string dynamically when ArgsObject.registerKey called
