@@ -47,9 +47,15 @@ try:
 			sys.exit(1)
 
 		ver_main = info.getAttribute('version')
-		ver_script = info.getAttribute('script_version')
+		try:
+			ver_package = int(info.getAttribute('package_release'))
+		except (TypeError, ValueError):
+			print('\nWARNING: Could not get package version from INFO file, setting to "0".')
+			ver_package = 0
 
-		new_tag = 'v{}-{}'.format(ver_main, ver_script)
+		new_tag = 'v{}'.format(ver_main)
+		if ver_package:
+			new_tag = '{}-{}'.format(new_tag, ver_package)
 
 		print('\nCreating tag {} from INFO file ...'.format(new_tag))
 		execute('{} tag {}'.format(cmd_git, new_tag))
