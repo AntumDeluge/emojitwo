@@ -66,12 +66,15 @@ try:
 	if not live_run:
 		print('\nDry run: Not making any changes!\n')
 
-	if live_run:
-		# create output directory
-		os.makedirs(dir_release, exist_ok=True)
-
+	# --force-update-template is used to regenerate template when --dry-run is specified.
+	if not live_run and args.contains('force-update-template'):
+		generateTemplate()
+	elif live_run:
 		if not args.contains('no-update-template') or not os.path.isfile(template_file):
 			generateTemplate()
+
+		# create output directory
+		os.makedirs(dir_release, exist_ok=True)
 
 	# default sizes (overridden with --sizes option)
 	sizes = ['16', '24']
