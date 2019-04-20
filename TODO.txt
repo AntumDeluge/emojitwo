@@ -5,11 +5,11 @@ scripts:
 - argument default values should be checked even if not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
 - organize images in theme file
+- convert markdown README to plain text for release
 
 [non-priority]
 scripts:
 - format spacing in usage output
-- convert markdown README to plain text for release
 - add "conflicts" options for command line arguments
 - only include explicitely declared sizes in release zip archive
 - update usage string dynamically when ArgsObject.registerKey called
