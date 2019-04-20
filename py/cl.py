@@ -365,9 +365,9 @@ args.registerKey('update-png', 'f', 'force-update-png', descr='Existing PNG imag
 args.registerKey('dry-run', 'd', args.USE_NAME, descr='No action is taken.')
 # default value ignored & only used so value is not required
 args.registerKey('clean', 'c', args.USE_NAME, takes_value=True, default='default', value_list=('release',), descr='Cleans the directory tree.')
-args.registerKey('size', 's', args.USE_NAME, takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --sizes 24,32,64).')
+args.registerKey('size', 's', args.USE_NAME, takes_value=True, descr='Size(s) for exported PNG images in pixels (e.g. --size 24,32,64).')
 args.registerKey('no-update-template', k_long=args.USE_NAME, descr='Theme template will not be regenerated (only works if template exists).')
-args.registerKey('all-images', k_long=args.USE_NAME, descr='Don\'t ignore images are marked for exclusion in template file.\n\t\tAlso removes images found in release that have been marked for\n\t\texclusion.')
+args.registerKey('all-images', k_long=args.USE_NAME, descr='Don\'t ignore images marked for exclusion in template file.\n\t\tAlso removes images found in release that have been marked for\n\t\texclusion.')
 args.registerKey('tag', 't', args.USE_NAME, descr='Create Git tag from INFO file (requires "git" command).')
 
 # usage info can be updated after keys are registered
