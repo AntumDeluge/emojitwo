@@ -16,6 +16,7 @@ from py.paths	import dir_release
 from py.paths	import dir_svg
 from py.paths	import file_license
 from py.paths	import file_readme
+from py.paths	import root as dir_root
 from py.paths	import template_file
 from py.theme	import copyTemplate
 from py.theme	import getImagesToRemove
@@ -188,6 +189,7 @@ try:
 
 	if live_run:
 		shutil.copy(file_license, dir_release)
+		shutil.copy(appendPath(dir_root, 'CHANGES.txt'), dir_release)
 		fileio.write(appendPath(dir_release, 'README.txt'), readme_text)
 
 	# create zip distribution archive

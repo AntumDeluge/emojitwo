@@ -1,0 +1,3 @@
+Pre-release:
+- copied SVG emojis from Emojitwo Github repo at commit 396be0e
+- created helper scripts to convert images from SVG to PNG & create releases
