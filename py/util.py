@@ -106,9 +106,9 @@ def convertToPNG(in_path, out_path, width=None, height=None):
 def compress(dry_run=False):
 	t_name = '{}-pidgin'.format(info.getAttribute('name').lower())
 	t_version = info.getAttribute('version')
-	f_packver = 0
+	t_packver = 0
 	try:
-		f_packver = int(info.getAttribute('package_release'))
+		t_packver = int(info.getAttribute('package_release'))
 	except:
 		pass
 
@@ -117,8 +117,8 @@ def compress(dry_run=False):
 	if t_version:
 		t_rel = '{}-{}'.format(t_rel, t_version)
 
-	if f_packver > 0:
-		t_rel = '{}-{}'.format(t_rel, f_packver)
+	if t_packver > 0:
+		t_rel = '{}-{}'.format(t_rel, t_packver)
 
 	# FIXME: don't remember why formatPath() is called here
 	t_zip = formatPath('{}.zip'.format(t_rel))
