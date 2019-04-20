@@ -1,13 +1,18 @@
 [priority]
+scripts:
 - fix error when OPTIONAL value argument followed with argument insead of value
 - handle excessive or stray commas in comma-separated key=value arguments
-- argument default values should be checked even not explicitly declared in command
+- argument default values should be checked even if not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
 - change zip release name from "emojitwo" to "emojitwo-pidgin"
+- organize images in theme file
 
 [non-priority]
+scripts:
 - format spacing in usage output
 - convert markdown README to plain text for release
 - add "conflicts" options for command line arguments
 - only include explicitely declared sizes in release zip archive
 - update usage string dynamically when ArgsObject.registerKey called
+- allow optional argument for --update-png to specify which images should be updated
+- handle heart character with unknown trailing character data (❤️) sent by iPhones (?)
