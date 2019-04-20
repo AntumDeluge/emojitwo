@@ -104,7 +104,7 @@ def convertToPNG(in_path, out_path, width=None, height=None):
 # @function compress
 # @tparam bool dry_run If `True`, no action will be taken.
 def compress(dry_run=False):
-	t_name = info.getAttribute('name').lower()
+	t_name = '{}-pidgin'.format(info.getAttribute('name').lower())
 	t_version = info.getAttribute('version')
 	f_packver = 0
 	try:

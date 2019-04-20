@@ -4,7 +4,6 @@ scripts:
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even if not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
-- change zip release name from "emojitwo" to "emojitwo-pidgin"
 - organize images in theme file
 
 [non-priority]
