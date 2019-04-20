@@ -1,3 +1,4 @@
 Pre-release:
 - copied SVG emojis from Emojitwo Github repo at commit 396be0e
 - created helper scripts to convert images from SVG to PNG & create releases
+- used images 1F60A & 2764 to create 1F970 (Smiling Face With Hearts) emoji

@@ -1716,6 +1716,7 @@ Author=Ranks.com &amp; Emojitwo community
 1f95c.png					🥜
 1f95d.png					🥝
 1f95e.png					🥞
+1f970.png					🥰
 1f980.png					🦀
 1f981.png					🦁
 1f982.png					🦂
