@@ -102,18 +102,28 @@ def convertToPNG(in_path, out_path, width=None, height=None):
 ### Compresses release into zip archive.
 #
 # @function compress
-# @tparam bool dry_run If `True`, no action will be taken
+# @tparam bool dry_run If `True`, no action will be taken.
 def compress(dry_run=False):
-	print('\nCreating zip distribution archive ...')
-
 	t_name = info.getAttribute('name').lower()
 	t_version = info.getAttribute('version')
+	f_packver = 0
+	try:
+		f_packver = int(info.getAttribute('package_release'))
+	except:
+		pass
+
 	t_rel = t_name
 
 	if t_version:
 		t_rel = '{}-{}'.format(t_rel, t_version)
 
+	if f_packver > 0:
+		t_rel = '{}-{}'.format(t_rel, f_packver)
+
+	# FIXME: don't remember why formatPath() is called here
 	t_zip = formatPath('{}.zip'.format(t_rel))
+
+	print('\nCreating distribution archive "{}" ...'.format(t_zip))
 
 	file_list = []
 	ret_dir = os.getcwd()
