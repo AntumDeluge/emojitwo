@@ -240,14 +240,16 @@ class ArgsObject:
 						user_input = tuple(arg_list[idx+1:])
 						value = self.getDefaultValue(key)
 						if user_input:
-							value = user_input[0]
+							# ignore following arguments
+							if not user_input[0].startswith('-'):
+								value = user_input[0]
 
-							# multiple values
-							if ',' in value:
-								value = tuple(value.split(','))
+								# multiple values
+								if ',' in value:
+									value = tuple(value.split(','))
 
-							# skip over value arguments
-							idx += 1
+								# skip over value arguments
+								idx += 1
 
 						if self.requiresValue(key) and not value:
 							print('\nERROR: {} requires value.'.format(arg))

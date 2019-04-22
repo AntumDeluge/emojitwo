@@ -1,6 +1,5 @@
 [priority]
 scripts:
-- fix error when OPTIONAL value argument followed with argument insead of value
 - handle excessive or stray commas in comma-separated key=value arguments
 - argument default values should be checked even if not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
