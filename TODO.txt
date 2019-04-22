@@ -12,3 +12,4 @@ scripts:
 - update usage string dynamically when ArgsObject.registerKey called
 - handle heart character with unknown trailing character data (❤️) sent by iPhones (?)
 - add configuration for text replacement plugin
+- allow combining short arguments (e.g.: '-nOs')
