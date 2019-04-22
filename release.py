@@ -110,6 +110,13 @@ try:
 
 	print('{} images will be included in release.'.format(img_count))
 
+	# images that will be overwritten if found in release (default is to not overwrite any, use --overwrite to set)
+	overwrite_images = None
+	if args.contains('overwrite-png'):
+		overwrite_images = args.getValue('overwrite-png')
+		if ',' in overwrite_images:
+			overwrite_images = tuple(overwrite_images.split(','))
+
 	# prepare README for inclusion in release
 	readme_text = markdownToText(fileio.read(file_readme))
 
@@ -158,11 +165,17 @@ try:
 			os.makedirs(size_dir, exist_ok=True)
 
 			img_exists = os.path.isfile(target)
+			if img_exists:
+				# check if image should be overwritten (default is no)
+				overwrite = False
+				if overwrite_images and type(overwrite_images) == tuple:
+					overwrite = '{}.png'.format(img_name) in overwrite_images
+				elif overwrite_images:
+					overwrite = '*' == overwrite_images or '{}.png'.format(img_name) == overwrite_images
 
-			# --force-update-png argument re-generates all PNG images
-			if img_exists and not args.contains('update-png'):
-				sys.stdout.write('Not updating PNG image ({}/{})            \r'.format(idx, img_count))
-				continue
+				if not overwrite:
+					sys.stdout.write('Not updating PNG image ({}/{})            \r'.format(idx, img_count))
+					continue
 
 			if live_run:
 				sys.stdout.write('Converting SVG to PNG image ({}/{})       \r'.format(idx, img_count))
