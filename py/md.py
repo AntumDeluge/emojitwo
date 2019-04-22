@@ -4,6 +4,26 @@
 # @package py.md
 
 
+### Attempts to find value of a referenced link.
+#
+# @function getRefLink
+# @tparam str label The label to search for.
+# @tparam str search_text Text to search.
+# @treturn str URL value or None.
+def getRefLink(label, search_text):
+	label = label.strip('[]')
+	lines = search_text.split('\n')
+	for L in lines:
+		L = L.strip()
+		if L.startswith('[') and ']:' in L:
+			found = L[1:L.index(']:')]
+			if found == label:
+				url = L[L.index(']:')+2:].strip()
+				return url
+
+	return None
+
+
 ### Converts markdown formatted text to plain text.
 #
 # @function markdownToText
@@ -30,13 +50,50 @@ def markdownToText(md_in):
 		to_remove = txt_out[txt_out.index(l):txt_out.index(r)+1]
 		txt_out = txt_out.replace(to_remove, '')
 
-	# handle braces
-	idx_l = txt_out.index('[')
-	idx_r = txt_out.index(']')
-	while '[' in txt_out and ('][' in txt_out or '](' in txt_out) and idx_l < idx_r:
-		break
+	# handle links
+	for C in ('()', '[]',):
+		CL = C[0]
+		CR = C[1]
 
-	# clean up leading & trailing whitespace on lines
+		count = txt_out.count(']{}'.format(CL))
+		for I in range(count):
+			idx_c = txt_out.index(']{}'.format(CL))
+			idx_l = None
+			idx_r = None
+
+			# find left bracket
+			idx = idx_c - 1
+			while idx >= 0:
+				if txt_out[idx] == '[':
+					idx_l = idx
+					break
+
+				idx -= 1
+
+			# find right brace
+			idx = idx_c + 2
+			while idx < len(txt_out):
+				if txt_out[idx] == CR:
+					idx_r = idx
+					break
+
+				idx += 1
+
+			if idx_l and idx_r:
+				to_replace = txt_out[idx_l:idx_r+1]
+
+				tmp_text = to_replace[1:to_replace.index(']{}'.format(CL))].strip()
+				tmp_url = to_replace[to_replace.index(']{}'.format(CL))+2:-1].strip()
+
+				# parse reference
+				if C == '[]' and tmp_url:
+					tmp_url = getRefLink(tmp_url, txt_out)
+
+				if tmp_url:
+					txt_out = txt_out.replace(to_replace, '{} ( {} )'.format(tmp_text, tmp_url))
+				else:
+					txt_out = txt_out.replace(to_replace, tmp_text)
+
 	lines_out = txt_out.split('\n')
 	for idx in range(len(lines_out)):
 		# TODO: omit lines that begin with certain characters, such as lists
