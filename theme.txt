@@ -1937,10 +1937,10 @@ Author=Ranks.com &amp; Emojitwo community
 2683.png					⚃
 2684.png					⚄
 2685.png					⚅
-2686.png					⚆
-2687.png					⚇
-2688.png					⚈
-2689.png					⚉
+#!2686.png					⚆
+#!2687.png					⚇
+#!2688.png					⚈
+#!2689.png					⚉
 #!268a.png					⚊
 #!268b.png					⚋
 #!268c.png					⚌
