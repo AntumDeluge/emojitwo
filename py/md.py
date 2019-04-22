@@ -115,4 +115,7 @@ def markdownToText(md_in):
 	while '\n\n\n' in txt_out:
 		txt_out = txt_out.replace('\n\n\n', '\n\n')
 
+	# clean up leading & trailing empty newlines
+	txt_out = '{}\n'.format(txt_out.strip('\n'))
+
 	return txt_out
