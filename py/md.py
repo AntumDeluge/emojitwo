@@ -95,9 +95,20 @@ def markdownToText(md_in):
 					txt_out = txt_out.replace(to_replace, tmp_text)
 
 	lines_out = txt_out.split('\n')
-	for idx in range(len(lines_out)):
+	for idx in reversed(range(len(lines_out))):
+		L = lines_out[idx]
+
+		# clean up leading & trailing whitespace on lines
 		# TODO: omit lines that begin with certain characters, such as lists
-		lines_out[idx] = lines_out[idx].strip()
+		L = L.strip()
+
+		# remove reference links
+		if L.startswith('[') and ']:' in L:
+			lines_out.pop(idx)
+			continue
+
+		lines_out[idx] = L
+
 	txt_out = '\n'.join(lines_out)
 
 	# clean up multiple empty lines in sequence
