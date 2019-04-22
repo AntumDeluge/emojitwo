@@ -94,6 +94,7 @@ Author=Ranks.com &amp; Emojitwo community
 1f47e.png					👾
 1f47f.png					👿
 1f480.png					💀
+1f929.png					🤩
 1f4a9.png					💩
 # love
 1f48f.png					💏
