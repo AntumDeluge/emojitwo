@@ -4,6 +4,315 @@ Icon=1f600.png
 Author=Ranks.com &amp; Emojitwo community
 
 [default]
+# smilies
+2639.png					☹
+263a.png					☺
+263b.png					☻
+1f600.png					😀
+1f601.png					😁
+1f602.png					😂
+1f603.png					😃
+1f604.png					😄
+1f605.png					😅
+1f606.png					😆
+1f607.png					😇
+1f608.png					😈
+1f609.png					😉
+1f60a.png					😊
+1f60b.png					😋
+1f60c.png					😌
+1f60d.png					😍
+1f60e.png					😎
+1f60f.png					😏
+1f610.png					😐
+1f611.png					😑
+1f612.png					😒
+1f613.png					😓
+1f614.png					😔
+1f615.png					😕
+1f616.png					😖
+1f617.png					😗
+1f618.png					😘
+1f619.png					😙
+1f61a.png					😚
+1f61b.png					😛
+1f61c.png					😜
+1f61d.png					😝
+#!1f61e-1f494.png
+1f61e.png					😞
+1f61f.png					😟
+1f620.png					😠
+1f621.png					😡
+1f622.png					😢
+1f623.png					😣
+1f624.png					😤
+1f625.png					😥
+1f626.png					😦
+1f627.png					😧
+1f628.png					😨
+1f629.png					😩
+1f62a.png					😪
+1f62b.png					😫
+1f62c.png					😬
+1f62d.png					😭
+1f62e.png					😮
+1f62f.png					😯
+1f630.png					😰
+1f631.png					😱
+1f632.png					😲
+1f633.png					😳
+1f634.png					😴
+1f635.png					😵
+1f636.png					😶
+1f637.png					😷
+1f641.png					🙁
+1f642.png					🙂
+1f643.png					🙃
+1f644.png					🙄
+1f910.png					🤐
+1f911.png					🤑
+1f912.png					🤒
+1f913.png					🤓
+1f914.png					🤔
+1f915.png					🤕
+1f916.png					🤖
+1f917.png					🤗
+1f920.png					🤠
+1f922.png					🤢
+1f923.png					🤣
+1f924.png					🤤
+1f925.png					🤥
+#!1f926-1f3fb.png
+#!1f926-1f3fc.png
+#!1f926-1f3fd.png
+#!1f926-1f3fe.png
+#!1f926-1f3ff.png
+1f926.png					🤦
+1f927.png					🤧
+1f970.png					🥰
+1f47d.png					👽
+1f47e.png					👾
+1f47f.png					👿
+1f480.png					💀
+1f4a9.png					💩
+
+# emotion
+2763.png					❣
+2764.png					❤
+2765.png					❥
+
+# hands
+#!1f918-1f3fb.png
+#!1f918-1f3fc.png
+#!1f918-1f3fd.png
+#!1f918-1f3fe.png
+#!1f918-1f3ff.png
+1f918.png					🤘
+#!1f919-1f3fb.png
+#!1f919-1f3fc.png
+#!1f919-1f3fd.png
+#!1f919-1f3fe.png
+#!1f919-1f3ff.png
+1f919.png					🤙
+#!1f91a-1f3fb.png
+#!1f91a-1f3fc.png
+#!1f91a-1f3fd.png
+#!1f91a-1f3fe.png
+#!1f91a-1f3ff.png
+1f91a.png					🤚
+#!1f91b-1f3fb.png
+#!1f91b-1f3fc.png
+#!1f91b-1f3fd.png
+#!1f91b-1f3fe.png
+#!1f91b-1f3ff.png
+1f91b.png					🤛
+#!1f91c-1f3fb.png
+#!1f91c-1f3fc.png
+#!1f91c-1f3fd.png
+#!1f91c-1f3fe.png
+#!1f91c-1f3ff.png
+1f91c.png					🤜
+#!1f91d-1f3fb.png
+#!1f91d-1f3fc.png
+#!1f91d-1f3fd.png
+#!1f91d-1f3fe.png
+#!1f91d-1f3ff.png
+1f91d.png					🤝
+#!1f91e-1f3fb.png
+#!1f91e-1f3fc.png
+#!1f91e-1f3fd.png
+#!1f91e-1f3fe.png
+#!1f91e-1f3ff.png
+1f91e.png					🤞
+#!270a-1f3fb.png
+#!270a-1f3fc.png
+#!270a-1f3fd.png
+#!270a-1f3fe.png
+#!270a-1f3ff.png
+270a.png					✊
+#!270b-1f3fb.png
+#!270b-1f3fc.png
+#!270b-1f3fd.png
+#!270b-1f3fe.png
+#!270b-1f3ff.png
+270b.png					✋
+#!270c-1f3fb.png
+#!270c-1f3fc.png
+#!270c-1f3fd.png
+#!270c-1f3fe.png
+#!270c-1f3ff.png
+270c.png					✌
+#!270d-1f3fb.png
+#!270d-1f3fc.png
+#!270d-1f3fd.png
+#!270d-1f3fe.png
+#!270d-1f3ff.png
+270d.png					✍
+#!261c-1f3fb.png
+#!261c-1f3fc.png
+#!261c-1f3fd.png
+#!261c-1f3fe.png
+#!261c-1f3ff.png
+261c.png					☜
+#!261d-1f3fb.png
+#!261d-1f3fc.png
+#!261d-1f3fd.png
+#!261d-1f3fe.png
+#!261d-1f3ff.png
+261d.png					☝
+#!261e-1f3fb.png
+#!261e-1f3fc.png
+#!261e-1f3fd.png
+#!261e-1f3fe.png
+#!261e-1f3ff.png
+261e.png					☞
+#!261f-1f3fb.png
+#!261f-1f3fc.png
+#!261f-1f3fd.png
+#!261f-1f3fe.png
+#!261f-1f3ff.png
+261f.png					☟
+
+# people
+1f921.png					🤡
+
+# animal faces
+
+# animals
+1f980.png					🦀
+1f981.png					🦁
+1f982.png					🦂
+1f983.png					🦃
+1f984.png					🦄
+1f985.png					🦅
+#!1f986-2640.png
+#!1f986-2642.png
+1f986.png					🦆
+1f987.png					🦇
+1f988.png					🦈
+1f989.png					🦉
+1f98a.png					🦊
+1f98b.png					🦋
+#!1f98c-1f6a8.png
+#!1f98c-2640.png
+#!1f98c-2642.png
+1f98c.png					🦌
+1f98d.png					🦍
+1f98e.png					🦎
+1f98f.png					🦏
+1f990.png					🦐
+1f991.png					🦑
+
+# food
+1f942.png					🥂
+1f943.png					🥃
+1f32d.png					🌭
+1f32e.png					🌮
+1f32f.png					🌯
+1f950.png					🥐
+1f951.png					🥑
+1f952.png					🥒
+1f953.png					🥓
+1f954.png					🥔
+1f955.png					🥕
+1f956.png					🥖
+1f957.png					🥗
+1f958.png					🥘
+1f959.png					🥙
+1f95a.png					🥚
+1f95b.png					🥛
+1f95c.png					🥜
+1f95d.png					🥝
+1f95e.png					🥞
+1f9c0.png					🧀
+1f344.png					🍄
+1f345.png					🍅
+1f346.png					🍆
+1f347.png					🍇
+1f348.png					🍈
+1f349.png					🍉
+1f34a.png					🍊
+1f34b.png					🍋
+1f34c.png					🍌
+1f34d.png					🍍
+1f34e.png					🍎
+1f34f.png					🍏
+1f350.png					🍐
+1f351.png					🍑
+1f352.png					🍒
+1f353.png					🍓
+1f354.png					🍔
+1f355.png					🍕
+1f356.png					🍖
+1f357.png					🍗
+1f358.png					🍘
+1f359.png					🍙
+1f35a.png					🍚
+1f35b.png					🍛
+1f35c.png					🍜
+1f35d.png					🍝
+1f35e.png					🍞
+1f35f.png					🍟
+1f360.png					🍠
+1f361.png					🍡
+1f362.png					🍢
+1f363.png					🍣
+1f364.png					🍤
+1f365.png					🍥
+1f366.png					🍦
+1f367.png					🍧
+1f368.png					🍨
+1f369.png					🍩
+1f36a.png					🍪
+1f36b.png					🍫
+1f36c.png					🍬
+1f36d.png					🍭
+1f36e.png					🍮
+1f36f.png					🍯
+1f370.png					🍰
+1f371.png					🍱
+1f372.png					🍲
+1f373.png					🍳
+1f374.png					🍴
+1f375.png					🍵
+1f376.png					🍶
+1f377.png					🍷
+1f378.png					🍸
+1f379.png					🍹
+1f37a.png					🍺
+1f37b.png					🍻
+1f37c.png					🍼
+1f37d.png					🍽
+1f37e.png					🍾
+1f37f.png					🍿
+1f382.png					🎂
+
+# sports
+26bd.png					⚽
+26be.png					⚾
+
+
+# other
 #!0023-20e3.png
 #!0023.png					#
 #!002a-20e3.png
@@ -392,9 +701,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f32a.png					🌪
 1f32b.png					🌫
 1f32c.png					🌬
-1f32d.png					🌭
-1f32e.png					🌮
-1f32f.png					🌯
 1f330.png					🌰
 1f331.png					🌱
 1f332.png					🌲
@@ -415,69 +721,8 @@ Author=Ranks.com &amp; Emojitwo community
 1f341.png					🍁
 1f342.png					🍂
 1f343.png					🍃
-1f344.png					🍄
-1f345.png					🍅
-1f346.png					🍆
-1f347.png					🍇
-1f348.png					🍈
-1f349.png					🍉
-1f34a.png					🍊
-1f34b.png					🍋
-1f34c.png					🍌
-1f34d.png					🍍
-1f34e.png					🍎
-1f34f.png					🍏
-1f350.png					🍐
-1f351.png					🍑
-1f352.png					🍒
-1f353.png					🍓
-1f354.png					🍔
-1f355.png					🍕
-1f356.png					🍖
-1f357.png					🍗
-1f358.png					🍘
-1f359.png					🍙
-1f35a.png					🍚
-1f35b.png					🍛
-1f35c.png					🍜
-1f35d.png					🍝
-1f35e.png					🍞
-1f35f.png					🍟
-1f360.png					🍠
-1f361.png					🍡
-1f362.png					🍢
-1f363.png					🍣
-1f364.png					🍤
-1f365.png					🍥
-1f366.png					🍦
-1f367.png					🍧
-1f368.png					🍨
-1f369.png					🍩
-1f36a.png					🍪
-1f36b.png					🍫
-1f36c.png					🍬
-1f36d.png					🍭
-1f36e.png					🍮
-1f36f.png					🍯
-1f370.png					🍰
-1f371.png					🍱
-1f372.png					🍲
-1f373.png					🍳
-1f374.png					🍴
-1f375.png					🍵
-1f376.png					🍶
-1f377.png					🍷
-1f378.png					🍸
-1f379.png					🍹
-1f37a.png					🍺
-1f37b.png					🍻
-1f37c.png					🍼
-1f37d.png					🍽
-1f37e.png					🍾
-1f37f.png					🍿
 1f380.png					🎀
 1f381.png					🎁
-1f382.png					🎂
 1f383.png					🎃
 1f384.png					🎄
 #!1f385-1f3fb.png
@@ -929,10 +1174,6 @@ Author=Ranks.com &amp; Emojitwo community
 #!1f47c-1f3fe.png
 #!1f47c-1f3ff.png
 1f47c.png					👼
-1f47d.png					👽
-1f47e.png					👾
-1f47f.png					👿
-1f480.png					💀
 #!1f481-1f3fb.png
 #!1f481-1f3fc.png
 #!1f481-1f3fd.png
@@ -1003,7 +1244,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f4a6.png					💦
 1f4a7.png					💧
 1f4a8.png					💨
-1f4a9.png					💩
 #!1f4aa-1f3fb.png
 #!1f4aa-1f3fc.png
 #!1f4aa-1f3fd.png
@@ -1311,63 +1551,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f5fd.png					🗽
 1f5fe.png					🗾
 1f5ff.png					🗿
-1f600.png					😀
-1f601.png					😁
-1f602.png					😂
-1f603.png					😃
-1f604.png					😄
-1f605.png					😅
-1f606.png					😆
-1f607.png					😇
-1f608.png					😈
-1f609.png					😉
-1f60a.png					😊
-1f60b.png					😋
-1f60c.png					😌
-1f60d.png					😍
-1f60e.png					😎
-1f60f.png					😏
-1f610.png					😐
-1f611.png					😑
-1f612.png					😒
-1f613.png					😓
-1f614.png					😔
-1f615.png					😕
-1f616.png					😖
-1f617.png					😗
-1f618.png					😘
-1f619.png					😙
-1f61a.png					😚
-1f61b.png					😛
-1f61c.png					😜
-1f61d.png					😝
-#!1f61e-1f494.png
-1f61e.png					😞
-1f61f.png					😟
-1f620.png					😠
-1f621.png					😡
-1f622.png					😢
-1f623.png					😣
-1f624.png					😤
-1f625.png					😥
-1f626.png					😦
-1f627.png					😧
-1f628.png					😨
-1f629.png					😩
-1f62a.png					😪
-1f62b.png					😫
-1f62c.png					😬
-1f62d.png					😭
-1f62e.png					😮
-1f62f.png					😯
-1f630.png					😰
-1f631.png					😱
-1f632.png					😲
-1f633.png					😳
-1f634.png					😴
-1f635.png					😵
-1f636.png					😶
-1f637.png					😷
 1f638.png					😸
 1f639.png					😹
 1f63a.png					😺
@@ -1377,10 +1560,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f63e.png					😾
 1f63f.png					😿
 1f640.png					🙀
-1f641.png					🙁
-1f642.png					🙂
-1f643.png					🙃
-1f644.png					🙄
 #!1f645-1f3fb.png
 #!1f645-1f3fc.png
 #!1f645-1f3fd.png
@@ -1553,69 +1732,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f6f4.png					🛴
 1f6f5.png					🛵
 1f6f6.png					🛶
-1f910.png					🤐
-1f911.png					🤑
-1f912.png					🤒
-1f913.png					🤓
-1f914.png					🤔
-1f915.png					🤕
-1f916.png					🤖
-1f917.png					🤗
-#!1f918-1f3fb.png
-#!1f918-1f3fc.png
-#!1f918-1f3fd.png
-#!1f918-1f3fe.png
-#!1f918-1f3ff.png
-1f918.png					🤘
-#!1f919-1f3fb.png
-#!1f919-1f3fc.png
-#!1f919-1f3fd.png
-#!1f919-1f3fe.png
-#!1f919-1f3ff.png
-1f919.png					🤙
-#!1f91a-1f3fb.png
-#!1f91a-1f3fc.png
-#!1f91a-1f3fd.png
-#!1f91a-1f3fe.png
-#!1f91a-1f3ff.png
-1f91a.png					🤚
-#!1f91b-1f3fb.png
-#!1f91b-1f3fc.png
-#!1f91b-1f3fd.png
-#!1f91b-1f3fe.png
-#!1f91b-1f3ff.png
-1f91b.png					🤛
-#!1f91c-1f3fb.png
-#!1f91c-1f3fc.png
-#!1f91c-1f3fd.png
-#!1f91c-1f3fe.png
-#!1f91c-1f3ff.png
-1f91c.png					🤜
-#!1f91d-1f3fb.png
-#!1f91d-1f3fc.png
-#!1f91d-1f3fd.png
-#!1f91d-1f3fe.png
-#!1f91d-1f3ff.png
-1f91d.png					🤝
-#!1f91e-1f3fb.png
-#!1f91e-1f3fc.png
-#!1f91e-1f3fd.png
-#!1f91e-1f3fe.png
-#!1f91e-1f3ff.png
-1f91e.png					🤞
-1f920.png					🤠
-1f921.png					🤡
-1f922.png					🤢
-1f923.png					🤣
-1f924.png					🤤
-1f925.png					🤥
-#!1f926-1f3fb.png
-#!1f926-1f3fc.png
-#!1f926-1f3fd.png
-#!1f926-1f3fe.png
-#!1f926-1f3ff.png
-1f926.png					🤦
-1f927.png					🤧
 #!1f930-1f3fb.png
 #!1f930-1f3fc.png
 #!1f930-1f3fd.png
@@ -1691,8 +1807,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f93e.png					🤾
 1f940.png					🥀
 1f941.png					🥁
-1f942.png					🥂
-1f943.png					🥃
 1f944.png					🥄
 1f945.png					🥅
 1f946.png					🥆
@@ -1701,46 +1815,6 @@ Author=Ranks.com &amp; Emojitwo community
 1f949.png					🥉
 1f94a.png					🥊
 1f94b.png					🥋
-1f950.png					🥐
-1f951.png					🥑
-1f952.png					🥒
-1f953.png					🥓
-1f954.png					🥔
-1f955.png					🥕
-1f956.png					🥖
-1f957.png					🥗
-1f958.png					🥘
-1f959.png					🥙
-1f95a.png					🥚
-1f95b.png					🥛
-1f95c.png					🥜
-1f95d.png					🥝
-1f95e.png					🥞
-1f970.png					🥰
-1f980.png					🦀
-1f981.png					🦁
-1f982.png					🦂
-1f983.png					🦃
-1f984.png					🦄
-1f985.png					🦅
-#!1f986-2640.png
-#!1f986-2642.png
-1f986.png					🦆
-1f987.png					🦇
-1f988.png					🦈
-1f989.png					🦉
-1f98a.png					🦊
-1f98b.png					🦋
-#!1f98c-1f6a8.png
-#!1f98c-2640.png
-#!1f98c-2642.png
-1f98c.png					🦌
-1f98d.png					🦍
-1f98e.png					🦎
-1f98f.png					🦏
-1f990.png					🦐
-1f991.png					🦑
-1f9c0.png					🧀
 203c.png					‼
 2049.png					⁉
 2122.png					™
@@ -1807,30 +1881,6 @@ Author=Ranks.com &amp; Emojitwo community
 2616.png					☖
 2617.png					☗
 2618.png					☘
-#!261c-1f3fb.png
-#!261c-1f3fc.png
-#!261c-1f3fd.png
-#!261c-1f3fe.png
-#!261c-1f3ff.png
-261c.png					☜
-#!261d-1f3fb.png
-#!261d-1f3fc.png
-#!261d-1f3fd.png
-#!261d-1f3fe.png
-#!261d-1f3ff.png
-261d.png					☝
-#!261e-1f3fb.png
-#!261e-1f3fc.png
-#!261e-1f3fd.png
-#!261e-1f3fe.png
-#!261e-1f3ff.png
-261e.png					☞
-#!261f-1f3fb.png
-#!261f-1f3fc.png
-#!261f-1f3fd.png
-#!261f-1f3fe.png
-#!261f-1f3ff.png
-261f.png					☟
 2620.png					☠
 2621.png					☡
 2622.png					☢
@@ -1853,9 +1903,6 @@ Author=Ranks.com &amp; Emojitwo community
 2636.png					☶
 2637.png					☷
 2638.png					☸
-2639.png					☹
-263a.png					☺
-263b.png					☻
 2648.png					♈
 2649.png					♉
 264a.png					♊
@@ -1919,8 +1966,6 @@ Author=Ranks.com &amp; Emojitwo community
 26ab.png					⚫
 26b0.png					⚰
 26b1.png					⚱
-26bd.png					⚽
-26be.png					⚾
 #!26c4-1f464.png
 26c4.png					⛄
 26c5.png					⛅
@@ -1963,30 +2008,6 @@ Author=Ranks.com &amp; Emojitwo community
 2705.png					✅
 2708.png					✈
 2709.png					✉
-#!270a-1f3fb.png
-#!270a-1f3fc.png
-#!270a-1f3fd.png
-#!270a-1f3fe.png
-#!270a-1f3ff.png
-270a.png					✊
-#!270b-1f3fb.png
-#!270b-1f3fc.png
-#!270b-1f3fd.png
-#!270b-1f3fe.png
-#!270b-1f3ff.png
-270b.png					✋
-#!270c-1f3fb.png
-#!270c-1f3fc.png
-#!270c-1f3fd.png
-#!270c-1f3fe.png
-#!270c-1f3ff.png
-270c.png					✌
-#!270d-1f3fb.png
-#!270d-1f3fc.png
-#!270d-1f3fd.png
-#!270d-1f3fe.png
-#!270d-1f3ff.png
-270d.png					✍
 270e.png					✎
 270f.png					✏
 2710.png					✐
@@ -2006,9 +2027,6 @@ Author=Ranks.com &amp; Emojitwo community
 2754.png					❔
 2755.png					❕
 2757.png					❗
-2763.png					❣
-2764.png					❤
-2765.png					❥
 2795.png					➕
 2796.png					➖
 2797.png					➗
