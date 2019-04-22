@@ -14,3 +14,4 @@ scripts:
 - update usage string dynamically when ArgsObject.registerKey called
 - allow optional argument for --update-png to specify which images should be updated
 - handle heart character with unknown trailing character data (❤️) sent by iPhones (?)
+- add configuration for text replacement plugin
