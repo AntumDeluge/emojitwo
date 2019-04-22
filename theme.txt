@@ -1359,11 +1359,11 @@ Author=Ranks.com &amp; Emojitwo community
 1f516.png					🔖
 1f517.png					🔗
 1f518.png					🔘
-1f519.png					🔙
-1f51a.png					🔚
-1f51b.png					🔛
-1f51c.png					🔜
-1f51d.png					🔝
+#!1f519.png					🔙
+#!1f51a.png					🔚
+#!1f51b.png					🔛
+#!1f51c.png					🔜
+#!1f51d.png					🔝
 1f51e.png					🔞
 1f51f.png					🔟
 #!1f520.png					🔠
