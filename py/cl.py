@@ -238,7 +238,7 @@ class ArgsObject:
 
 					if self.takesValue(key):
 						user_input = tuple(arg_list[idx+1:])
-						value = None
+						value = self.getDefaultValue(key)
 						if user_input:
 							value = user_input[0]
 
