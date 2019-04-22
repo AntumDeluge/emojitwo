@@ -121,7 +121,7 @@ try:
 		removed_count = 0
 		grp_idx += 1
 
-		print('\nProcessing {}x{} images (group {}/{}) ...'.format(S, S, grp_idx, grp_count))
+		print('\nProcessing {}x{} images (group {}/{}) (Ctrl+C to cancel) ...'.format(S, S, grp_idx, grp_count))
 
 		idx = 0
 		size_dir = appendPath(dir_release, '{}/emojitwo'.format(S))
@@ -157,22 +157,22 @@ try:
 
 			os.makedirs(size_dir, exist_ok=True)
 
-			replace = os.path.isfile(target)
+			img_exists = os.path.isfile(target)
 
 			# --force-update-png argument re-generates all PNG images
-			if replace and not args.contains('update-png'):
-				sys.stdout.write('Not updating PNG image ({}/{})          \r'.format(idx, img_count))
+			if img_exists and not args.contains('update-png'):
+				sys.stdout.write('Not updating PNG image ({}/{})            \r'.format(idx, img_count))
 				continue
 
 			if live_run:
-				sys.stdout.write('Converting SVG to PNG image ({}/{}) (Ctrl+C to cancel)       \r'.format(idx, img_count))
+				sys.stdout.write('Converting SVG to PNG image ({}/{})       \r'.format(idx, img_count))
 				convertToPNG(source, target, S, S)
 				if not os.path.isfile(target):
 					print('\nERROR: SVG->PNG conversion failed.')
 					sys.exit(1)
 
 			converted_count += 1
-			if replace:
+			if img_exists:
 				replaced_count += 1
 
 		# newline after converting files
