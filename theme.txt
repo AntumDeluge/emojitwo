@@ -1432,9 +1432,9 @@ Author=Ranks.com &amp; Emojitwo community
 #!1f565.png					🕥
 #!1f566.png					🕦
 #!1f567.png					🕧
-1f568.png					🕨
-1f569.png					🕩
-1f56a.png					🕪
+#!1f568.png					🕨
+#!1f569.png					🕩
+#!1f56a.png					🕪
 1f56d.png					🕭
 1f56e.png					🕮
 1f56f.png					🕯
