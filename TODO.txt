@@ -5,7 +5,6 @@ scripts:
 - argument default values should be checked even if not explicitly declared in command
 - allow list/tuple as include/exclude argument for getReleaseImages & getImagesToRemove functions
 - organize images in theme file
-- convert markdown README to plain text for release
 
 [non-priority]
 scripts:
