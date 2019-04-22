@@ -23,6 +23,13 @@ def markdownToText(md_in):
 
 		txt_out = '{}{}'.format(txt_out[:idx_l], txt_out[idx_r+3:])
 
+	# remove HTML code
+	l = '<'
+	r = '>'
+	while l in txt_out and r in txt_out and txt_out.index(l) < txt_out.index(r):
+		to_remove = txt_out[txt_out.index(l):txt_out.index(r)+1]
+		txt_out = txt_out.replace(to_remove, '')
+
 	# handle braces
 	idx_l = txt_out.index('[')
 	idx_r = txt_out.index(']')
