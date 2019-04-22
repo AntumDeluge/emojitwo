@@ -341,21 +341,21 @@ Author=Ranks.com &amp; Emojitwo community
 00ae.png					®
 1f004.png					🀄
 1f0cf.png					🃏
-1f170.png					🅰
-1f171.png					🅱
-1f17e.png					🅾
-1f17f.png					🅿
-1f18e.png					🆎
-1f191.png					🆑
-1f192.png					🆒
-1f193.png					🆓
-1f194.png					🆔
-1f195.png					🆕
-1f196.png					🆖
-1f197.png					🆗
-1f198.png					🆘
-1f199.png					🆙
-1f19a.png					🆚
+#!1f170.png					🅰
+#!1f171.png					🅱
+#!1f17e.png					🅾
+#!1f17f.png					🅿
+#!1f18e.png					🆎
+#!1f191.png					🆑
+#!1f192.png					🆒
+#!1f193.png					🆓
+#!1f194.png					🆔
+#!1f195.png					🆕
+#!1f196.png					🆖
+#!1f197.png					🆗
+#!1f198.png					🆘
+#!1f199.png					🆙
+#!1f19a.png					🆚
 #!1f1e6-1f1e8.png
 #!1f1e6-1f1e9.png
 #!1f1e6-1f1ea.png
@@ -640,21 +640,21 @@ Author=Ranks.com &amp; Emojitwo community
 #!1f1ff-1f1f2.png
 #!1f1ff-1f1fc.png
 #!1f1ff.png					🇿
-1f201.png					🈁
-1f202.png					🈂
-1f21a.png					🈚
-1f22f.png					🈯
-1f232.png					🈲
-1f233.png					🈳
-1f234.png					🈴
-1f235.png					🈵
-1f236.png					🈶
-1f237.png					🈷
-1f238.png					🈸
-1f239.png					🈹
-1f23a.png					🈺
-1f250.png					🉐
-1f251.png					🉑
+#!1f201.png					🈁
+#!1f202.png					🈂
+#!1f21a.png					🈚
+#!1f22f.png					🈯
+#!1f232.png					🈲
+#!1f233.png					🈳
+#!1f234.png					🈴
+#!1f235.png					🈵
+#!1f236.png					🈶
+#!1f237.png					🈷
+#!1f238.png					🈸
+#!1f239.png					🈹
+#!1f23a.png					🈺
+#!1f250.png					🉐
+#!1f251.png					🉑
 1f300.png					🌀
 1f301.png					🌁
 1f302.png					🌂
