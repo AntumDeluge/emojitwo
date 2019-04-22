@@ -874,11 +874,11 @@ Author=Ranks.com &amp; Emojitwo community
 1f3f8.png					🏸
 1f3f9.png					🏹
 1f3fa.png					🏺
-1f3fb.png					🏻
-1f3fc.png					🏼
-1f3fd.png					🏽
-1f3fe.png					🏾
-1f3ff.png					🏿
+#!1f3fb.png					🏻
+#!1f3fc.png					🏼
+#!1f3fd.png					🏽
+#!1f3fe.png					🏾
+#!1f3ff.png					🏿
 1f400.png					🐀
 1f401.png					🐁
 1f402.png					🐂
