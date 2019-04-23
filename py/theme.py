@@ -63,10 +63,10 @@ def updateTemplate(target, new_groups):
 	groups = {}
 
 	if isfile(target):
-		print('Updating theme template ...')
+		print('Updating theme template (Ctrl+C to cancel) ...')
 		groups = parseTemplate(target)
 	else:
-		print('Creating new theme template ...')
+		print('Creating new theme template (Ctrl+C to cancel) ...')
 
 	for G in groups:
 		# ensure we are working with mutable groups
