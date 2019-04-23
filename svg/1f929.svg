@@ -1,10 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
-	<title>Star-struck</title><desc>Unicode 10.0 (2017) U+1F929</desc>
-	<path d="M62,32c0,16.6-13.4,30-30,30C15.4,62,2,48.6,2,32C2,15.4,15.4,2,32,2C48.6,2,62,15.4,62,32z" fill="#ffdd67"/>
-	<g fill="#6ADBC6" id="stars" transform="scale(0.82) translate(7.1,1.6)">
-		<path transform="translate(-29,-20)" d="m60.6 49.5l-13.9-1.5-9.1 10.6-2.9-13.7-12.9-5.4 12.2-7 1.2-13.9 10.3 9.4 13.6-3.2-5.7 12.7 7.2 12"/>
-		<path transform="scale(-1,1) translate(-93,-20)" d="m60.6 49.5l-13.9-1.5-9.1 10.6-2.9-13.7-12.9-5.4 12.2-7 1.2-13.9 10.3 9.4 13.6-3.2-5.7 12.7 7.2 12"/>
-	</g>
-	<path d="m49 38.1c0-.8-.5-1.8-1.8-2.1-3.5-.7-8.6-1.3-15.2-1.3-6.6 0-11.7.7-15.2 1.3-1.4.3-1.8 1.3-1.8 2.1 0 7.3 5.6 14.6 17 14.6 11.4-.1 17-7.4 17-14.6" fill="#664e27"/>
-	<path d="m44.7 38.3c-2.2-.4-6.8-1-12.7-1-5.9 0-10.5.6-12.7 1-1.3.2-1.4.7-1.3 1.5.1.4.1 1 .3 1.6.1.6.3.9 1.3.8 1.9-.2 23-.2 24.9 0 1 .1 1.1-.2 1.3-.8.1-.6.2-1.1.3-1.6 0-.8-.1-1.3-1.4-1.5" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 64 64"
+   enable-background="new 0 0 64 64"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="1f929.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="3.6875"
+     inkscape:cx="-1.7627119"
+     inkscape:cy="32"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <title
+     id="title2">Star-struck</title>
+  <desc
+     id="desc4">Unicode 10.0 (2017) U+1F929</desc>
+  <g
+     id="g836">
+    <path
+       id="path6"
+       fill="#ffdd67"
+       d="M62,32c0,16.6-13.4,30-30,30C15.4,62,2,48.6,2,32C2,15.4,15.4,2,32,2C48.6,2,62,15.4,62,32z" />
+    <g
+       style="fill:#7d0c7a;fill-opacity:1"
+       transform="scale(0.82) translate(7.1,1.6)"
+       id="stars"
+       fill="#6ADBC6">
+      <path
+         style="fill:#7d0c7a;fill-opacity:1"
+         id="path8"
+         d="m60.6 49.5l-13.9-1.5-9.1 10.6-2.9-13.7-12.9-5.4 12.2-7 1.2-13.9 10.3 9.4 13.6-3.2-5.7 12.7 7.2 12"
+         transform="translate(-29,-20)" />
+      <path
+         style="fill:#7d0c7a;fill-opacity:1"
+         id="path10"
+         d="m60.6 49.5l-13.9-1.5-9.1 10.6-2.9-13.7-12.9-5.4 12.2-7 1.2-13.9 10.3 9.4 13.6-3.2-5.7 12.7 7.2 12"
+         transform="scale(-1,1) translate(-93,-20)" />
+    </g>
+    <path
+       id="path13"
+       fill="#664e27"
+       d="m49 38.1c0-.8-.5-1.8-1.8-2.1-3.5-.7-8.6-1.3-15.2-1.3-6.6 0-11.7.7-15.2 1.3-1.4.3-1.8 1.3-1.8 2.1 0 7.3 5.6 14.6 17 14.6 11.4-.1 17-7.4 17-14.6" />
+    <path
+       id="path15"
+       fill="#fff"
+       d="m44.7 38.3c-2.2-.4-6.8-1-12.7-1-5.9 0-10.5.6-12.7 1-1.3.2-1.4.7-1.3 1.5.1.4.1 1 .3 1.6.1.6.3.9 1.3.8 1.9-.2 23-.2 24.9 0 1 .1 1.1-.2 1.3-.8.1-.6.2-1.1.3-1.6 0-.8-.1-1.3-1.4-1.5" />
+  </g>
 </svg>
