@@ -118,7 +118,11 @@ try:
 			overwrite_images = tuple(overwrite_images.split(','))
 
 	# prepare README for inclusion in release
-	readme_text = markdownToText(fileio.read(file_readme))
+	readme_text = fileio.read(file_readme)
+	# don't include export section
+	if '### Creating/Exporting Theme' in readme_text:
+		readme_text = readme_text.split('### Creating/Exporting Theme')[0]
+	readme_text = markdownToText(readme_text)
 
 	grp_count = len(sizes)
 	grp_idx = 0
