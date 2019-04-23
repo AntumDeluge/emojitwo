@@ -2,3 +2,5 @@ Pre-release:
 - copied SVG emojis from Emojitwo Github repo at commit 396be0e
 - created helper scripts to convert images from SVG to PNG & create releases
 - used images 1F60A & 1F618 to create 1F970 (Smiling Face With Hearts) emoji
+- copied SVG for unicode character U+1F929 (Star-Struck) from Emojitwo Github repo at commit ba2e126
+- changed 1F929 eyes to purple
