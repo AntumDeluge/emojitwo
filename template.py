@@ -8,8 +8,7 @@ import os, sys
 
 from py			import pyIsCompat
 from py.paths	import dir_svg
-from py.paths	import appendPath
-from py.paths	import root as dir_root
+from py.paths	import template_file
 from py.theme	import updateTemplate
 
 
@@ -30,7 +29,7 @@ def init():
 
 		idx -= 1
 
-	updateTemplate(appendPath(dir_root, 'theme.txt'), {'default': svg_files})
+	updateTemplate(template_file, {'default': svg_files})
 
 
 if __name__ == '__main__':
